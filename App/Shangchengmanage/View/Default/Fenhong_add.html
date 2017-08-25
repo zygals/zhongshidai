@@ -1,0 +1,96 @@
+<include file="Admin:header" />
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">分红比例添加</div></td>
+      </tr>
+</table>
+<script type="text/javascript"> 
+function check(){
+	var fhzl=$('#fhzl').val();
+	var fhbl=$('#fhbl').val();
+	var fhje=$('#fhje').val();
+	var retsnm=new RegExp("^[\u4e00-\u9fa5]*$");	
+	var retszf=new RegExp("^0\.[0-9]*[1-9]$");
+	var retszf1=new RegExp("^[0-9]*[1-9][0-9]*$");
+	if($.trim(fhzl)==''){
+		alert("分红种类不能为空，请输入!");
+		document.forms.name.value="";
+		document.forms.name.focus();
+		return false;
+	}
+	if(!retsnm.test(fhzl)){
+		alert("分红种类是中文名称，请输入!");
+		document.forms.name.value="";
+		document.forms.name.focus();
+		return false;
+	}
+	if($.trim(fhbl)==''){
+		alert("分红比例不能为空，请输入!");
+		document.forms.bili.value="";
+		document.forms.bili.focus();
+		return false;
+	}
+	if(!retszf.test(fhbl)){
+		alert("分红比例是0-1的小数，请输入!");
+		document.forms.bili.value="";
+		document.forms.bili.focus();
+		return false;
+	}
+	if($.trim(fhje)==''){
+		alert("分红金额不能为空，请输入!");
+		document.forms.axjf_min.value="";
+		document.forms.axjf_min.focus();
+		return false;
+	}
+	if(!retszf1.test(fhje)){
+		alert("分红金额只能是正整数，请输入!");
+		document.formz.axjf_min.value="";
+		document.formz.axjf_min.focus();
+		return false;
+	}
+	return true;
+}
+</script>
+
+
+
+<style>
+.anniu{float:left;padding:5px 8px;background:#68CE4A;color:#fff;margin-right:15px;font-size:16px;}
+</style>
+<div class="main">
+	<div class="form" style="">
+		<form method='post' id="form_do" name="forms" action="<{:U('Fenhong/addwt')}>" onsubmit="return check()"  >
+		<dl>
+			<dt>分红种类：</dt>
+			<dd>
+            	<input type="text" name="name" class="inp_one" id="fhzl"  placeholder="留空默认不修改" value=""/>
+			</dd>
+		</dl>
+		<dl>
+			<dt>分红比例：</dt>
+			<dd>
+				<input type="text" name="bili" class="inp_one" id="fhbl"   placeholder="留空默认不修改" value=""/>
+			</dd>
+		</dl>
+		<dl>
+			<dt>分红金额：</dt>
+			<dd>
+				<input type="text" name="axjf_min"  id="fhje" class="inp_one"  placeholder="留空默认不修改" value=""/>
+			</dd>
+		</dl>
+		<dl>
+			<dt>分红状态：</dt>
+			<dd>
+				<input type="radio" name="status" checked="checked"  value="0"/>积分
+				&nbsp;&nbsp;
+				<input type="radio" name="status" value="1"/>现金
+			</dd>
+		</dl>
+		<div class="form_b">
+			<input type="submit" class="btn_blue" id="submit" value="提 交">
+		</div>
+	   </form>
+	</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>

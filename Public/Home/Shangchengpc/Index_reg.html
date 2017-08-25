@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><{$config.config_webname}>-会员注册</title>
+<link href="__PUBLIC__/css/defaultt.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/mzts.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<script src="__PUBLIC__/js/rem.js"></script>
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script src="__PUBLIC__/js/j_reg.js"></script>
+<script src="__PUBLIC__/js/jquery-1.11.3.min.js"></script>
+<script src="__PUBLIC__/js/jq.js"></script>
+</head>
+<body>
+<body >
+
+<div class="header">
+  <div class="contaner">
+    <ul class="hli"> 
+      <li><a href="<{:C("PATH_URL")}>/u.html">我的中心</a></li>
+      <li><a href="/" target="_blank">手机版</a></li>
+      <li><a href="<{:C("PATH_URL")}>/gw.html">积分购物车</a></li>
+       <li><a href="<{:C("PATH_URL")}>/gw1.html">爱国消费券购物车</a></li>
+      <li><a href="#" style="border:none;">联系客服</a></li>
+      <li class="load"> <a href="<{:C("PATH_URL")}>/l.html">[登录]</a> <a href="<{:C("PATH_URL")}>/r.html">[注册]</a></li>
+    </ul>
+    <span class="name">您好，欢迎来到中时代民族特色积分商城</span></div>
+</div>
+
+<div class="main main2">
+  <div class="contaner">
+    <div class="banner">
+        <p class="logo"><a href="#"><img src="__PUBLIC__/images/logo.png" /></a>
+        	<div class="clear"></div>
+        </p>
+        <p class="position" >您所在位置：<a href="#">中时代民族特色积分商城</a> > <a href="#">会员注册</a></p>  
+        <div class="clear"></div>	
+    </div>
+  	<div class="hygg2" style=" height:810px">
+    	<form name="form" method="post" action="<{:C('PATH_URL')}><php> echo U('/Index/zhuce');</php>"  onsubmit="return checktwo()" enctype="multipart/form-data" id="form1" >
+        	<div class="table" >
+              <div class="first">会员注册</div>
+              <div>
+                <font class="right one">姓&nbsp;&nbsp;&nbsp;&nbsp;名<span>:</span></font>
+                <input type="text" class="bianhao1" value="请输入真实姓名" name="trueName" id="trueName" onfocus="if(value=='请输入真实姓名') {value=''}" onblur="checkname()"/>
+                <span id="trueName_check" class="tip_none"></span>
+              </div>
+             <div>
+                <font class="right two">身份证<span>:</span></font>
+                <input type="text" class="bianhao1" value="请输入身份证" name="idcard" id="idcard" onfocus="if(value=='请输入身份证') {value=''}" onblur="checkidcard()"/>
+                <span id="idcard_check" class="tip_none"></span>
+              </div>
+             <div>
+                <font class="right three">手机号码<span>:</span></font>
+                <font class="hyzc">
+                	<input type="text" class="bianhao1"value="请输入手机号码" name="mobile" id="mobile" onfocus="if(value=='请输入手机号码') {value=''}" onblur="checkmobile()" />
+                	<input type="button" id="hqyzm"  value="发送验证码" style=" margin-top:10px; "/>
+                  
+                </font>
+                <span id="mobile_check" class="tip_none"></span>
+              </div>
+             <div>
+                <font class="right fore">手机验证码<span>:</span></font>
+                <input type="text" class="bianhao1" value="请输入手机验证码" name="code" id="j_usercode" onfocus="if(value=='请输入手机验证码') {value=''}" onblur="checkcode()" />
+                <span id="code_check" class="tip_none"></span>
+              </div>
+              <div>
+                <font class="right three">一级密码<span>:</span></font>
+                <input type="password" class="bianhao1" value="111111" name="user_pass" id="user_pass" readonly/>
+                <span id="user_pass_check" class="tip_none"></span>
+              </div>
+              <div>
+                <font class="right five">确认一级密码<span>:</span></font>
+                <input type="password" class="bianhao1" value="111111" name="user_passr" id="user_passr" readonly/>
+                <span id="user_pass1_check" class="tip_none"></span>
+              </div>
+              <div>
+                <font class="right three" >二级密码<span>:</span></font>
+                <input type="password" class="bianhao1" value="222222" name="user_zfpass" id="user_zfpass" readonly/>
+                <span id="user_pass2_check" class="tip_none"></span>
+              </div>
+  <script type="text/javascript">
+   function getval(){
+    var j_TuiJianming=$("#j_TuiJianming").val();
+        $.ajax({
+            type:"POST",
+            url:"<{:C('PATH_URL')}><?php echo U('/Index/do_reg1');?>",
+            data: {"j_TuiJianming":j_TuiJianming},
+             success:function(data){
+          if(data==null){
+            alert('查无此人');
+          }else{
+             $("#j_TuiJianNum").css('display','none');
+             $("#j_TuiJianNum1").css('display','block');
+			 
+			 $(".durex").remove();
+             $("#j_TuiJianNum1").append(data);
+          }
+         
+              }
+        });
+    }
+  </script>
+
+              <div>
+                <font  class="right fore">推荐人编号<span>:</span></font>
+                <input type="text" class="bianhao1 bianhao2" value="请输入推荐人编号" name="j_TuiJianNum" id="j_TuiJianNum" onfocus="if(value=='请输入推荐人编号') {value=''}" onblur="checktjrbh()" />
+                 <select name="j_TuiJianNum1" id="j_TuiJianNum1" class="bianhao1 bianhao2"  onchange="checktjrbh1()" style="display:none">
+                  <option value="0" >推荐人编号</option>
+                  </select>
+                <font class="sousuo">
+                <input type="text" name="j_TuiJianming" id="j_TuiJianming" class="bianhao1 bianhao3" value="按姓名查找" onfocus="if(value=='按姓名查找') {value=''}"/><div id="sousuo" onclick="getval()">搜索</div></font>
+                <span id="TJ_check" class="tip_none"></span>
+              </div>
+              <div>
+               <font><input name="xieyi" type="checkbox" id="xieyi" value="" class="tongyi" />我已阅读并同意<span>《中华时代用户协议》</span></font>
+              </div>
+              <div>
+                <input type="submit" id="sub"  class="zhuce" value="注册" />
+              </div>
+              <div>
+                <font class="denglu" >已有账号？<a href="./l.html">直接登录</a></font>
+              </div>
+            </div>
+      </form>
+    </div>
+    <div class="clear" ></div>
+ 	</div>
+</div>
+ <include file="Public:footer" />
+</body>
+</body>
+</html>
+<script type="text/javascript">
+
+    $('#hqyzm').click(function(){
+        var logincheck = /^1[3458]\d{9}$/;
+        if(!logincheck.test($("#mobile").val())){
+            $("#mobile_check").attr("class","tip_false");
+            $('#mobile').focus();
+            return false;
+        }else{
+            $("#mobile_check").attr("class","tip_true");
+            time(this);
+        };
+       var mobile = $('#mobile').val(); 
+      $.post("<php> echo U('Index/setCode');</php>",{mobile:mobile},function(result){
+      console.log(result);  
+    $("span").html();
+  });
+     });
+    var wait=60;
+    function time(o) {
+        if (wait == 0) {
+            o.removeAttribute("disabled");
+            o.value="发送验证码";
+            wait = 60;
+        } else {
+            o.setAttribute("disabled", true);
+            o.value="重新发送(" + wait + ")";
+            wait--;
+            setTimeout(function() {
+                    time(o)
+                },
+                1000)
+        }
+    }
+</script>
+
+
+
+
+<script>
+<!---------------------姓名---------------------------->
+function checkname(){
+    var mag=/^[\u4e00-\u9fa5]{2,16}$/gi;
+    var trueName = $("#trueName").val();
+    if(trueName.trim() == ''){
+    //   alert('姓名不能为空');
+    $("#trueName_check").attr("class","tip_false");
+    $("#trueName").val('请输入真实姓名');  
+        return false;
+    }else if(!mag.test(trueName)){
+     //   alert('姓名必须是汉字');
+    $("#trueName_check").attr("class","tip_false");
+    $("#trueName").val('请输入真实姓名'); 
+        return false;
+       }else if(trueName=="请输入真实姓名")
+        {    
+    // alert('姓名不正确，请重新输入');
+    $("#trueName_check").attr("class","tip_false");
+     $("#trueName").val('请输入真实姓名'); 
+        return false;
+   }else
+      {
+    $("#trueName_check").attr("class","tip_true");
+    return true;
+    }
+}
+<!----------------------身份证--------------------------->
+function checkidcard(){
+   var shenfenzheng = $("#idcard").val();
+   var cksfz=/^(\d{15}$|^\d{18}$|^\d{17}(\d|X|x))$/;
+    if(shenfenzheng.trim() == '')
+    {
+    //    alert('身份证不能为空');
+    $("#idcard_check").attr("class","tip_false");
+    $("#idcard").val('请输入身份证');  
+        return false;
+    }else if(!cksfz.test($("#idcard").val()))
+    {
+     //   alert('身份证格式不正确');
+     $("#idcard_check").attr("class","tip_false");
+    $("#idcard").val('请输入身份证');  
+        return false;
+    }else
+  {
+    $("#idcard_check").attr("class","tip_true");
+    return true;
+    }
+}
+<!-----------------------手机号码-------------------------->
+function checkmobile()
+     {
+     var mobile=$('#mobile').val();
+       var reg=/^1(3|4|5|7|8)\d{9}$/i;
+   if(mobile.trim() == ''){
+     //  alert('手机号码不能为空');
+     $("#mobile_check").attr("class","tip_false");
+    $("#mobile").val('请输入手机号码');  
+        return false;
+    } else if(!reg.test(mobile)){
+    //    alert('手机号码格式不正确');
+    $("#mobile_check").attr("class","tip_false");
+    $("#mobile").val('请输入手机号码'); 
+        return false;
+    }else
+        {
+    $("#mobile_check").attr("class","tip_true");
+    return true;
+    }
+   }
+<!--------------------验证码----------------------------->
+function checkcode()
+     {
+     var code=$('#j_usercode').val();
+     var yzm=/^\d{5}$/;
+   if(code.trim() == ''){
+      // alert('验证码不能为空');
+    $("#code_check").attr("class","tip_false");
+    $("#j_usercode").val('请输入手机验证码');  
+        return false;
+    } 
+   if(!yzm.test(code)){
+     //   alert('验证码必须是5位数字');
+     $("#code_check").attr("class","tip_false");
+    $("#j_usercode").val('请输入手机验证码'); 
+        return false;
+    }else
+  {
+    $("#code_check").attr("class","tip_true");
+    return true;
+    }
+     }
+<!--------------------一级密码----------------------------->
+function checkmm(){
+    var mm = $("#pwd1").val();
+  var mm2 = $("#rpwd1").val();
+  if(mm.trim() == ''){
+      // alert('一级密码不能为空');
+    $("#user_pass_check").attr("class","tip_false");
+    $('#pwd1').attr('type','password');
+   // $("#pwd1").val('6~16位数字或字母'); 
+        return false;
+    }else if(mm.length<6 || mm.length>16){
+     // alert('一级密码必须在6-16位之间');
+    $("#user_pass_check").attr("class","tip_false");
+    $('#pwd1').attr('type','password');
+    //$("#pwd1").val('6~16位数字或字母'); 
+        return false;
+    }else if(mm=="6~16位数字或字母")
+        {    
+    // alert('一级密码不正确，请重新输入');
+    $("#user_pass_check").attr("class","tip_false");
+    // $("#pwd1").val('6~16位数字或字母'); 
+          return false;
+   }else
+     {
+      $("#user_pass_check").attr("class","tip_true");
+    return true;
+    }
+}
+<!------------------确认一级密码------------------------------->
+function checkmima(){
+    var mm = $("#pwd1").val();
+  var mm2 = $("#rpwd1").val();
+ if(mm2.trim() == ''){
+   //    alert('确认一级密码不能为空');
+   $("#user_pass1_check").attr("class","tip_false");
+    $('#rpwd1').attr('type','password');
+    //$("#rpwd1").val('请确认一级密码'); 
+        return false;
+    }else if(mm!=mm2){
+  //  alert('请再次输入一级密码');
+  $("#user_pass1_check").attr("class","tip_false");
+    $('#rpwd1').attr('type','password');
+   // $("#rpwd1").val('请确认一级密码'); 
+        return false;
+   }else
+  {
+    $("#user_pass1_check").attr("class","tip_true");
+    return true;
+    }
+}
+<!-------------------二级密码------------------------------>
+function checkzifimima(){
+    var zfmm = $("#pwd2").val();
+ if(zfmm.trim() == ''){
+     //  alert('二级密码不能为空');
+     $("#user_pass2_check").attr("class","tip_false");
+    $('#pwd2').attr('type','password');
+    //$("#pwd2").val('6~16位数字或字母'); 
+        return false;
+    }else if(zfmm.length<6 || zfmm.length>16){
+     //alert(mm.length);
+    //   alert('二级密码必须在6-16位之间');
+    $("#user_pass2_check").attr("class","tip_false");
+    $('#pwd2').attr('type','password');
+    //$("#pwd2").val('6~16位数字或字母'); 
+        return false;
+    }else if(zfmm=="6~16位数字或字母")
+        {    
+     //alert('二级密码不正确，请重新输入');
+     $("#user_pass2_check").attr("class","tip_false");
+    // $("#pwd2").val('6~16位数字或字母'); 
+          return false;
+   }else
+  {
+    $("#user_pass2_check").attr("class","tip_true");
+    return true;
+    }
+}
+
+<!------------------推荐人编号------------------------------->
+function checktjrbh1(){
+  var  tjrbh=/^[A-Ha-h0-9]+$/;
+	  var TuiJianNum1 = $("#j_TuiJianNum1").val();
+	  $("#j_TuiJianNum").val(TuiJianNum1);
+	  $("#TJ_check").attr("class","tip_true");
+}
+
+<!------------------推荐人编号------------------------------->
+function checktjrbh(){
+  var  tjrbh=/^[A-Ha-h0-9]+$/;
+    var TuiJianNum = $("#j_TuiJianNum").val();
+	  var TuiJianNum1 = $("#j_TuiJianNum1").val();
+ if(TuiJianNum.trim() == ''){
+    //   alert('推荐人编号不能为空');
+    $("#j_TuiJianNum").val('请输入推荐人编号'); 
+	 $("#TJ_check").attr("class","tip_false");
+        return false;
+    }else if(!tjrbh.test($("#j_TuiJianNum").val())){
+     //  alert('推荐人编号格式不正确');
+    $("#j_TuiJianNum").val('请输入推荐人编号'); 
+	 $("#TJ_check").attr("class","tip_false");
+        return false;
+    }else
+  {
+	$("#j_TuiJianNum1").val(TuiJianNum);
+	 $("#TJ_check").attr("class","tip_true");
+    return true;
+    }
+}
+
+
+
+<!-----------------中华时代用户协议-------------------------------->
+function checkxieyi(){
+  var chk =document.getElementById("xieyi");
+  if(chk.checked)
+  { 
+  //alert('您已阅读并同意《中华时代用户协议》');
+         return true;
+    }else{
+        alert('请您阅读并同意《中华时代用户协议》');
+            return false;
+      }
+}
+</script>
+<script>
+function checktwo()
+{
+/*return checkname()&& checkidcard()&&checkmobile()&&checkcode()&&checkmm()&&checkmima()&&checkzifimima()&&checktjrbh()&&checkxieyi();*/
+return checkname()&& checkidcard()&&checkmm()&&checkmima()&&checkzifimima()&&checktjrbh()&&checkxieyi();
+  
+  }
+</script>

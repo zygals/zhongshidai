@@ -1,0 +1,58 @@
+<include file="Admin:header" />
+
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">修改</div></td>
+      </tr>
+    </table>
+
+<div class="main">
+    
+	<div class="form">
+		<form method='post' id="form_do" name="form_do" action="__URL__/do_edit" enctype="multipart/form-data">
+		<dl>
+			<dt> 名称：</dt>
+			<dt>
+				<input type="text" name="column_name" class="inp_w250" value="<{$v.column_name}>" />
+			</dt>
+		</dl>
+		
+		<dl>
+			<dd></dd>
+		</dl>
+		
+		<dl>
+			<dt> 图片附件：</dt>
+			<dd>
+				<input name="column_images" id="image" type="file" />
+				<img src="<{$v.column_images}>" width="180px" height="50px" border="0"/>
+			</dd>
+		</dl>
+
+		<dl>
+			<dt> 显示状态：</dt>
+			<dd>
+				<label><input type="radio" name="column_show" value="1" <if condition="1 eq $v['column_show']">checked="checked"</if>/>开启</label>
+				<label><input type="radio" name="column_show" value="2" <if condition="2 eq $v['column_show']">checked="checked"</if>/>不开启</label>
+				
+			</dd>
+		</dl>
+		
+		<dl>
+			<dt> 排序：</dt>
+			<dt>
+				<input type="text" name="column_sort" class="inp_w250" value="<{$v.column_sort}>" />
+			</dt>
+		</dl>
+		
+		<div class="form_b">
+			<input type="hidden" name="column_type" value="1">
+			<input type="hidden" name="id" value="<{$v.id}>" />	
+			<input type="submit" class="btn_blue" id="submit" value="提 交">
+		</div>
+	   </form>
+	</div>
+</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>

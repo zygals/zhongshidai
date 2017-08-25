@@ -1,0 +1,12 @@
+
+/* 一下是修改个人信息 header-1 是公共应用*/
+
+.box-order{  background:#fff; width: 100%;  }
+
+.box-order-1{ width:100%;margin:0 auto; background:#fff;margin-top: 20px;}
+.box-order-1  span{display:block; width: 96%; height:38px; border-bottom: solid 1px #e1e1e1; border-top: solid 1px #e1e1e1; line-height: 38px;clear: both;overflow: hidden;padding:0px 0px; margin:0px 0px;margin-left: 10px; margin:0 auto;padding-left: 2%;padding-right: 2%;}
+.box-order-1  span em{float: right; font-style: normal;}
+.box-order-1  span i{float: left; font-style: normal;}
+.box-order-1  .box-order-1a{ border-top: 0 none;}
+.box-order-2{ width: 100%; margin:0 auto; text-align: center; height:35px; line-height: 35px;margin-top: 50px;}
+

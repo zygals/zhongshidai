@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-我的订单</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/order.css">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+<div class="box-fourteen">
+<include file="Public:left" />
+	<div class="cent_right">
+	   <div class="box-fourteen-1">
+			<ul>
+			   <li>
+				 <a id="ord_0" href="<{:C("PATH_URL")}>/gmd/s/1.html" <if condition="$s eq 1">class="box-thirteen-1a-1"</if>>未支付</a>
+				 <a id="ord_2" href="<{:C("PATH_URL")}>/gmd/s/2.html" <if condition="$s eq 2">class="box-thirteen-1a-1"</if>>已完成</a>
+				 <a id="ord_1" href="<{:C("PATH_URL")}>/gmd/s/3.html" <if condition="$s eq 3">class="box-thirteen-1a-1"</if>>已取消</a>
+			   </li>
+			</ul>
+	   </div>
+		<div class="box-fourteen-2" id="pro_list">
+		<volist name="dingdan" id="da">
+			<div class="box-fourteen-2a">
+				<span class="box-fourteen-1a">
+					<i></i>
+					<span>订单号：<{$da['dingdanhao']}> 下单时间：<{$da['date']|date="y-m-d h:i:s",###}></span>
+					<a style="display:inline-block;width:65px;text-align:right">
+					<if condition="$da.type eq 2 ">
+						<if condition="$da.good_type eq 0 ">待发货</if>
+						<if condition="$da.good_type eq 1 ">待收货</if>
+						<if condition="$da.good_type eq 2 ">已完成</if>
+						<if condition="$da.good_type eq 3 ">退货</if>
+					</if>
+					<if condition="$da.type eq 3 ">
+						已取消
+					</if>
+					<if condition="$da.type eq 1 ">
+						<span style="color:green;margin-left:20px;">未支付</span>
+						<a href="<{:C('PATH_URL')}>/gt.html?id=<{$da['dingdanhao']}>">去支付</a><a href="<{:C('PATH_URL')}>/gq.html?id=<{$da['id']}>" style="color:#0970b3;margin-right:20px;">取消该订单</a>
+					</if>
+					</a>
+				</span>
+				<volist name=":$da['goodslist']" id="do">
+					<span class="box-fourteen-1b" style="border-bottom:1px solid #ccc;margin-bottom:20px">
+						<i><img src='<{:C("IMG_URL")}><{$do.pic}>'></i>
+						<div class="box-fourteen-1ba">
+							<p>商品名称：<{$do.name}><br/>商品规格：<{$do.guige}></p>
+						</div>
+						<div href="" class="box-fourteen-1bb">
+							<p>积分：<{$do.jifen}> 积分</p>
+							<p>现金：<{$do.xianjing}> 元</p>
+							<p>x<{$do.goodsnum}></p>
+						</div>
+					</span>
+				</volist>
+				<span class="box-fourteen-1c">
+					<p>实付积分：<{$da.yingfukuan}> 积分</p>
+					<p>实付现金：<{$da.yingkouxianjin}> 元</p>
+					<div class="box-fourteen-1ca">
+						<a href="<{:C('PATH_URL')}>/gdd1/id/<{$da.id}>.html"><button type="button" style="border:1px solid #a10508">订单详情</button></a>
+					</div>
+				</span>
+			</div>
+		</volist>
+		</div> 
+		<style type="text/css">
+		.loadMore1 div{margin-top: 30px;}
+		.loadMore1 div span{display: inline-block;width: 25px;height: 25px;line-height: 25px;background: #a10508;color: #fff;font-size: 12px;margin: 0 5px;text-align: center;}
+		.loadMore1 div a{display: inline-block;width: 25px;height: 25px;line-height: 25px;background: #0970b3;color: #fff;font-size: 12px;margin: 0 5px;text-align: center;}
+		</style>
+		<div style="text-align:center;margin-bottom:100px;padding:10px;" class="loadMore1">
+			<{$page}>
+		</div>
+	</div>
+</div>
+<include file="Public:footer" />
+<script>
+
+</script>
+</body>
+</html>

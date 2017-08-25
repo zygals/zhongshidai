@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>忘记密码</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/denglu.css" />
+	<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+	<script src="__PUBLIC__/js/rem3.js"></script>
+    <script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script> 
+	<style>
+	body{ background: #f6f6f6 }
+	</style>
+</head>
+<body>
+
+<php> echo session(code1);</php>
+<div class="zc_top">
+	<span><a href="#"><img src="__PUBLIC__/images/zc_top_back.png" alt=""></a></span>
+	<h2>忘记密码</h2>
+	<samp><a href="#"><img src="__PUBLIC__/images/zc_top_home.png" alt=""></a></samp>
+</div>
+<div class="wjmm_bh">
+	<h2>请填写注册时的手机号码</h2>
+	<form method='post' id="form" action="/wj2.html?">
+    <input type="hidden" name="moblie" value="{:session('forgot.email')}" />
+		<div class="sjhm">
+			<div class="zuoce"><span>手机号码：</span></div>
+			<input type="text" name="mobile" id="mobile"/>
+		</div>
+		<div class="yanzhm"><input type="submit" id="codeMsg" value="获取验证码"></div>
+		<div class="sjhm" id="wj_yzm"><div class="zuoce"><span>请输入验证码：</span></div>
+        <input type="text"  name="code" id="num"/>
+        </div>
+		<div class="xiayibu"><input type="button" id="step2" value="下一步" onclick="get_phone()"></div>
+	</form>
+</div>
+<script>
+	/*$(function () {
+		loginOut();
+		createCode();
+	})*/
+function get_phone(){
+
+	var ckmobile =  /^1[3458]\d{9}$/;
+	if($('#mobile').val()==''){
+
+		alert('手机号不能为空');
+		return false;
+	}
+	if(!ckmobile.test($('#mobile').val())){
+		alert('手机格式不正确');
+		return false;
+	}
+	
+	if($('#num').val()==''){
+		alert('验证码不能为空');
+		return false;
+	}else{
+		
+		var st = 0 ;
+		var code = $('#num').val();
+		
+		
+        $.ajaxSetup({
+            async : false
+        });
+        $.post("<php> echo U('Index/verification2');</php>",{code:code},function(result){
+           
+		   
+		    if(result==2){
+                st =  2 ;
+                alert('手机验证码错误');
+
+            }else{
+                 st =  1 ;
+            }
+        });
+        if(st == 2){
+           // $("#shenfenzheng").focus();
+            return false;
+		
+		  }
+		}
+	
+	$('#form').submit();
+}
+
+
+</script>
+<script type="text/javascript">
+    $('#codeMsg').click(function(){
+        var logincheck = /^1[3458]\d{9}$/;
+        if(!logincheck.test($("#mobile").val())){
+            alert('请填写正确的手机号');
+            $('#mobile').focus();
+            return false;
+        }else{
+            time(this);
+        };
+       var mobile = $('#mobile').val(); 
+	    $.post("<php> echo U('Index/setCode1');</php>",{mobile:mobile},function(result){
+			console.log(result);  
+    //$("span").html(result);
+  });
+     });
+    var wait=60;
+    function time(o) {
+        if (wait == 0) {
+            o.removeAttribute("disabled");
+            o.value="发送验证码";
+            wait = 60;
+        } else {
+            o.setAttribute("disabled", true);
+            o.value="重新发送(" + wait + ")";
+            wait--;
+            setTimeout(function() {
+                    time(o)
+                },
+                1000)
+        }
+    }
+</script>
+
+<script>
+/*	$.ajaxSetup({
+		async : false
+	});
+
+	$(function(){
+		$('#step2').click(function(){
+		
+			
+			var code = $('#num').val();
+			
+	
+				
+				$.post("<php> echo U('Index/verification2');</php>",{code:code},function(result){
+					if(result == 1){
+					
+						
+						alert("验证码正确");
+						res = true;
+						
+						
+					}else if(result == 2){
+						alert("验证码错误");
+						$("#code").focus();
+						res = false;
+					}else{
+						alert("验证码过期，请重新发送");
+						$("#code").focus();
+						res = false;
+					}
+				},false);
+
+				return res;
+			
+
+		})
+
+
+	});
+*/
+</script>
+
+</body>
+</html>

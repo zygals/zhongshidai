@@ -1,0 +1,1649 @@
+[ 2017-07-25T09:18:30+08:00 ] ::1 /shangchengmanage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+
+[ 2017-07-25T09:18:30+08:00 ] ::1 /shangchengmanage/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-25T09:18:30+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:18:38+08:00 ] ::1 /shangchengmanage/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:18:38+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:19:19+08:00 ] ::1 /shangchengmanage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+
+[ 2017-07-25T09:19:19+08:00 ] ::1 /shangchengmanage/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:19:19+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:22:36+08:00 ] ::1 /shangchengmanage/login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dq_admin` [ RunTime:0.0390s ]
+SQL: SELECT `id`,`admin_name`,`admin_pass`,`admin_date`,`admin_ip`,`admin_ok`,`admin_type` FROM `dq_admin` WHERE `admin_name` = 'lizhiqiang' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-25T09:22:55+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.7204185307471531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:22:59+08:00 ] ::1 /shangchengmanage/login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dq_admin` [ RunTime:0.0160s ]
+SQL: SELECT `id`,`admin_name`,`admin_pass`,`admin_date`,`admin_ip`,`admin_ok`,`admin_type` FROM `dq_admin` WHERE `admin_name` = 'lizhiqiang' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:23:14+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.02859242534056805
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:23:20+08:00 ] ::1 /shangchengmanage/login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dq_admin` [ RunTime:0.0210s ]
+SQL: SELECT `id`,`admin_name`,`admin_pass`,`admin_date`,`admin_ip`,`admin_ok`,`admin_type` FROM `dq_admin` WHERE `admin_name` = 'lizhiqiang' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\LoginController.class.php 第 44 行.
+SQL: UPDATE `dq_admin` SET `admin_date`='1500945800',`admin_ip`='0.0.0.0',`admin_login`=admin_login+1,`admin_olddate`='1500887789',`admin_oldip`='0.0.0.0' WHERE `id` = 24 [ RunTime:0.0010s ]
+
+[ 2017-07-25T09:23:20+08:00 ] ::1 /shangchengmanage/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:23:21+08:00 ] ::1 /shangchengmanage/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13815786032' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B18612233424' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13647013525' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13647013525' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A800001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A17301059458' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15810091688' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A17301059458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15810091688' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 55 行.
+NOTIC: [8] Undefined index: sj D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 83 行.
+NOTIC: [8] Undefined index: sj2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 84 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:23:24+08:00 ] ::1 /shangchengmanage/goodsfenlei/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goodsfenlei` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 0 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 41 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 40 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 39 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 38 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 37 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 36 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 35 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 34 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 33 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 32 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 31 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 30 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 29 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 28 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 27 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 26 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 25 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 24 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 23 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 22 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 21 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 20 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 19 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 18 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 17 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 16 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 15 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 14 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 12 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 9 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 8 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 6 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 5 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 3 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `fid` = 2 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined index: childs D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 94 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\4f17944c71dd8be9a9c55a7900aa54f2.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:23:52+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0270s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:23:58+08:00 ] ::1 /shangchengmanage/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: fl2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\47eb17e17a19e120c09ac969d8e25fa3.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:24:47+08:00 ] ::1 /shangchengmanage/goods/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:25:21+08:00 ] ::1 /shangchengmanage/goods/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+
+[ 2017-07-25T09:25:58+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0080s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T09:26:01+08:00 ] ::1 /shangchengmanage/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: fl2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\47eb17e17a19e120c09ac969d8e25fa3.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:27:03+08:00 ] ::1 /shangchengmanage/goods/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: file_image D:\phpStudy\www\App\Shangchengmanage\Controller\GoodsController.class.php 第 301 行.
+NOTIC: [2] unlink(): Invalid argument D:\phpStudy\www\App\Shangchengmanage\Controller\GoodsController.class.php 第 301 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:27:38+08:00 ] ::1 /shangchengmanage/goods/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 196 行.
+NOTIC: [2] getimagesize(C:\Users\Administrator\AppData\Local\Temp\php7958.tmp): failed to open stream: No such file or directory D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 222 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 196 行.
+NOTIC: [2] getimagesize(C:\Users\Administrator\AppData\Local\Temp\php7969.tmp): failed to open stream: No such file or directory D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 222 行.
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined variable: file_mini2 D:\phpStudy\www\App\Shangchengmanage\Controller\GoodsController.class.php 第 328 行.
+SQL: INSERT INTO `dq_goods` (`fid`,`name`,`xianjing`,`xf_fl`,`index_post`,`jifen`,`guige`,`kucun`,`pic`,`pic_arr`,`content`,`date`,`user`) VALUES ('41','ceshizhufu1','0.10','2','1','50','guige1','1000','./Uploads/Images/20170725/mini/59769e8951bc7.png','|././UploadsImages/2017-07-25/59769e895e302.png','smh.zhonghuasd.com/shangchengmanage/admin&lt;br /&gt;
+&lt;br /&gt;
+http://sdjc.zhonghuasd.com/shangchengmanage/login/index.html&lt;br /&gt;
+&lt;br /&gt;
+http://csmh.zhonghuasd.com/&lt;br /&gt;','1500946058','lizhiqiang') [ RunTime:0.0490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-25T09:27:40+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:27:44+08:00 ] ::1 /shangchengmanage/goods/edit/id/1626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY paixu asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `id` = 41 ORDER BY paixu asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\55bbc62c66feb4f83a07f2e0f4d94ce1.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T09:28:20+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:26:48+08:00 ] ::1 /shangchengmanage/dingdan/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_dingdan` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_dingdan` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_dingdan` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1626 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 761 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 761 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 761 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18710640273' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 834 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fahuo D:\phpStudy\www\App\Shangchengmanage\Controller\DingdanController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:46:13+08:00 ] ::1 /shangchengmanage/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13815786032' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B18612233424' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B15897683817' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15897683817' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13647013525' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13647013525' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A800001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A17301059458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15810091688' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A17301059458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15810091688' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 55 行.
+NOTIC: [8] Undefined index: sj D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 83 行.
+NOTIC: [8] Undefined index: sj2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 84 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:46:22+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5180 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3750 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 694 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 465 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:46:54+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 15,15   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3091 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 2778 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4789 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4432 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4431 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4432 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4431 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:46:58+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5180 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3750 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 694 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 465 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:47:50+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi/shen/1/id/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `dq_tixian` WHERE ( id=35 )  [ RunTime:0.0010s ]
+SQL: UPDATE `dq_tixian` SET `status`='1' WHERE ( id=35 ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `dq_user` WHERE ( id=5625 )  [ RunTime:0.0010s ]
+SQL: UPDATE `dq_user` SET `user_xianjin`='10999' WHERE ( id=5625 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user_jifen` [ RunTime:0.0080s ]
+SQL: INSERT INTO `dq_user_jifen` (`user_login_bh`,`jifen_laiyuan`,`jifen_num`,`jifen_type`,`jifen_yuanyin`,`jifen_shengyu`,`jifen_date`) VALUES ('A13311278511','cz','1000','9','1','10999','1500950870') [ RunTime:0.0490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:47:53+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5180 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3750 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 694 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 465 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:49:43+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5180 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3750 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 694 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 465 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:49:45+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi/shen/1/id/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `dq_tixian` WHERE ( id=36 )  [ RunTime:0.0010s ]
+SQL: UPDATE `dq_tixian` SET `status`='1' WHERE ( id=36 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dq_user` WHERE ( id=5625 )  [ RunTime:0.0010s ]
+SQL: UPDATE `dq_user` SET `user_xianjin`='11999' WHERE ( id=5625 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user_jifen` [ RunTime:0.0090s ]
+SQL: INSERT INTO `dq_user_jifen` (`user_login_bh`,`jifen_laiyuan`,`jifen_num`,`jifen_type`,`jifen_yuanyin`,`jifen_shengyu`,`jifen_date`) VALUES ('A13311278511','cz','1000','9','1','11999','1500950985') [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T10:49:48+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5180 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3750 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 694 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 465 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T11:05:35+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5180 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3750 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 694 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 465 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-25T11:05:38+08:00 ] ::1 /shangchengmanage/user/rmbtixian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1499 行.
+NOTIC: [8] Undefined index: bh D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1513 行.
+NOTIC: [8] Undefined index: dkcg D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1531 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1591 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=2 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4432 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4431 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4432 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 4431 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\985dade1b237118f9a61c8002921419c.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T11:07:54+08:00 ] ::1 /shangchengmanage/user/rmbchongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_tixian` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined index: shen D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1418 行.
+NOTIC: [8] Undefined index: del D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1445 行.
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1457 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1466 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_tixian` WHERE ( ss_type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sousuo D:\phpStudy\www\App\Shangchengmanage\Controller\UserController.class.php 第 1473 行.
+SQL: SELECT * FROM `dq_tixian` WHERE ( ss_type=1 ) ORDER BY sq_date desc  LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 48 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5625 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3752 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5180 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 5181 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 3750 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+SQL: SELECT * FROM `dq_user` WHERE `id` = 694 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\d955b41f46d7cb0a985f84e0ecc06373.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-25T13:01:14+08:00 ] 192.168.0.103 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+

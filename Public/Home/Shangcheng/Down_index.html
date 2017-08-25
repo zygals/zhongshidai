@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>中时代-积分商城--下载中心</title>
+	<script type="text/javascript" src="__PUBLIC__/js/rem.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+
+</head>
+<body>
+	<div class="head">
+		<div class="head_back"  onclick="window.location.href='/bz.html'"></div>
+		<h2>下载中心</h2>
+	</div>
+	<div class="xizai">
+		<div class="xizai_top">◆ 下载列表</div>
+		<div class="xizai_con">
+			<ul>
+				<volist name="data" id="v">
+				<a href="<{$v['loadurl']}>"><li>
+					<span></span>
+					<div class="xizai_list">
+						<h2><{$v['title']}></h2>
+						<h3><{$v['date']|date="Y-m-d",###}></h3>
+					</div>
+					<div class="xizai_img"><img src="__PUBLIC__/images/xiazai.png" width="100%" alt=""></div>
+				</li></a>
+				</volist>
+
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
+	<div style="height: 1.5rem"></div>
+	<!-- 底部导航 -->
+ <include file="Public:footer" />
+
+
+</body>
+</html>

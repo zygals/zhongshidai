@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title><{$config.config_webname}>-找回密码</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/retrieve password.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<!--<script src="__PUBLIC__/js/jquery.params.js"></script>-->
+<script>
+function updatePwd() {
+	if (confirm("是否确认修改密码？")) {
+		if ($("#txtNewPwd").val().trim().length > 5) {
+			if ($("#txtNewPwd").val() == $("#txtNewPwdTwo").val()) {
+				$.ajax({
+					type: "post", url: "/uup.html",
+					data: { "oldPwd": $("#txtOldPwd").val(), "newPwd": $("#txtNewPwd").val() },
+					async: false, dataType: "json", success: function (data) {
+						if (data["state"] == "1") {
+							alert("修改成功");
+							$("#txtOldPwd").val("");
+							$("#txtNewPwdTwo").val("");
+							$("#txtNewPwd").val("");
+							$(".yiji").hide();
+							$(".erji").show();
+						} else if (data["state"] == "2") {
+							alert("原一级密码错误");
+						} else {
+							alert("未知错误");
+							location.href = "/u.html";
+						}
+					}
+				});
+			} else {
+				alert("新密码两次输入的不一致");
+			}
+		} else {
+			alert("密码不能小于6位");
+		}
+	}
+}
+
+function updatePwdTwo() {
+	if (confirm("是否确认修改密码？")) {
+		if ($("#txtNewPwd").val().trim().length > 5) {
+			if ($("#txtNewPwd").val() == $("#txtNewPwdTwo").val()) {
+				$.ajax({
+					type: "post", url: "/uup.html",
+					data: { "oldPwd": $("#txtOldPwd").val(), "newPwd": $("#txtNewPwd").val(), "idStr": "1" },
+					async: false, dataType: "json", success: function (data) {
+						if (data["state"] == "1") {
+							alert("修改成功");
+							$("#txtOldPwd").val("");
+							$("#txtNewPwdTwo").val("");
+							$("#txtNewPwd").val("");
+							$(".yiji").show();
+							$(".erji").hide();
+						} else if (data["state"] == "2") {
+							alert("原二级密码错误");
+						} else {
+							alert("请先登录");
+							location.href = "m_login.html";
+						}
+					}
+				});
+			} else {
+				alert("新密码两次输入的不一致");
+			}
+		} else {
+			alert("密码不能小于6位");
+		}
+	}
+}
+</script>
+</head>
+<body>
+<div class="box-retrieve">
+	<div class="header">
+		<div class="header-1"><a href="javascript:history.go(-1)"></a></div>
+		<div class="header-2">找回密码</div>
+	</div>
+	<div class="box-retrieve-1" style="margin-bottom:90px;">
+		<form>
+			<div class="a-1">
+				<span>输入原密码:</span>
+				<span class="a-1a">
+					<input type="password" name="mobile"  id="txtOldPwd" placeholder="请输入原密码" class="shuo" /></span>
+				<span class="a-1b"><i>*</i>原密码</span>
+			</div>
+			<div class="a-1">
+				<span>输入新密码:</span>
+				<span class="a-1a">
+					<input type="password" name="mobile" id="txtNewPwd" placeholder="请输入新密码" class="shuo" /></span>
+				<span class="a-1b"><i>*</i>新密码</span>
+			</div>
+			<div class="a-1">
+				<span>确认新密码:</span>
+				<span class="a-1a">
+					<input type="password" name="mobile" id="txtNewPwdTwo" placeholder="请再次输入新密码" class="shuo" /></span>
+				<span class="a-1b"><i>*</i>确认新密码</span>
+			</div>
+			<div class="a-4 yiji">
+				<a href="javascript:void(0)" onclick="updatePwd()">
+					<button type="button">确认修改一级密码</button></a>
+			</div>
+			 <div class="a-4 erji" style="display:none;">
+				<a  href="javascript:void(0)" onclick="updatePwdTwo()">
+					<button type="button">确认修改二级密码</button></a>
+			</div>
+		</form>
+	</div>
+	<include file="Public:footer" />
+</div>
+</body>
+</html>

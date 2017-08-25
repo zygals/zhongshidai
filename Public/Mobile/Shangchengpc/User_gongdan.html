@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-报单积分</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/order list.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/member.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<!--<script src="__PUBLIC__/js/j_work.js"></script>-->
+</head>
+<body>
+<div class="box-order">
+   <div class="header">
+		<div class="header-1"><a href="/u.html"></a></div>
+		<div class="header-2">工单列表</div>
+   </div>
+	<div class="box-member-1">
+		<table class="gridtable" id="tbody">
+			<tbody><tr>
+				<th width="20%">提交时间</th>
+				<th width="15%">工单标题</th>  
+				<th>工单内容</th>
+				<th width="15%">工单图片</th>
+			</tr></tbody>
+			<foreach name="gd" item="v">
+			<tr>
+				<td><{$v.gd_date|date='Y-m-d H:i:s',###}></td>
+				<td><{$v.gd_title}></td>
+				<td><{$v.gd_content}></td>
+				<td><img src="<{$v.gd_pic}>" style="width:40px;height:32px;"></td>
+			</tr>
+			</foreach>
+		</table>
+   </div>
+   <!--
+   <div style="text-align:center;" class="loadMore">
+		<span id="pro_loading" style="display: none;"><img src="__PUBLIC__/images/loading.gif"> 加载中......</span>
+		<a href="javascript:void(0)" id="m_show_more">没有更多信息了</a><input type="hidden" id="m_indexCount" value="0">
+	</div>-->
+   <include file="Public:footer" />
+</div>
+<script>
+ var indexCount = 1;
+ $(function () {
+	 //GetWork(1);
+	 $("#m_show_more").click(function () {
+		 var pageCount = $("#m_indexCount").val();
+		 if (pageCount > indexCount) {
+
+			 GetWork(indexCount); indexCount += 1;
+		 } else { $("#m_show_more").html("没有更多信息了"); }
+	 })
+
+ })
+</script>
+</body>
+</html>

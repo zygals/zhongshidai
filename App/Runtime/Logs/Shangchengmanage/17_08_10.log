@@ -1,0 +1,315 @@
+[ 2017-08-10T15:25:19+08:00 ] ::1 /shangchengmanage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+
+[ 2017-08-10T15:25:20+08:00 ] ::1 /shangchengmanage/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-10T15:25:20+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-10T15:25:38+08:00 ] ::1 /shangchengmanage/login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `dq_admin` [ RunTime:0.0370s ]
+SQL: SELECT `id`,`admin_name`,`admin_pass`,`admin_date`,`admin_ip`,`admin_ok`,`admin_type` FROM `dq_admin` WHERE `admin_name` = 'lizhiqiang' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\LoginController.class.php 第 44 行.
+SQL: UPDATE `dq_admin` SET `admin_date`='1502349938',`admin_ip`='0.0.0.0',`admin_login`=admin_login+1,`admin_olddate`='1502183094',`admin_oldip`='0.0.0.0' WHERE `id` = 24 [ RunTime:0.0010s ]
+
+[ 2017-08-10T15:25:38+08:00 ] ::1 /shangchengmanage/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-10T15:25:39+08:00 ] ::1 /shangchengmanage/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C15779074458' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15779074458' LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A800001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13033288973' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15270751382' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'H15270929679' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15270929679' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13608915998' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13608915998' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18905240761' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13773992525' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13815786032' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 65 行.
+NOTIC: [8] Undefined index: sj D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 93 行.
+NOTIC: [8] Undefined index: sj2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 94 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-10T15:25:43+08:00 ] ::1 /shangchengmanage/dingdan/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_dingdan` [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_dingdan` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_dingdan` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15098297728' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1693 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15098297728' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1693 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1668 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1668 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1692 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1635 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1668 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1692 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15098297728' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1668 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1692 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15098297728' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1668 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1693 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1692 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1678 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311271235' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1687 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: fahuo D:\phpStudy\www\App\Shangchengmanage\Controller\DingdanController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-10T15:26:30+08:00 ] ::1 /shangchengmanage/dingdan/detail/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_canshu` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `dq_canshu` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_dingdan` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dq_dingdan` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15098297728' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user_address` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `dq_user_address` WHERE `bh` = 'A15098297728' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1693 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-10T15:26:59+08:00 ] ::1 /shangchengmanage/dingdan/detail/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_canshu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `dq_canshu` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_dingdan` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dq_dingdan` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user_address` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `dq_user_address` WHERE `bh` = 'A13311278511' ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1668 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-10T15:28:06+08:00 ] ::1 /shangchengmanage/dingdan/detail/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_canshu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dq_canshu` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_dingdan` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dq_dingdan` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15098297728' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_user_address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `dq_user_address` WHERE `bh` = 'A15098297728' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1693 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title><{$config.config_webname}></title>
+<link rel="stylesheet" href="__PUBLIC__/css/style2.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/list.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.6.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	alert("333") ;
+	/*$("#aaa").toggle(
+	  function(){
+		$(this).css("background-color","yellow");
+	  },function(){
+		$(this).css("background-color","red");
+	  }
+	)*/
+});
+</script>
+<style type="text/css">
+  /*fenye*/
+.page{ width:595px; float:left; height:38px;  margin:0 auto; margin-top:50px; margin-left:170px;}
+.page span{ float:left; margin-left:5px; width:35px; height:35px; background:#fff; line-height:35px; text-align:center; color:#000; font-size:16px; border:1px solid #e9e9e9;background:#f15a5d;}
+.page a{ float:left; margin-left:5px; width:35px; height:35px; background:#fff; line-height:35px; text-align:center; color:#000; font-size:16px; border:1px solid #e9e9e9;}
+
+</style>
+<body>
+<!--头部-->
+<include file="Public:header" />
+
+
+<div class="nav">
+  <div class="sc1200">
+    <div class="all_nav"><a class="span_all">民族特色大全</a> </div>
+   <include file="Public:nav" />
+  </div>
+</div>
+  <!--mengyun-->
+  <div class="sc1200">
+    <div class="cont_l fl juli" >
+      <div class="cont_left"><div class="title">
+        	<h1>全部<span>分类</span></h1>
+        </div>
+        </div>
+      <div class="nav_r fr">
+        <ul>
+    <foreach name="list" item="v">
+          <li><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>$v['id'],'min'=>$min,'max'=>$max))}>">
+             <if condition="$v['id'] eq $f">
+                <div class="al1"></div>
+                <div class="am1"><{$v.name}></div>
+                <div class="ar1"></div>
+                <div class="clear"></div>
+            <else />
+                <div class="al"></div>
+                <div class="am"><{$v.name}></div>
+                <div class="ar"></div>
+                <div class="clear"></div>
+           </if>
+            </a></li>
+     </foreach>       
+        </ul>
+      </div>
+      <div class="clear"></div>
+		<!--SELECT-->
+          <div class="select juli">
+             <div class="sel_l fl">积分筛选：</div>
+             <div class="sel_r fl">
+                <ul>
+                <foreach name="grade" item="v">
+            <li><a href="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f,'min'=>$v['min'],'max'=>$v['max']))}>">
+            <if condition="$v['min'] eq $_GET['min']">
+              <if condition="$v['max'] eq $_GET['max']">
+                <div class="al2"></div>
+                <div class="am2"><{$v.min}>-<{$v.max}></div>
+                <div class="ar2"></div>
+                <div class="clear"></div>
+              <else />
+                <div class="al"></div>
+                <div class="am"><{$v.min}>-<{$v.max}></div>
+                <div class="ar"></div>
+                <div class="clear"></div>
+              </if>
+            <else />
+                <div class="al"></div>
+                <div class="am"><{$v.min}>-<{$v.max}></div>
+                <div class="ar"></div>
+                <div class="clear"></div>
+           </if>
+                    </a>
+                    </li>
+                  </foreach>
+                </ul>
+              </div>
+         </div>
+          <div class="select bian">
+             <div class="sel_l fl">按积分查询：</div>
+             <div class="sel_r fl">
+                <form method="get" action="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f))}>"/>
+                <input type="text" name="min" value=""/>
+                <span>——</span>
+                <input type="text" name="max" value=""/>
+                <button>查询</button>
+                </form>
+              </div>
+          </div>
+        <!--SELECT-->
+      <div class="order juli" style="margin-top:15px;">
+            <ul>
+            <if condition="$date eq 1">
+                <a href="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f,'min'=>$min,'max'=>$max,'date'=>0))}>" style="background-color:#a80c0f; display:inline; width:100px;margin-left:40px;  float:left;color:#FfF;"><li>日期<img src="__PUBLIC__/images/hs.png" width="8" height="12"/></li></a>
+            <else/>  
+                <a href="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f,'min'=>$min,'max'=>$max,'date'=>1))}>" style="width:88px;margin-left:20px;  float:left;"><li>日期<img src="__PUBLIC__/images/hj.png" width="8" height="12"/></li></a>  
+            </if>
+
+            <if condition="$num eq 1">
+                <a href="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f,'min'=>$min,'max'=>$max,'num'=>0))}>" style="background-color:#a80c0f;  width:100px;margin-left:40px;  float:left;color:#FfF;"><li>销量<img src="__PUBLIC__/images/hs.png" width="8" height="12"/></li></a>
+            <else/>  
+                <a href="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f,'min'=>$min,'max'=>$max,'num'=>1))}>" style=" width:88px;margin-left:20px;  float:left;"><li>销量<img src="__PUBLIC__/images/hj.png" width="8" height="12"/></li></a>  
+            </if>
+
+             <if condition="$price eq 1">
+                <a href="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f,'min'=>$min,'max'=>$max,'price'=>0))}>" style="background-color:#a80c0f; width:100px;margin-left:40px;  float:left;color:#FfF;"><li>价格<img src="__PUBLIC__/images/hs.png" width="8" height="12"/></li></a>
+            <else/>  
+                <a href="<{:C("PATH_URL")}><{:U('/P',array('f'=>$f,'min'=>$min,'max'=>$max,'price'=>1))}>" style="width:88px;margin-left:20px;  float:left;"><li>价格<img src="__PUBLIC__/images/hj.png" width="8" height="12"/></li></a>  
+            </if>
+           </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="rshow lshow" style="margin-top:23px;">
+            <ul>
+            <foreach name="content" item="v">
+             <if condition="($key)%4 eq 0">
+                <li class="first">
+              <else/>  
+                <li>
+             </if>
+                    <a href="<{:C("PATH_URL")}>/d/b/<{$v.id}>.html">
+                        <img src="<{:C("IMG_URL")}><{$v.pic}>" width="222" height="222"/>
+                        <p><{$v.name}></p>
+                        <span><font>¥<{$v.xianjing}>元</font>+<{$v.jifen}>积分</span>
+                    </a>
+                </li>
+                </foreach>
+           </ul>
+        </div>
+                <div class="page">
+                <{$page}>
+        </div>
+
+    </div>
+<include file="Gouwuzhongxin:right" />
+    <div class="clear"></div>
+  </div>
+  <!--mengyun--> 
+
+<include file="Public:footer" />
+</body>
+</html>

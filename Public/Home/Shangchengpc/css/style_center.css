@@ -1,0 +1,79 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ margin: 0px; padding: 0px; border:0;  color:#000000;  text-decoration:none; font-family: "microsoft yahei";}
+body{padding:0; margin:0; font-family:"Microsoft Yahei"; font-size:14px; color:#111111}
+ul,li{ list-style:none; list-style-type:none;}
+img{  border:0;}
+a{ color:#111;}
+a:hover{ color:#3e6abc}
+a:link,a:visited,a:hover,a:active{ text-decoration:none;}    
+a:focus{outline:0; }  
+.clear{ clear:both;}
+.left{ float:left}
+/*------------------header----------------------*/
+
+/*--left---*/
+.main_left{ width:200px; float:left; min-height:768px; margin-left:-100%}
+.main_right{ float:left; width:100%; height:100%;}
+.main_list{ min-height:768px; height:auto; width:200px; float: left;}
+.main_title{ width:200px; height:41px; line-height:36px; font-size:18px; font-weight:bold; text-align:center; color:#FFF; background:url(../images/main_title.png) no-repeat center; }
+.huiyuan_cen{ width:200px; height:auto; overflow:hidden; margin:0 auto;}
+/*-特效-*/
+.subNavBox{width:200px; margin:0 auto; background:#b63235; min-height:1000px; height:100% !important; overflow:hidden;}
+.subNav{cursor:pointer;font-size:16px;border-bottom:solid 1px #ffe8e9;color:#fff;line-height:36px; padding-left: 20px; margin-bottom:1px;background:url(../images/jiantou.png) no-repeat;}
+.subNav:hover{color:#fff;}
+.currentDd{color:#fff; font-size:16px;}
+.currentDt{background-image:url(../images/jiantou1.png);}
+.navContent{display: none; background:#c05456}
+.navContent li a{display:block;width:180px;height:32px;text-align:left; padding-left:20px;font-size:16px;line-height:32px;color:#fff;}
+.navContent li a:hover{color:#fff;background-color:#da9336}
+/*--right--*/
+
+.right{ overflow: hidden; padding:0px 0px 0 0px; width: 964px; float: right;}
+
+/*-------首页-------*/
+.shouye{ width:100%;}
+.shouye_title{ font-size:16px; border-bottom: solid 1px #a10408; height: 30px; color:#FFF}
+.shouye_title span{ color: #fff; background: #a10408; display: block; height: 30px; width: 97px; line-height: 30px; text-align: center;}
+
+.shouye_bot{ border:solid 1px #f19ec2; background:#FFF; padding:20px; margin-top: 27px;}
+.shouye_bot p{ font-size:16px; color:#3d95d5; line-height:26px}
+.mt30{ margin-top:30px;}
+
+/*-----表单----*/
+#form_tab{ padding-left:80px}
+#form_tab table.wby{ border: none }
+#form_tab table.wby tr td{ background:#FFF;border:none; height:auto; text-align:left; line-height:auto; color:#000; font-size:14px;}
+.wenbenyu,.suolvetu{ width:100%; margin-top:20px; line-height: 34px; position:relative;}
+.suolvetu{ *height: 36px; *line-height: 30px;}
+.suolvetu input.filename{ border: solid 1px #dddddd; *display: none; width: 500px; border-radius:5px; height: 34px; padding-left:10px; line-height: 34px; }
+.suolvetu input.button{ width: 96px; height: 34px; *display: none; margin-left: 16px; background: #e7e7e8; font-size: 16px; }
+.suolvetu input[type=file]{ position: absolute; bottom: 0; left: 0; height: 36px; width: 628px; *width: 630px; *border: solid 1px #dddddd; cursor: pointer; opacity: 0; margin-left: 68px;}
+
+.wenbenyu span,.suolvetu span{ font-size:16px; color:#094ba7; float: left;}
+.wenbenyu input{ height:34px; border:solid 1px #d7d3d3; border-radius:5px; line-height:34px;width:500px; padding-left:10px;}
+.wenbenyu textarea{border:solid 1px #d7d3d3; font-size:16px; color:#555555; width:500px; height:163px; padding:5px 10px; line-height:24px}
+.anniu{ margin-left:200px; margin-top:30px;}
+.anniu input{ width:95px; height:32px; background:#a10408; border-radius:5px;color:#FFF; font-size:18px;}
+.wenbenyu input.input-xm{ width:245px; height:34px; font-size:16px; padding-left:5px; margin-top:6px; background:url(../images/icon.png) no-repeat right}
+
+.xiala select{border:solid 1px #ccc; font-size: 16px;}
+
+.xb{ font-size:16px; color:#094ba7}
+.dxan{ font-size: 16px; }
+
+/**/
+.shouye_bot table{ border:solid 1px #bfbfbf; border-top: none; background: #fbfbfb; font-size: 16px;}
+.shouye_bot table tr td{ height: 36px; text-align: center; border-top:solid 1px #bfbfbf;}
+.shouye_bot table tr td+td{ text-align: center; border-left:solid 1px #bfbfbf;}
+/*foot*/
+.footer{ background: #FFF;width: 100%;overflow: hidden;}
+.foot{background:#0970b3;line-height:45px;font-size:16px; min-width:1200px; height:45px;}
+.foot a{ color:#fff; padding:0 8px;}
+.foot p{ text-align:center; color:#fff;}
+.foot_bottom{ width:1200px; margin:0 auto;}
+.foot-text{width:1200px;margin:0 auto;text-align:center;margin-top:20px;line-height:29px;font-size:12px;}
+.foot-text >ul >li{line-height:29px;font-size:12px;}
+.foot-img{margin:10px auto 0; display: inline-block;}
+.foot-img > img{margin-right:20px; float: left;}
+.foot-text p{ color:#000; clear: both;}

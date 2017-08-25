@@ -1,0 +1,1389 @@
+[ 2017-08-21T14:18:38+08:00 ] ::1 /shangchengmanage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+
+[ 2017-08-21T14:18:38+08:00 ] ::1 /shangchengmanage/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-21T14:18:38+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:41:21+08:00 ] ::1 /shangchengmanage/login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:41:24+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:41:26+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.9338271402538267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T14:41:42+08:00 ] ::1 /shangchengmanage/login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dq_admin` [ RunTime:0.0320s ]
+SQL: SELECT `id`,`admin_name`,`admin_pass`,`admin_date`,`admin_ip`,`admin_ok`,`admin_type` FROM `dq_admin` WHERE `admin_name` = 'lizhiqiang' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\LoginController.class.php 第 44 行.
+SQL: UPDATE `dq_admin` SET `admin_date`='1503297702',`admin_ip`='0.0.0.0',`admin_login`=admin_login+1,`admin_olddate`='1502349938',`admin_oldip`='0.0.0.0' WHERE `id` = 24 [ RunTime:0.0020s ]
+
+[ 2017-08-21T14:41:42+08:00 ] ::1 /shangchengmanage/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:41:43+08:00 ] ::1 /shangchengmanage/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_user` LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT * FROM `dq_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C15779074458' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15779074458' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A800001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13033288973' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15270751382' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'H15270929679' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15270929679' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13608915998' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13608915998' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18905240761' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13773992525' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 65 行.
+NOTIC: [8] Undefined index: sj D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 93 行.
+NOTIC: [8] Undefined index: sj2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 94 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:42:08+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-21T14:42:10+08:00 ] ::1 /shangchengmanage/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: fl2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\47eb17e17a19e120c09ac969d8e25fa3.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T14:44:22+08:00 ] ::1 /shangchengmanage/user/old.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C15779074458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15779074458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A800001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13033288973' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15270751382' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'H15270929679' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15270929679' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13608915998' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13608915998' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18905240761' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13773992525' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13815786032' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\aeb34ad6ca279db839e37b5118847a82.php 第 63 行.
+NOTIC: [8] Undefined index: sj D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\aeb34ad6ca279db839e37b5118847a82.php 第 89 行.
+NOTIC: [8] Undefined index: sj2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\aeb34ad6ca279db839e37b5118847a82.php 第 90 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\aeb34ad6ca279db839e37b5118847a82.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:44:29+08:00 ] ::1 /shangchengmanage/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C15779074458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15779074458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A800001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13033288973' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15270751382' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13970788755' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'H15270929679' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15270929679' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13608915998' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13608915998' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18905240761' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13773992525' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 65 行.
+NOTIC: [8] Undefined index: sj D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 93 行.
+NOTIC: [8] Undefined index: sj2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 94 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:45:12+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:58:01+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.09928080041535914
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:58:12+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:58:33+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.09893318810114504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T14:58:44+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:58:49+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.6632960623572761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:59:01+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:59:33+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.5230041612103304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-08-21T14:59:45+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T14:59:49+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.6289503317270713
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T15:00:00+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T15:02:19+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.7441254767740848
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 19 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T15:04:05+08:00 ] ::1 /shangchengmanage/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C15779074458' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15779074458' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13311278511' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18500706612' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A800001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13033288973' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15270751382' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13970788755' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13970788755' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'H15270929679' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15270929679' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'C13608915998' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13608915998' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18905240761' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13773992525' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18763039928' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'D15805244005' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'B13815786032' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A13815786032' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A15538776863' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_user` WHERE `user_login_bh` = 'A18337713522' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 65 行.
+NOTIC: [8] Undefined index: sj D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 93 行.
+NOTIC: [8] Undefined index: sj2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 94 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\f9973b170a5dccd6f55b8cb48c38571c.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T15:13:23+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0080s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T15:13:25+08:00 ] ::1 /shangchengmanage/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: fl2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\47eb17e17a19e120c09ac969d8e25fa3.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T15:20:29+08:00 ] ::1 /shangchengmanage/goods/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T15:20:44+08:00 ] ::1 /shangchengmanage/goods/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 196 行.
+NOTIC: [2] getimagesize(C:\Users\Administrator\AppData\Local\Temp\phpA0B8.tmp): failed to open stream: No such file or directory D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 222 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\phpStudy\www\Core\Library\Think\Upload.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: pic_arr D:\phpStudy\www\App\Shangchengmanage\Controller\GoodsController.class.php 第 328 行.
+NOTIC: [8] Undefined variable: file_mini2 D:\phpStudy\www\App\Shangchengmanage\Controller\GoodsController.class.php 第 329 行.
+SQL: INSERT INTO `dq_goods` (`fid`,`name`,`xianjing`,`xf_fl`,`jifen`,`agxfq`,`guige`,`kucun`,`pic`,`date`,`user`) VALUES ('41','爱国消费good1','0.02','1','20','0','asdgasg','332','./Uploads/Images/20170821/mini/599a89cbad4d9.png','1503300044','lizhiqiang') [ RunTime:0.0730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-21T15:20:47+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T15:33:43+08:00 ] ::1 /shangchengmanage/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: fl2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\47eb17e17a19e120c09ac969d8e25fa3.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T15:44:52+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0110s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T15:47:34+08:00 ] ::1 /shangchengmanage/goods/edit/id/1694
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `dq_goods` WHERE `id` = 1694 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY paixu asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `id` = 41 ORDER BY paixu asc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pics2 D:\phpStudy\www\App\Shangchengmanage\Controller\GoodsController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-21T15:47:37+08:00 ] ::1 /shangchengmanage/goodsfenlei/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goodsfenlei` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-21T15:47:38+08:00 ] ::1 /shangchengmanage/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 AND `fid` = 0 ORDER BY id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dq_goods` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dq_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dq_goods` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `dq_goodsfenlei` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-21T15:47:41+08:00 ] ::1 /shangchengmanage/goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\www\App\Shangchengmanage\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dq_goodsfenlei` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `dq_goodsfenlei` WHERE `is_show` = 1 ORDER BY paixu asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: fl2 D:\phpStudy\www\App\Runtime\Cache\Shangchengmanage\47eb17e17a19e120c09ac969d8e25fa3.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

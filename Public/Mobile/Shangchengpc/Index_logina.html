@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title><{$config.config_webname}>-登录</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index1.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script> 
+<!--<script src="__PUBLIC__/js/j_reg.js"></script>
+<script src="__PUBLIC__/js/j_com.js"></script>-->
+</head>
+<body>
+<div class="box">
+   <div class="header">
+		<div class="header-1"><a href="/"></a></div>
+		<div class="header-2">登 录</div>
+   </div>
+   <div class="box-1">
+		系统正在维护，敬请耐心等待
+	</div>
+	<include file="Public:footer" />
+</div>
+<script>
+	/*$(function () {
+		loginOut();
+		createCode();
+	})*/
+function get_user_login(){
+	if($('#bh').val()==''){
+		alert('帐户不能为空');
+		return false;
+	}
+	if($('#pass').val()==''){
+		alert('密码不能为空');
+		return false;
+	}
+	$('#form').submit();
+}
+</script>
+</body>
+</html>

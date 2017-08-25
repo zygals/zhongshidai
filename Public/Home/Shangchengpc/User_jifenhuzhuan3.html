@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="__PUBLIC__/css/style_center.css" rel="stylesheet" />
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<title><{$config.config_webname}>-积分互转</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<script>
+//确定
+function Get_tra_point() {
+    if($('#j_dou_money').val()==''){
+        alert('请输入可用积分');
+        return false;
+    }
+    if($('#zf').val().length<5){
+        alert('请核对支付密码');
+        return false;
+    }
+    if(confirm("确认转帐吗")){
+        $('#form').submit();
+    }
+    
+}
+</script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/laydate_center.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/laydate_lan_center.css" />
+<script type="text/javascript" src="js/laydate.js"></script>
+<title>积分互转</title>
+</head>
+
+<body>
+<!--header-->
+<include file="Public:header"/>
+<div class="nav">
+    <div class="sc1200">
+        <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+        </div>
+        <include file="Public:nav" />
+    </div>
+</div>
+<div class="all">
+  <div class="w1200" style="margin-top:15px;">
+        <include file="Public:left" />
+        <div class="right">
+            <div class="shouye">
+                <div class="shouye_title"><span>积分互转</span></div>
+                <div class="shouye_bot" id="post">
+               <!--   <form action="/ujz4.html" method='post' id="form">
+                    <div class="wenbenyu">
+                        <span>可用积分转账：</span><input id="j_dou_money" name="keyong" type="text" placeholder="请输入转账可用积分"/>
+                    </div>
+                    <div class="wenbenyu">
+                        <span>输支付密码：</span><input id="zfpassword" name="zfpassword" type="password" placeholder="输入支付密码"/>
+                    </div>
+                    <div class="anniu">
+                        <input name="" type="button" onclick="Get_tra_point()" value="下一步" />
+                    </div>
+                  </form>
+                  -->
+                  
+                  
+               <form method='post' id="form" action="<{:C("PATH_URL")}>/ujz4.html">
+			<div class="wenbenyu">
+				<span>可用积分转账：</span>
+				<input type="text" name="keyong" id="j_dou_money" placeholder="请输入转账可用积分" />
+			</div>
+            
+            <div class="wenbenyu">
+				<span>选择所用的积分：</span>
+				<select name="hz" id="hz" style="border:1px solid #CCC; height:30px; border-radius:3px;">
+                   <option id="old" value="1">老系统可用积分</option>
+                   <option id="new" value="2">新系统可用积分</option>
+                <select>
+			</div>
+
+            
+			<div class="wenbenyu">
+				<span>输支付密码：</span>
+				<input type="password" name="zfpassword" id="zf" placeholder="输入支付密码" />
+			</div>
+			<div class="wenbenyu">
+				<input type="hidden" name="proid" value="<{$user.user_login_bh}>"/>
+				<a href="javascript:void(0)"  onclick="Get_tra_point()"  id="tra_point_sure"><button type="button" style="border:none; border-radius:3px; background-color:#a10408; width:100px; height:30px; color:#FFF; margin-left:150px; cursor:pointer;">完成</button></a>
+				<p  style="text-align:center;"> <img src="__PUBLIC__/images/loading.gif"  id="account_load"  style="display:none;" alt=""></p>
+			</div>
+		</form> 
+                  
+                  
+                  
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <include file="Public:footer" />
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title><{$config.config_webname}>-积分复投</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/service centre1.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="box-personal1">
+   <div class="header">
+		<div class="header-1"><a href="javascript:history.go(-1)"></a></div>
+		<div class="header-2">积分复投</div>
+   </div>
+   <div class="box-personal1-1">
+       <!--<?php if($dengji >= 2){ echo '/zjft.html'; }else{ echo '/ftzs.html';}?>-->
+		<form method='post' id="form" action="/ftzs.html">
+            <input type="hidden" value="<{$bh}>" name="fid"/>
+			<div class="a-1">
+				<span>输入复投积分：</span>
+				<input type="text" name="futou" id="j_dou_money" placeholder="请输入复投积分" />
+			</div>
+			<div class="a-1">
+				<span>输支付密码：</span>
+				<input type="password" name="zfpassword" id="zf" placeholder="输入支付密码" />
+			</div>
+			<div class="a-4">
+				<input type="hidden" name="proid" value="<{$ftbh}>"/>
+				<a href="javascript:void(0)"  onclick="Get_tra_point()"  id="tra_point_sure"><button type="button">完成</button></a>
+				<p  style="text-align:center;"> <img src="__PUBLIC__/images/loading.gif"  id="account_load"  style="display:none;" alt=""></p>
+			</div>
+		</form> 
+   </div>
+   <include file="Public:footer" />
+</div>
+<script>
+//确定
+function Get_tra_point() {
+	if($('#j_dou_money').val()==''){
+		alert('请输入可用积分');
+		return false;
+	}
+	if($('#zf').val().length<5){
+		alert('请核对支付密码');
+		return false;
+	}
+	$('#form').submit();
+}
+</script>
+</body>
+</html>

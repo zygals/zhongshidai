@@ -1,0 +1,138 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><?php echo ($config["config_webname"]); ?>-订单</title>
+<meta name="keywords" content="<?php echo ($config["config_webkw"]); ?>"/>
+<meta name="description" content="<?php echo ($config["config_cp"]); ?>" />
+<link rel="stylesheet" type="text/css" href="/Public/Mobile/Shangchengpc/css/herder.css">
+<link rel="stylesheet" type="text/css" href="/Public/Mobile/Shangchengpc/css/order.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="/Public/Mobile/Shangchengpc/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="box-fourteen">
+   <div class="header">
+		<div class="header-1"><a href="/u.html"></a></div>
+		<div class="header-2">我的订单</div>
+   </div>
+   <div class="box-fourteen-1">
+		 <ul>
+		   <li>
+			 <a id="ord_0" href="/md.html" class="box-thirteen-1a-1 curr">未支付</a>
+			 <a id="ord_2" href="/umd.html">已完成</a>
+			 <a id="ord_1" href="javascript:void(0)" onclick="quxiao()">已取消</a>
+		   </li>
+		 </ul>
+   </div>
+
+   
+  <div class="box-fourteen-2" id="pro_list"> </div>
+	<div style="text-align:center;margin-bottom:100px;padding:10px;" class="loadMore">
+	
+		<a href="javascript:void(0)" id="m_show_more">查看更多</a>
+		<input type="hidden" id="m_indexCount" value="0">
+		<input type="hidden" id="proid" value="1">
+	</div>
+		<div class="last">
+		<ul>
+			<li>
+				<a href="/">
+					 <i><img src="/Public/Mobile/Shangchengpc/images/foot1_on.png" height="20" width="20" alt=""></i>
+					 <span style="font-size:10px;">首页</span>
+				 </a>
+			</li>
+			<!--<li>
+				 <a href="/gz.html">
+					 <i><img src="/Public/Mobile/Shangchengpc/images/0a-2.png" height="20" width="20" alt=""></i>
+					 <span style="font-size:10px;">商品分类</span>
+				 </a>
+			</li>-->
+            
+            <li>
+				 <a href="/gg.html">
+					 <i><img src="/Public/Mobile/Shangchengpc/images/0a-5.png" height="20" width="20" alt=""></i>
+					 <span style="font-size:10px;">公告资讯</span>
+				 </a>
+			</li>
+            
+			<li>
+				 <a href="/gw.html">
+					 <i><img src="/Public/Mobile/Shangchengpc/images/0a-3.png" height="20" width="20" alt=""></i>
+					 <span style="font-size:10px;">购物车</span>
+				 </a>
+			</li>
+			<li>
+				 <a href="/u.html">
+					 <i><img src="/Public/Mobile/Shangchengpc/images/0a-4.png" height="20" width="20" alt=""></i>
+					 <span style="font-size:10px;">会员中心</span>
+				 </a>
+			</li>
+		</ul>
+	</div>
+</div>
+<script>
+var indexCount = 0;
+$(function () {
+	var str = location.href;
+	var id = str.GetValue("id");
+	if(id==3){
+		quxiao();
+	}else{
+		GetReadyOrderInfo(0);
+	}
+	$("#m_show_more").click(function () {
+		var pageCount = $("#m_indexCount").val();
+		if (pageCount > indexCount) {
+			GetReadyOrderInfo(pageCount); indexCount += 1;
+		} else { $("#m_show_more").html("没有更多信息了"); }
+	})
+})
+String.prototype.GetValue = function (para) {
+	var reg = new RegExp("(^|&)" + para + "=([^&]*)(&|$)");
+	var r = this.substr(this.indexOf("\?") + 1).match(reg);
+	if (r != null) return unescape(r[2]); return null;
+};
+function quxiao(){
+	$("#proid").val(3);
+	$("#m_show_more").html("查看更多");
+	GetReadyOrderInfo(0);
+}
+function GetReadyOrderInfo(index) {
+    //var proid = $.query.get("proid");
+	var proid = $("#proid").val();
+    if (proid == 1) {
+		$("#ord_" + proid).addClass('curr').siblings().removeClass('curr');
+	} else {
+		//$("#ord_1").addClass('curr').siblings().removeClass('curr');
+		$("#ord_1").addClass('box-thirteen-1a-1').siblings().removeClass('box-thirteen-1a-1');
+	}
+    $.ajax({
+        type: "post", url: "/gad2.html",
+        data: { "t": "w", "pageIndex": index, "cateid": proid },
+		async: false, dataType: "json", success: function (data) {//alert(data);
+			if (data.code == 1) {
+                $("#m_indexCount").val(data.count);
+                if (index == 0) { $("#pro_list").html(data.data); } else { $("#pro_list").append(data.data); }
+            } else if (data.code == 2) {
+				
+                $("#m_show_more").html("没有更多信息了");
+            } else { alert(data.msg); window.location.href = "/u.html"; }
+		}
+    });
+}
+function GetOrderReadyCancel(proid) {
+    $.ajax({
+        type: "post", url: "/gad2.html",
+        data: { "t": "q", "proid": proid },
+        async: false, dataType: "json", success: function (data) {
+            if (data.code == 1) {
+                //GetReadyOrderInfo(0);
+				quxiao();
+            } else { alert(data.msg); }
+        }
+    });
+}
+</script>
+
+</body></html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title><{$config.config_webname}>-充值积分互转</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/service centre.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<!--<script src="__PUBLIC__/js/jquery.params.js"></script>
+<script src="__PUBLIC__/js/j_dou.js"></script>-->
+</head>
+<body>
+<include file="Public:header" />
+<div class="nav">
+    <div class="sc1200">
+        <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+        </div>
+        <include file="Public:nav" />
+    </div>
+</div>
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" />
+    <div class="right">
+        <div class="main_right">
+            <div class="shouye_title"><span style="padding:0 15px;" >充值积分互转</span></div>
+            <div class="box-personal">
+               <div class="box-personal-1">
+                    <form>
+                        <div class="a-1">
+                            <span>会员编号：</span>
+                            <input type="text" name="mobile" id="j_usernum" readonly value="<{$user.user_login_bh}>"/>
+                        </div>
+                        <div class="a-1">
+                            <span>会员姓名：</span>
+                            <input type="text" name="mobile" id="j_username"  readonly="readonly" value="<{$user.user_name}>" />
+                        </div>
+                        <div class="a-1">
+                            <span>会员手机号码：</span>
+                            <input type="text" name="mobile" id="j_userphone"   readonly="readonly" value="<{$user.user_phone}>"/>
+                        </div>
+                        <div class="a-1">
+                            <span>注册时间：</span>
+                            <input type="text" name="mobile" id="j_usertime"  readonly="readonly" value="<{$user.user_regdate|date='Y年m月d日 H时i分s秒',###}>"/>
+                        </div>
+                        <div class="a-4" >
+                            <a href="<{:C('PATH_URL')}>/ubjz3/bh/<{$user.user_login_bh}>.html" id="j_douNext"><button type="button">下一步</button></a>
+                        </div>
+                    </form> 
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public:footer" />
+
+<script>
+  //$(function () { Get_userTra_info(); });
+</script>
+</body>
+</html>

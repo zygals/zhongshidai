@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title><{$config.config_webname}>-复投中心</title>
+    <meta name="keywords" content="<{$config.config_webkw}>"/>
+    <meta name="description" content="<{$config.config_cp}>" />
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+    <style>
+        .cart_pro_count{margin-left:2%;vertical-align: middle;float:left; width: 80px; height: 28px; border: 1px solid #f0f0f0; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; overflow: hidden;}
+        .cart_pro_count input[type="button"]{width: 20px; height: 28px; background: none; border: none;}
+        .cart_pro_count input[type="text"]{width: 40px; height: 28px; text-align: center; border-left: 1px solid #f0f0f0; border-right: 1px solid #f0f0f0; box-sizing: border-box; border-top: none; border-bottom: none;}
+        .check {
+            font-size: 10px;
+            color: #ccc;
+            background: url(__PUBLIC__/images/check.png) 0 0 no-repeat;
+            background-size: 100%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border: 0;
+            border: none;
+            vertical-align: middle;
+            width: 15px;
+            height: 15px;
+        }
+        .checked{font-size:10px; color:#ccc; background:url(__PUBLIC__/images/checked.png) 0 0 no-repeat; background-size:100%; -webkit-appearance:none; -moz-appearance:none; border:0; border:none; vertical-align:middle; width:15px; height:15px;}
+        .fl {
+            float: left;
+        }
+        .delete{float: left;margin-left:20px;cursor:pointer;font-size: 1.2rem; color: #ff3300;}
+
+        .buttons{
+            color: #fff;
+            background: #a10408;
+            display: block;
+            height: 30px;
+            width: 97px;
+            line-height: 30px;
+            text-align: center;
+        }
+        form input {
+
+            border: 0;
+            float: left;
+            display: block;
+            width: 44%;
+            background: #fff;
+            font-size: 1rem;
+            height: 33px;
+            line-height: 35px;
+            border: solid #dfdfdf 1px;
+            color: #999;
+            color: #999;
+            padding-left: 1%;
+        }
+        .gridtable{ width: 100%; height: 30px; line-height: 30px;}
+        .gridtable tr{  height: 35px; line-height: 35px;  border-bottom: 1px solid #000}
+    </style>
+    <script>
+        $(function () {
+            Next();
+        });
+        function Next() {
+            $.ajax({
+                type: "post", url: "<{:u('Futou/futoushenhe')}>",
+                data: {"pageIndex": $("#lblPageIndex").html()},
+                async: false, dataType: "json", success: function (data) {
+                    if (data.code == "1") {
+                        if (data.data_info == "") { $(".loadMore").html("<a href=\"javasript:void(0)\">没有更多信息了</a>"); } else {
+                            $("#tbody").append(data.data_info);
+                            $("#lblPageIndex").html(parseInt($("#lblPageIndex").html()) + 1);
+                            //$("#pro_title").html(data.title);
+                        }
+                    } else {
+                        $(".loadMore").html("<a href=\"javasript:void(0)\">没有更多信息了</a>");
+                    }
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<include file="Public:header" />
+<div class="nav">
+    <div class="sc1200">
+        <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+        </div>
+        <include file="Public:nav" />
+    </div>
+</div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" />
+
+    <div class="right">
+        <div class="main_right">
+            <div class="shouye_title"><span>复投中心</span></div>
+            <form>
+                <label id="lblPageIndex" style="display:none;">1</label>
+                <table class="gridtable" id="tbody">
+                    <tbody><tr style="background: #eee;">
+                        <th>申请者ID</th>
+                        <th>积分数</th>
+                        <th>返还日期</th>
+                        <th>申请日期</th>
+                        <th>期次</th>
+                        <th>倍增数</th>
+                        <th>状态</th>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+                <div style="text-align:center" class="loadMore"><a href="javasript:void(0)" onclick="Next()">加载更多</a></div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<include file="Public:footer" />
+
+</body>
+</html>
+
+<script>
+
+    function Get_isTra_user() {
+        var proid = $("#j_usernum").val();
+        if (proid.length > 0) {
+            window.location.href = "./ft/proid/"+proid+".html";
+        } else { alert("请输入会员编号"); }
+    }
+
+</script>

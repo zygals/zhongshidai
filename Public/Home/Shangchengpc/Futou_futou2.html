@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title><{$config.config_webname}>-复投中心</title>
+    <meta name="keywords" content="<{$config.config_webkw}>"/>
+    <meta name="description" content="<{$config.config_cp}>" />
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+    <style>
+        .cart_pro_count{margin-left:2%;vertical-align: middle;float:left; width: 80px; height: 28px; border: 1px solid #f0f0f0; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; overflow: hidden;}
+        .cart_pro_count input[type="button"]{width: 20px; height: 28px; background: none; border: none;}
+        .cart_pro_count input[type="text"]{width: 40px; height: 28px; text-align: center; border-left: 1px solid #f0f0f0; border-right: 1px solid #f0f0f0; box-sizing: border-box; border-top: none; border-bottom: none;}
+        .check {
+            font-size: 10px;
+            color: #ccc;
+            background: url(__PUBLIC__/images/check.png) 0 0 no-repeat;
+            background-size: 100%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border: 0;
+            border: none;
+            vertical-align: middle;
+            width: 15px;
+            height: 15px;
+        }
+        .checked{font-size:10px; color:#ccc; background:url(__PUBLIC__/images/checked.png) 0 0 no-repeat; background-size:100%; -webkit-appearance:none; -moz-appearance:none; border:0; border:none; vertical-align:middle; width:15px; height:15px;}
+        .fl {
+            float: left;
+        }
+        .delete{float: left;margin-left:20px;cursor:pointer;font-size: 1.2rem; color: #ff3300;}
+
+        .buttons{
+            color: #fff;
+            background: #a10408;
+            display: block;
+            height: 30px;
+            width: 97px;
+            line-height: 30px;
+            text-align: center;
+        }
+        form input {
+
+            border: 0;
+            float: left;
+            display: block;
+            width: 44%;
+            background: #fff;
+            font-size: 1rem;
+            height: 33px;
+            line-height: 35px;
+            border: solid #dfdfdf 1px;
+            color: #999;
+            color: #999;
+            padding-left: 1%;
+        }
+
+    </style>
+</head>
+<body>
+<include file="Public:header" />
+<div class="nav">
+    <div class="sc1200">
+        <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+        </div>
+        <include file="Public:nav" />
+    </div>
+</div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" />
+
+    <div class="right">
+        <div class="main_right">
+            <div class="shouye_title"><span>复投中心</span></div>
+            <form method='post' id="form" action="<{:U('Futou/futouzs')}>">
+                <input type="hidden" value="<{$bh}>" name="fid"/>
+                <input type="hidden" name="proid" value="<{$ftbh}>"/>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:30px auto; font-size:16px;">
+
+                    <input type="hidden" id="j_usernum" style="padding-left:5px;" value="<{$bh}>" placeholder="请输入会员编号" readonly>
+                    <tr>
+                        <td height="50" width="200" align="right">输入复投积分：</td>
+                        <td height="50" align="left"><input type="text" name="futou" id="j_dou_money" placeholder="请输入复投积分" /></td>
+                    </tr>
+                    <tr>
+                        <td height="50" align="right">输支付密码：</td>
+                        <td> <input type="password" name="zfpassword" id="zf" placeholder="输入支付密码" /></td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td height="50" align="right"></td>
+                        <td height="50" align="left">	<a href="javascript:void(0)"  onclick="Get_tra_point()"  id="tra_point_sure"><button type="button" class="buttons">完成</button></a></td>
+                    </tr>
+
+                </table>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<include file="Public:footer" />
+
+</body>
+</html>
+<script>
+    //确定
+    function Get_tra_point() {
+        if($('#j_dou_money').val()==''){
+            alert('请输入可用积分');
+            return false;
+        }
+        if($('#zf').val().length<5){
+            alert('请核对支付密码');
+            return false;
+        }
+        $('#form').submit();
+    }
+</script>

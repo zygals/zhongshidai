@@ -1,0 +1,172 @@
+<include file="Admin:header" />
+
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+	<tr >
+		<td height="31"><div class="titlebt" style="margin:4px 0 0 0;">会员系谱图</div></td>
+	</tr>
+</table>
+<link href="__PUBLIC__/xipu/css/bootstrap.css" rel="stylesheet">
+<link href="__PUBLIC__/xipu/css/echartsHome.css" rel="stylesheet">
+<script src="__PUBLIC__/xipu/www/js/echarts.js"></script>
+<script src="__PUBLIC__/xipu/js/codemirror.js"></script>
+<style>
+body{padding-top:0;}
+</style>
+<div class="main" style="margin:0;background:#fff;height:100%;">
+	<div class="left_pad" style="margin:0 0 15px 35px;">
+		<form method="post" action="__URL__/index">
+			<input type="text" name="keyword" placeholder="请输入会员编号" class="inp_default" value="">
+			<input type="hidden" name="formhash" value="231cb4d8" />
+			<input type="submit" class="btn_blue" value="查  询">
+		</form>
+	</div>
+	<div class="form">
+		<!--<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="head"></div>-->
+		<div class="container-fluid" style="">
+			<div class="row-fluid example">
+				<div id="sidebar-code" class="col-md-4" style="display:none;">
+					<div class="well sidebar-nav">
+						<div class="nav-header"><a href="#" onclick="autoResize()" class="glyphicon glyphicon-resize-full" id ="icon-resize" ></a>option</div>
+						<textarea id="code" name="code">
+	option = {
+		title : {
+			text: '',
+			subtext: '',
+			x:'right',
+			y:'bottom'
+		},
+		tooltip : {
+			trigger: 'item',
+			formatter: '{a} : {b}'
+		},
+		toolbox: {
+			show : true,
+			feature : {
+				restore : {show: true},
+				magicType: {show: true, type: ['force', 'chord']},
+				saveAsImage : {show: true}
+			}
+		},
+		legend: {
+			x: 'left',
+			data:[]
+		},
+		series : [
+			{
+				type:'force',
+				name : "会员",
+				ribbonType: false,
+				categories : [
+					{
+						name: '人物'
+					},
+					
+				],
+				itemStyle: {
+					normal: {
+						label: {
+							show: true,
+							textStyle: {
+								color: '#333'
+							}
+						},
+						nodeStyle : {
+							brushType : 'both',
+							borderColor : 'rgba(255,215,0,0.4)',
+							borderWidth : 1
+						}
+					},
+					emphasis: {
+						label: {
+							show: false
+							// textStyle: null      // 默认使用全局文本样式，详见TEXTSTYLE
+						},
+						nodeStyle : {
+							//r: 30
+						},
+						linkStyle : {}
+					}
+				},
+				minRadius : 15,
+				maxRadius : 25,
+				gravity: 1.1,
+				scaling: 1.2,
+				draggable: false,
+				linkSymbol: 'arrow',
+				steps: 10,
+				coolDown: 0.9,
+				//preventOverlap: true,
+				nodes:[
+					{
+						category:0, name: '<{$user.user_name}>', value : 10,
+						symbol: '/Public/Home/Shangcheng/images/elever-1.gif',
+						symbolSize: [35, 35],
+						draggable: true,
+						itemStyle: {
+							normal: {
+								label: {
+									position: 'right',
+									textStyle: {
+										color: 'black'
+									}
+								}
+							}
+						}
+					},
+					<{$category}>
+				],
+				links : [
+					<{$source1}><{$source}>
+				]
+			}
+		]
+	};
+	var ecConfig = require('echarts/config');
+	function focus(param) {
+		var data = param.data;
+		var links = option.series[0].links;
+		var nodes = option.series[0].nodes;
+		if (
+			data.source != null
+			&& data.target != null
+		) { //点击的是边
+			var sourceNode = nodes.filter(function (n) {return n.name == data.source})[0];
+			var targetNode = nodes.filter(function (n) {return n.name == data.target})[0];
+			console.log("选中了边 " + sourceNode.name + ' -> ' + targetNode.name + ' (' + data.weight + ')');
+		} else { // 点击的是点
+			//alert("ddddd");
+			window.location.href='/shangchengmanage/xipu/index/id/'+data.value+'.html';
+			//console.log("选中了" + data.name + '(' + data.value + ')');
+			
+		}
+	}
+	myChart.on(ecConfig.EVENT.CLICK, focus)
+
+	myChart.on(ecConfig.EVENT.FORCE_LAYOUT_END, function () {
+		console.log(myChart.chart.force.getPosition());
+	});
+						</textarea>
+						
+				  </div>
+				</div>
+				<div id="graphic" class="col-md-8" style="width:100%;height:720px;">
+					<div id="main" class="main" style="height:600px;"></div>
+					<div>
+						<button type="button" class="btn btn-sm btn-success" onclick="refresh(true)">刷 新</button>
+						<span class="text-primary">切换主题</span>
+						<select id="theme-select"></select>
+
+						<span id='wrong-message' style="color:red"></span>
+					</div>
+				</div>
+			</div>
+			
+			</div>
+
+		<script src="__PUBLIC__/xipu/js/jquery.min.js"></script>
+		<script src="__PUBLIC__/xipu/js/echartsExample.js"></script>
+	</div>
+</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>

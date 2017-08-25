@@ -1,0 +1,41 @@
+
+<include file="Admin:header" />
+
+<script src="__PUBLIC__/js/common.js" type="text/javascript"></script>
+ <script type="text/javascript">
+  function clear_del()
+  {
+   if(confirm("确定要删除数据吗？"))
+   {
+	subform('__URL__/delall');
+   }
+  }
+ </script>
+
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">商城总积分</div></td>
+      </tr>
+    </table>
+<style type="text/css">
+    .main div{height:45px;line-height:45px;border-bottom:1px solid #A5C6E5;}
+</style>
+<div class="main">
+    <volist name="arrayjf" id="s">
+	<div style="margin:10px 0 0 15px;font-size:16px;">
+        <if condition="$s['jifen_type'] eq 1">可用积分</if>
+        <if condition="$s['jifen_type'] eq 4">充值积分</if>
+        <if condition="$s['jifen_type'] eq 3">分享积分</if>
+        <if condition="$s['jifen_type'] eq 2">待用积分</if>
+        <if condition="$s['jifen_type'] eq 5">爱国消费积分</if>
+        <if condition="$s['jifen_type'] eq 7">爱心消费积分</if>
+        <if condition="$s['jifen_type'] eq 6" >平台维护积分</if>
+        <if condition="$s['jifen_type'] eq 8" >消费激励积分</if>
+        <if condition="$s['jifen_type'] eq 9" >现金</if>:<{$s['sumjf']}></div>
+    </volist>
+    
+    
+</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>

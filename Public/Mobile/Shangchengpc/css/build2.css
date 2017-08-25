@@ -1,0 +1,22 @@
+/* 一下是积分转账样式 header-1 是公共应用 */
+
+.box-build2{  background:#fff; width: 100%;  }
+.box-build2-1{ width:96%;margin:0 auto; margin-top: 50px;height:44px;line-height: 44px; margin-top: 10px; background:#eee; border-bottom: solid 1px #e1e1e1;padding-left: 2%;padding-right: 2%;}
+.box-build2-1 span a{ color:#dd2727;}
+.box-build2-2{ width: 100%;}
+.box-build2-2 ul li{ width:96%;margin:0 auto; margin-top: 50px;height:44px;line-height: 44px; margin-top: 10px; border-bottom: solid 1px #e1e1e1;padding-left: 2%;padding-right: 2%;}
+.box-build2-2 ul li a{ display: block; width:100%;margin:0 auto; height:44px;line-height: 44px; }
+.box-build2-2 ul li i{ float: right;}
+
+
+.box-build2-3{ width: 100%;}
+.box-build2-3 ul li{ width:96%;margin:0 auto; margin-top: 50px;height:44px;line-height: 44px; margin-top: 10px; border-bottom: solid 1px #e1e1e1;padding-left: 2%;padding-right: 2%;}
+.box-build2-3 .box-build2-31 {width:96%;margin:0 auto; height:44px;line-height: 44px; margin-top: 10px; background:#eee; border-bottom: solid 1px #e1e1e1;padding-left: 2%;padding-right: 2%;  text-align: center;color:#333;}
+.box-build2-3 .box-build2-32{width:100%;margin:0 auto; height:44px;line-height: 44px; border-bottom: solid 1px #e1e1e1; text-align: center;overflow: hidden;}
+.box-build2-3 .box-build2-32 span{float: left; display: inline-block; height:44px; line-height: 44px;width: 22%;}
+.box-build2-3 ul li a{ display: block; width:100%;margin:0 auto; height:44px;line-height: 44px; }
+.box-build2-3 ul li i{ float: right;}
+
+
+.box-build2-32 span{border-left: solid 1px #e1e1e1;} 
+.box-build2-32 .span-1{border-left:0 none;}

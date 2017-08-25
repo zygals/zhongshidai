@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="__PUBLIC__/css/style2.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/list.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.6.min.js"></script>
+<style type="text/css">
+  /*fenye*/
+.page{ width:595px; float:left; height:38px;  margin:0 auto; margin-top:50px; margin-left:170px;}
+.page span{ float:left; margin-left:5px; width:35px; height:35px; background:#fff; line-height:35px; text-align:center; color:#000; font-size:16px; border:1px solid #e9e9e9;background:#f15a5d;}
+.page a{ float:left; margin-left:5px; width:35px; height:35px; background:#fff; line-height:35px; text-align:center; color:#000; font-size:16px; border:1px solid #e9e9e9;}
+
+</style>
+
+    <div class="cont_r fr">
+    <div style="border:1px solid #e8e8e8; height:1240px; clear:both">
+      <div style="padding:6px;">
+    	<div class="title"  style="margin-bottom:22px;">
+        	<h1>爱国消费券<span>专区</span></h1>
+        	<a href="<{:C("PATH_URL")}>/p/m/1">更多></a>
+        </div>
+        <div class="rshow">
+            <ul>
+             <foreach name="content1" item="v">
+                <li>
+                    <a href="<{:C("PATH_URL")}>/d/b/<{$v.id}>.html">
+                        <img src="<{:C("IMG_URL")}><{$v.pic}>" width="222" height="222"/>
+                        <p><{$v.name}></p>
+                        <span><font>¥<{$v.xianjing}>元</font>+<{$v.jifen}>积分</span>
+                    </a>
+                </li>
+                </foreach>   
+            </ul>
+        </div>
+      </div> 
+   </div>
+  
+       
+         <div class="cont_r fr" style="border:1px solid #e8e8e8; clear:both">
+      <div style="padding:6px;">
+        <div class="title"  style="margin-bottom:22px;">
+        	<h1>精品<span>推荐</span></h1>
+        	<a href="<{:C("PATH_URL")}><{:U('/P',array('inp'=>1))}>">更多></a>
+        </div>
+        <div class="rshow" >
+            <ul>
+                 <foreach name="content2" item="v">
+                <li>
+                    <a href="<{:C("PATH_URL")}>/d/b/<{$v.id}>.html">
+                        <img src="<{:C("IMG_URL")}><{$v.pic}>" width="222" height="222"/>
+                        <p><{$v.name}></p>
+                        <span><font>¥<{$v.xianjing}>元</font>+<{$v.jifen}>积分</span>
+                    </a>
+                </li>
+                </foreach>   
+                
+            </ul>
+        </div>
+          </div> 
+       </div> 
+       
+        <div class="cont_r fr" style="border:1px solid #e8e8e8; clear:both;">
+      <div style="padding:6px;">
+        <div class="title"  style="margin-bottom:22px;">
+        	<h1>新品<span>上架</span></h1>
+        	<a href="<{:C("PATH_URL")}><{:U('/P',array('date'=>0))}>">更多></a>
+        </div>
+        <div class="rshow" >
+            <ul>
+                 <foreach name="content3" item="v">
+                <li>
+                    <a href="<{:C("PATH_URL")}>/d/b/<{$v.id}>.html">
+                        <img src="<{:C("IMG_URL")}><{$v.pic}>" width="222" height="222"/>
+                        <p><{$v.name}></p>
+                        <span><font>¥<{$v.xianjing}>元</font>+<{$v.jifen}>积分</span>
+                    </a>
+                </li>
+                </foreach>   
+                
+            </ul>
+         </div>
+      </div>
+     </div>
+    </div>

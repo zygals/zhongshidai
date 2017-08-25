@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-我的订单</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/order.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="box-fourteen">
+   <div class="header">
+		<div class="header-1"><a href="/u.html"></a></div>
+		<div class="header-2">我的订单</div>
+   </div>
+   <div class="box-fourteen-1">
+		<ul>
+		   <li>
+			 <a id="ord_0" href="/md.html">未支付</a>
+			 <a id="ord_2" href="/umd.html" class="box-thirteen-1a-1">已完成</a>
+			 <a id="ord_1" href="/md.html?id=3">已取消</a>
+		   </li>
+		</ul>
+   </div>
+	<div class="box-fourteen-2" id="pro_list">
+	</div> 
+	<div style="text-align:center;margin-bottom:100px;padding:10px;" class="loadMore">
+		<a href="javascript:void(0)" id="m_show_more">查看更多</a><input type="hidden" id="m_indexCount" value="1">
+	</div>
+	<include file="Public:footer" />
+</div>
+<script>
+var indexCount = 1;
+$(function () {
+	GetOrderInfo(1);
+	$("#m_show_more").click(function () {
+		var pageCount = $("#m_indexCount").val();
+		if (pageCount > indexCount) {
+			GetOrderInfo(pageCount); indexCount += 1;
+		} else { $("#m_show_more").html("没有更多信息了"); }
+	})
+})
+function GetOrderInfo(index) {
+    //var proid = $.query.get("proid");
+    $.ajax({
+        type: "post", url: "/gad2.html",
+        data: { "t": "y", "pageIndex": index/*, "cateid": proid*/ },
+		async: false, dataType: "json", success: function (data) {
+            if (data.code == 1) {
+				$("#m_indexCount").val(data.count);
+				if (index == 1) { $("#pro_list").html(data.data); } else { $("#pro_list").append(data.data); }
+            }else if (data.code == 2) {
+				$("#m_show_more").html("没有更多信息了");
+            } else { alert(data.msg); window.location.href = "/u.html"; }
+		}
+    });
+}
+</script>
+</body>
+</html>

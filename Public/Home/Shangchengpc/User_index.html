@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-会员中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<style>
+.cart_pro_count{margin-left:2%;vertical-align: middle;float:left; width: 80px; height: 28px; border: 1px solid #f0f0f0; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; overflow: hidden;}
+.cart_pro_count input[type="button"]{width: 20px; height: 28px; background: none; border: none;}
+.cart_pro_count input[type="text"]{width: 40px; height: 28px; text-align: center; border-left: 1px solid #f0f0f0; border-right: 1px solid #f0f0f0; box-sizing: border-box; border-top: none; border-bottom: none;}
+.check {
+font-size: 10px;
+color: #ccc;
+background: url(__PUBLIC__/images/check.png) 0 0 no-repeat;
+background-size: 100%;
+-webkit-appearance: none;
+-moz-appearance: none;
+border: 0;
+border: none;
+vertical-align: middle;
+width: 15px;
+height: 15px;
+}
+.checked{font-size:10px; color:#ccc; background:url(__PUBLIC__/images/checked.png) 0 0 no-repeat; background-size:100%; -webkit-appearance:none; -moz-appearance:none; border:0; border:none; vertical-align:middle; width:15px; height:15px;}
+.fl {
+float: left;
+}
+.delete{float: left;margin-left:20px;cursor:pointer;font-size: 1.2rem; color: #ff3300;}
+</style>
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" /> 
+    
+    <div class="right">
+            <div class="main_right">
+                <div class="shouye_title"><span>会员中心</span></div>
+               
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:30px auto; font-size:16px;">
+                      <tr>
+                        <td width="21%" height="50" align="right">会员姓名：</td>
+                        <td width="79%" height="50" align="left"><{$user.user_name}></td>
+                      </tr>
+                       <tr>
+                        <td height="50" align="right">会员编号：</td>
+                        <td height="50" align="left"><{$bh}></td>
+                      </tr>
+                       <tr>
+                        <td height="50" align="right">会员等级：</td>
+                        <td height="50" align="left">
+                            <if condition="$user['user_dengji'] eq 1">VIP会员</if>
+                            <if condition="$user['user_dengji'] eq 2">社区工作站</if>
+                            <if condition="$user['user_dengji'] eq 3">区域服务中心</if>
+                            <if condition="$user['user_dengji'] eq 4">省级分公司</if>
+                            </td>
+                      </tr>
+                       <tr>
+                        <td height="50" align="right">推荐人编号：</td>
+                        <td height="50" align="left"><{$user.user_sjid1}></td>
+                      </tr>
+                      <if condition="$user['user_olddate'] eq null">
+                      
+                       <tr>
+                        <td height="50" align="right">您是第一次登录</td>
+                        <td height="50" align="left"></td>
+                      </tr>
+                      </if>
+                       <if condition="$user['user_olddate'] neq null">
+                        <tr>
+                        <td height="50" align="right">最后一次登录时间：</td>
+                        <td height="50" align="left"><{$user.user_olddate|date='Y-m-d H:i:s',###}></td>
+                      </tr>
+                     </if>
+                      
+                      
+                    </table>
+
+             
+            </div>
+        </div>
+    
+     </div>
+    
+    
+    
+    
+    
+<include file="Public:footer" />
+
+</body>
+</html>

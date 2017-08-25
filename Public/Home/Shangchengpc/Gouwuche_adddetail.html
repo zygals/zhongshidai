@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-会员中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+
+<link href="__PUBLIC__/css/commstyle.css" rel="stylesheet">
+<link href="__PUBLIC__/css/m_adr.css" rel="stylesheet"> 
+
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script>
+$(function () {
+  var str = location.href;
+  var id = str.GetValue("id");
+  $.ajax({
+    type: "post", url: "./gad2.html",
+    data: { "t": 'de', "idStr": id },
+    async: false, dataType: "json", success: function (data) {
+      if (data["state"] != "2") {
+        $("#spUserName").html(data["userName"]);
+        $("#spUserTel").html(data["userTel"]);
+        $("#spUserArea").html( data["userArea"]);
+        $("#spUserAddress").html(data["userAddress"]);
+        $("#spUserKh").html(data["kh"]);
+        $("#spUserKhm").html(data["khm"]);
+        $("#spUserKhh").html(data["khh"]);
+      } else {
+        window.location.href = "./gad.html";
+      }
+    }
+  });
+})
+String.prototype.GetValue = function (para) {
+  var reg = new RegExp("(^|&)" + para + "=([^&]*)(&|$)");
+  var r = this.substr(this.indexOf("\?") + 1).match(reg);
+  if (r != null) return unescape(r[2]); return null;
+};
+function chkAddress(state){
+  var str = location.href;
+  var id = str.GetValue("id");
+  if (state < 3) {
+    if (confirm("是否确认修改？")) {
+    $.ajax({
+      type: "post", url: "./gad2.html",
+      data: { "t": 'm', "idStr": id, "state": state },
+      async: false, dataType: "json", success: function (data) {
+        if (data["state"] == "1") {
+          alert("处理成功");
+          window.location.href = "./gad.html";
+        } else {
+          alert("设置失败，请重新登录尝试");
+        }
+      }
+    });
+    }
+  } else {
+    window.location.href = "./gea.html?id=" + id;
+  }
+}
+</script>
+<style>
+  .shxx b{ font-size: 18px; }
+.shxx span{font-size: 18px;}
+</style>
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" /> 
+    
+    <div class="right">
+            <div class="main_right">
+                <div class="shouye_title"><span>会员中心</span></div>
+               
+                   <div style="height:50px;"></div>
+<div class="shxx" style="line-height: 30px;"  >
+  <p><b class="fl">收货人:</b><span id="spUserName"></span></p>
+  <p><b class="fl">手机号码:</b><span id="spUserTel"></span></p>
+  <p><b class="fl">所在地区:</b><span id="spUserArea"></span></p>
+  <p><b class="fl">详细地址:</b><span id="spUserAddress"></span></p>
+ 
+</div>
+<ul class="address_delbtn">
+  <li><a href="javascript:void(0)" onclick="chkAddress(3)">编辑</a></li>
+  <li><a href="javascript:void(0)" onclick="chkAddress(2)">删除收货地址</a></li>
+</ul>
+<div class="address_addbtn">
+  <a href="javascript:void(0)" onclick="chkAddress(1)">设为默认收货地址</a>
+</div>
+         </div>
+        </div>
+    
+     </div>
+      
+<include file="Public:footer" />
+
+</body>
+</html>

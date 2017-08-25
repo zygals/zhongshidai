@@ -1,0 +1,72 @@
+
+/* 一下是我的订单header-1 是公共应用 */
+
+.box-vehicle{  background:#eee; width: 100%;  }
+/* .header{ width: 100%; height:60px; background:#1d75d9;}
+.header-1 a{ display: block; float: left; width: 6.6%;min-width: 20px; background:url(../img/01.gif) no-repeat center; margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1rem;}
+.header-2{ float: left; width: 86.4%;  margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1.66rem; color:#fff;} */
+.box-vehicle-1{ width:100%;margin:0 auto; height:220px;overflow: hidden; margin-top: 10px; height:48px; line-height: 48px;  background:#fff; border-left: 0 none; border-right: 0 none;}
+.box-vehicle-1 ul li a{ float: left; display: inline-block; width: 25%; text-align: center;}
+.box-vehicle-1{ padding:0 10px 0px 10px; font-size: 1.2rem;color:#333;}
+.box-vehicle-1 img{ margin-left:2%; vertical-align: middle;}
+.box-thirteen-1a-1{ color:#dd2727;}
+.box-vehicle-2{ width:100%; margin:0 auto;/* padding:0 10px 0px 10px; */ font-size: 1.2rem;color:#333;}
+.box-vehicle-2 .box-vehicle-1a{ display: block; height: 60px; background:#fff; line-height: 60px;overflow: hidden;}  
+
+
+.box-vehicle-2 .box-vehicle-1b{ display: block; background:#fff; ;overflow: hidden;padding-top: 15px;}  
+.box-vehicle-2 .box-vehicle-1b i{display: block;margin-left: 10px; width: 5%; float: left;  height: 142px;  vertical-align: middle;line-height: 85px;} 
+.box-vehicle-2 .box-vehicle-1b img{float: left; width: 20%; height:120px;} 
+
+
+.box-vehicle-2 .box-vehicle-1b .box-vehicle-1ba{display: block;width:69%; float: left;margin-left: 2%; color:#333; text-align:left; vertical-align: middle;} 
+.box-vehicle-2 .box-vehicle-1b .box-vehicle-1ba p{ height:25px;overflow: hidden;} 
+.box-vehicle-2 .box-vehicle-1b .box-vehicle-1ba em{font-style:normal;font-size: 1rem;line-height: 35px;color: #999;} 
+.box-vehicle-2 .box-vehicle-1b .box-vehicle-1ba em a{color: #999;} 
+
+.box-vehicle-2  .box-vehicle-1c{ display: inline-block; width: 100%; text-align: right;}
+
+.box-vehicle-1ba-1{float: left;color:#ff0500; line-height: 35px;}
+.box-vehicle-1ba-2{float:right;margin-right: 0%; color:#ff5000; line-height: 35px;}
+
+
+.box-vehicle-2a{margin-bottom: 10px;margin-top: 10px; border-bottom:#CCC solid 1px; border-top:#CCC solid 1px;}
+.box-vehicle-1b{/* margin-top: 10px; */}
+
+.box-vehicle-1-1{ float: right; margin-right: 2.5%;font-size: 1rem;font-style:normal;}
+
+
+
+
+.check {
+/* */
+    -moz-appearance: none; 
+    background: rgba(0, 0, 0, 0) url("../img/check.png") no-repeat scroll 0 0 / 100% auto;
+    border: medium none;
+    color: #ccc;
+    font-size: 10px;
+    height: 15px;
+    vertical-align: middle;
+    width: 15px;
+    -webkit-appearance:none;
+    
+}
+.checked {
+    -moz-appearance: none; 
+    background: rgba(0, 0, 0, 0) url("../img/checked.png") no-repeat scroll 0 0 / 100% auto;
+    border: medium none;
+    color: #ccc;
+    font-size: 10px;
+    height: 15px;
+    vertical-align: middle;
+    width: 15px;
+     -webkit-appearance:none;
+}
+
+
+.box-vehicle2-2{ width: 100%; background:#fff;overflow: hidden;height:45px;line-height: 45px;border-bottom: solid #e1e1e1 1px; border-top:solid 1px #e1e1e1;margin-top: 10px;}
+.box-vehicle2-2 .box-vehicle2-2-1{ float: right;font-style: normal;margin-right: 10px;}
+.box-vehicle2-2 .box-vehicle2-2-2{ float: right;width: 20%; }
+.box-vehicle2-2 .box-vehicle2-2-2 button{ background:0 none; border:0 none;line-height: 45px; width: 100%;  background:#ff5000;font-size: 1.1rem; color:#fff; cursor: pointer;font-size: 1.1rem;}
+
+.box-two-2{ height:400px/9!important;}

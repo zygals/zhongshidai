@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>个人中心-复投审核列表</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/member.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script>
+$(function () {
+	Next();
+});
+function Next() {
+	$.ajax({
+		type: "post", url: "/futoushenhe.html",
+		data: {"pageIndex": $("#lblPageIndex").html()},
+		async: false, dataType: "json", success: function (data) {
+			if (data.code == "1") {
+				if (data.data_info == "") { $(".loadMore").html("<a href=\"javasript:void(0)\">没有更多信息了</a>"); } else {
+					$("#tbody").append(data.data_info);
+					$("#lblPageIndex").html(parseInt($("#lblPageIndex").html()) + 1);
+					//$("#pro_title").html(data.title);
+				}
+			} else {
+				$(".loadMore").html("<a href=\"javasript:void(0)\">没有更多信息了</a>");
+			}
+		}
+	});
+}
+</script>
+</head>
+<body>
+<div class="box-member">
+   <div class="header">
+		<div class="header-1"><a href="/u.html"></a></div>
+		<div class="header-2" id="pro_title">个人中心</div>
+        <div class="header-3"><a href="/"></a></div>
+   </div>
+
+   <div class="box-eleven-kyjifen">
+    <ul>
+    <li>
+	<span><font style=" font-size:1.4rem;">◆</font> 下级会员复投申请</span>
+	</li>
+
+    </ul>
+    </div>
+   <{$html}>
+   <div class="box-member-1">
+		<label id="lblPageIndex" style="display:none;">1</label>
+	    <table class="gridtable" id="tbody">
+			<tbody><tr>
+				<th>申请者ID</th>
+				<th>积分数</th>
+				<th>返还日期</th>
+				<th>申请日期</th>
+                <th>期次</th>
+                <th>倍增数</th>
+                <th>状态</th>
+			</tr></tbody>
+		</table>
+		<div style="text-align:center" class="loadMore"><a href="javasript:void(0)" onclick="Next()">加载更多</a></div>
+   </div>
+   <include file="Public:footer" />
+</div>
+</body>
+</html>

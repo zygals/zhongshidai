@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-消费服务中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/integral transfer.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<!--<script src="__PUBLIC__/js/jquery.params.js"></script>
+<script src="__PUBLIC__/js/j_dou.js"></script>-->
+</head>
+<body>
+<div class="box-ten">
+   <div class="header">
+		<div class="header-1"><a href="/u.html"></a></div>
+		<div class="header-2">消费服务中心</div>
+   </div>
+   <div class="box-ten-1">
+		<form>
+			<div class="a-1">
+				<span>请输入接受会员编号</span>
+			</div>
+			 <div class="a-2">
+				<input type="text" id="j_usernum" style="padding-left:5px;" placeholder="请输入接收会员编号">
+			</div>
+			<div class="a-4">
+				<button type="button" onclick="Get_is_user()">下一步</button>
+			</div>
+		</form> 
+   </div>
+   <include file="Public:footer" />
+</div>
+<script>
+//用户是否存在-倍增
+function Get_is_user() {
+    var proid = $("#j_usernum").val();
+    if (proid.length > 0) {
+		window.location.href = '/ux2/proid/'+proid+'.html';
+        /*$.ajax({
+            type: "post", url: "/app/get_wap_kjt.ashx",
+            data: { "por": "201", "proid": proid, "cateid": 1 },
+            async: false, dataType: "json", success: function (data) {
+                if (data.code == 1) {
+                    window.location.href = data.url;
+                } else { alert(data.msg); }
+            }
+        });*/
+    } else { alert("请输入会员编号"); }
+}
+</script>
+</body>
+</html>

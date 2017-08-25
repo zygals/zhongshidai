@@ -1,0 +1,24 @@
+/* 一下是产品搜索 header-1 是公共应用 */
+
+.box-twelve{  background:#fff; width: 100%;  }
+/* .header{ width: 100%; height:60px; background:#1d75d9;}
+.header-1 a{ display: block; float: left; width: 6.6%;min-width: 20px; background:url(../img/01.gif) no-repeat center; margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1rem;}
+.header-2{ float: left; width: 86.4%;  margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1.66rem; color:#fff;} */
+.box-twelve-1{ width:95%;margin:0 auto; height:220px;overflow: hidden; margin-top: 20px; height:60px; line-height: 60px; border: solid 1px #e5e5e5;background:#e5e5e5;}
+.box-twelve-1 .b-1 span{ width:50%;line-height: 60px; height:60px;float: left; vertical-align: middle; background:#e5e5e5;}
+.box-twelve-1 .b-1 img{display: block; float: left; vertical-align: middle; overflow: hidden;margin-top: 25px; }
+.box-twelve-1 .b-2 input{ border:0 none; width:99%;height:60px;float: left;color:#999;padding-left: 1%;font-size: 1.2rem;background:#e5e5e5;}
+
+.box-twelve-1 .b-1{float: left; width: 15%;text-align: center;background:#e5e5e5;margin-left: 2%;}
+
+.box-twelve-1 .b-2{ float: left; width: 68%; color:#333;background:#e5e5e5;}
+
+.box-twelve-1 .b-4{float: left; width: 15%; text-align: center;}
+
+
+.box-twelve-1 .b-4  button{border:0 ;display:block; width: 100%; margin:0 auto; background:none; font-size: 1.2rem; height: 60px; line-height: 60px; background:#dd2727; color:#fff;
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+      cursor:pointer;
+    } 

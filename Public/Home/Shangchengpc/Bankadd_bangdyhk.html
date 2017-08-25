@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-会员中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/member.css">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script>
+$(function () {
+  Next();
+});
+function Next() {
+  $.ajax({
+    type: "post", url: "./uk.html",
+    data: {"pageIndex": $("#lblPageIndex").html()},
+    async: false, dataType: "json", success: function (data) {
+      if (data.code == "1") {
+        if (data.data_info == "") { $(".loadMore").html("<a href=\"javasript:void(0)\">没有更多信息了</a>"); } else {
+          $("#tbody").append(data.data_info);
+          $("#lblPageIndex").html(parseInt($("#lblPageIndex").html()) + 1);
+          //$("#pro_title").html(data.title);
+        }
+      } else {
+        $(".loadMore").html("<a href=\"javasript:void(0)\">没有更多信息了</a>");
+      }
+    }
+  });
+}
+</script>
+<script type="text/javascript"> 
+function check(){ 
+  var bank_kaohao=$('#bank_kaohao').val();
+  var kaihu_hang=$('#kaihu_hang').val();
+  var kaihu_name=$('#kaihu_name').val();
+  var resz1=new RegExp("\\D");
+  var retszf=new RegExp("^([\u4e00-\u9fa5a-zA-Z0-9]+|[a-zA-Z0-9]+)$");
+  var retszf1=new RegExp("^([\u4e00-\u9fa5a-zA-Z0-9]+)$");
+  var rehz=new RegExp("^[\u4e00-\u9faf]+[\u4e00-\u9faf]$"); 
+  if($.trim(kaihu_name)==''){
+    alert("银行卡开户姓名不能为空，请输入!");
+    document.form1.kaihu_name.value="";
+    document.form1.kaihu_name.focus();
+    return false;
+  }
+  if(!retszf1.test(kaihu_name)){
+    alert("银行卡开户姓名不能输入特殊符号，请输入!");
+    document.form1.kaihu_name.value="";
+    document.form1.kaihu_name.focus();
+    return false;
+  }
+  if(!rehz.test(kaihu_name)){
+    alert("银行卡开户姓名必须输入汉字，请重新输入!");
+    document.form1.kaihu_name.value="";
+    document.form1.kaihu_name.focus();
+    return false;
+  }
+  if($.trim(bank_kaohao)==''){
+    alert("银行卡卡号不能为空，请输入!");
+    document.form1.bank_kaohao.value="";
+    document.form1.bank_kaohao.focus();
+    return false;
+  }
+  if(!retszf1.test(bank_kaohao)){
+    alert("银行卡号不能输入特殊符号，请输入!");
+    document.form1.bank_kaohao.value="";
+    document.form1.bank_kaohao.focus();
+    return false;
+  }
+  if(bank_kaohao.length<13 || bank_kaohao.length>21)
+  {
+    alert("银行卡号输入错误，请重新输入!");
+    document.form1.bank_kaohao.value="";
+    document.form1.bank_kaohao.focus();
+    return false;
+  }
+  if(bank_kaohao.length>=13 && bank_kaohao.length<=21){
+    var fsz=false;
+    for(var $i=1;$i<=bank_kaohao.length;$i++){
+      if(resz1.test(bank_kaohao.substr($i-1,1))){
+        fsz=true;
+        break;
+      }
+    }
+    if(fsz){
+      alert("银行卡号输入错误，请重新输入!");
+      document.form1.bank_kaohao.value="";
+      document.form1.bank_kaohao.focus();
+      return false;
+    }
+  }
+  return true;
+}
+function huifu(){
+  document.form1.parent_name.value="请选择";
+  document.form1.project_name.value="";
+  document.form1.project_file.value="";
+  document.form1.project_name.focus();
+}
+</script>
+
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" /> 
+    
+    <div class="right">
+            <div class="main_right">
+                <div class="shouye_title"><span>绑定银行卡</span></div>
+    <form action="<{:C('PATH_URL')}><{:U('/Bankadd/bangdyhkwr')}>" method="post" name="form1" id="form_hy" onsubmit="return check()">
+          <input type="hidden" value="<{$result[0]['id']}>" name="uid">
+                    <table class="" width="100%" style="margin-left:50px; font-size:16px; margin-top:30px">
+          <tr>
+            <td>
+                        <span>开户姓名：</span>
+                        <input name="kaihu_name" type="text" id="kaihu_name"  style="border-radius:5px;min-width:240px; border:1px solid #ccc;height:30px;line-height:30px;"/>
+            </td>
+          </tr>    
+                     <tr class="">
+            <td height="60">
+              <span >选择银行：</span>
+                            <select name="bank_name" id="bank_name" style="border-radius:5px;border:1px solid #ccc;height:30px;line-height:30px; width:240px;">
+                              <option value="中国工商银行" >中国工商银行</option>
+                              <option value="中国建设银行" >中国建设银行</option>
+                              <option value="中国银行" >中国银行</option>
+                              <option value="中国农业银行">中国农业银行</option>
+                              <option value="中国邮政储蓄银行" >中国邮政储蓄银行</option>
+                              <option value="招商银行" >招商银行</option>
+                              <option value="交通银行" >交通银行</option>
+                              <option value="中信银行" >中信银行</option>
+                              <option value="兴业银行">兴业银行</option>
+                              <option value="中国光大银行" >中国光大银行</option>
+                              <option value="平安银行" >平安银行</option>
+                              <option value="浦发银行" >浦发银行</option>
+                              <option value="中国民生银行">中国民生银行</option>
+                          </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span style="float:left;">银行卡号：</span>                                                                                                 <input type="text" value="" name="bank_kaohao" style="float:left; height:30px;line-height:30px; border-radius:5px;border:1px solid #ccc;min-width:240px;" id="bank_kaohao">
+              <span style="font-size:12px; float:left;  color:#f00; margin:5px 0 0 15px; ">银行卡号为了以后提现使用，请填写后仔细核对！</span>
+              <!--<p id="pd4">银行卡号位数不对！</p>-->
+                            <div style="clear:both;"></div>
+            </td>
+          </tr>
+       
+          <tr class="">
+            <td  height="60" >
+              <input type="submit" name="submit" id="btn_change1" class="btn btn_orange small" value="添加" style="float:left;font-size:16px;height:35px;line-height:35px;border-radius:5px; background-color:#8b0000; border:none; color:#FFF;padding:0;min-width:100px;"/>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        </form>
+
+ <style type="text/css">
+          .tit2{height: 30px;padding-top: 10px;font-size: 14px;text-indent: 0.5em;color: #004675;}
+          .tab2{width: 100%;text-align: center;}
+          .tab2 tr{border-bottom: 1px solid #eee;height: 30px;line-height: 30px;}
+        </style>
+        <h6 class="tit2" style="font-weight:bold; font-size:16px;">已绑定的银行卡：</h6>
+      <table class="tab2">
+        <tr style="background:#eee;font-size: 16px;">
+          <td width="155">银行名称</td>
+          <td width="150">银行卡号</td>
+          <td width="110">开户姓名</td>
+          <td width="100">操作</td>
+        </tr>
+                <foreach name="result2" item="vo" >
+                <tr style="font-size: 16px;">
+            <td width="155"><{$vo.bank_name}></td>
+          <td width="150"><{$vo.bank_kaohao}></td>
+          <td width="110"><{$vo.kaihu_name}></td>
+          <td width="100">
+                      <a href="<{:C('PATH_URL')}><{:U('/Bankadd/bangdyhkedit?id='.$vo['id'])}>" style="color:#F00;" >修改</a>
+                        <span style="padding:0 2px;">|</span>
+                        <a href="<{:C('PATH_URL')}><{:U('/Bankadd/bangdyhk?del=1&id='.$vo['id'])}>">删除</a>
+                    </td>
+                </tr>
+                </foreach>
+      </table>
+
+
+            </div>
+        </div>
+    
+     </div>
+    
+    
+    
+    
+    
+<include file="Public:footer" />
+
+</body>
+</html>

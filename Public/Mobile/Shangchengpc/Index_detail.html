@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-商品详情</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/details.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<link href="__PUBLIC__/css/commstyle.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/details.css">
+<style>
+.pro_box li {
+	color: #ff5000;
+}
+.product_size h5 {
+	padding: 0 10px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+}
+.product_size .product_size_choice {
+	padding: 0 10px;
+}
+.product_size .product_size_choice a {
+	color: #333;
+	border: 1px solid #ccc;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 5px;
+	display: block;
+	float: left;
+	font-size: 12px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.product_size .product_size_choice .select {
+	background: #ff3300;
+	color: #fff;
+	text-decoration: none;
+}
+.productll img{ width:100%}
+</style>
+</head>
+<body>
+<div class="box-four">
+	<div class="box-foura">
+		<div class="header">
+			<div class="header-1"><a href="javascript:history.go(-1)"></a></div>
+			<div class="header-2">商品详情</div>
+		</div>
+		<div class="box-four-1">
+			<div class="hezi" id="pro_img"><p><img src="<{$d.pic_arr}>"><i></i></p></div>
+		</div>
+		<span class="box-four-2" id="pro_name"><{$d.name}></span>
+		<div class="box-four-4">
+			<ul class="pro_box">
+				<li >
+					<label><input type="radio" name="buy_type" value="1" checked>
+						可用积分：<{$d.jifen}> + 现金：<{$d.xianjing}>元</label></li>
+				<li >
+					<label><input type="radio" name="buy_type" value="2">
+						爱国消费积分：<{$d.agxfq}> + 现金：<{$d.xianjing}>元</label></li>
+                <if condition="$d.xf_fl eq 2">
+				<!--	<li id="pro_ProDaiYong">奖励积分：<{$d.jifen}> 积分</li>-->
+				</if>
+				<li id="pro_ProCount">库存剩余：<{$d.sy}></li>
+				<li id="pro_ProSoldCount">已售：<{$d.xiaoshou}></li>
+			</ul>
+		</div>
+		<div class="product_size hidden_add">
+			<h5>商品规格</h5>
+			<div class="product_size_choice hidden_add"><a href="javascript:void(0)" data_sizeprice="3600" data_psguid="<{$d.id}>" class="select"><{$d.guige}></a></div>
+		</div>
+		<div class="box-four-4">
+			<ul>
+				<li>
+					<a href="javascript:void(0)">商家详情</a>
+					<a href="javascript:void(0)" class="r-a">
+						<img src="__PUBLIC__/images/elever-2.gif" height="18" width="10" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="box-four-5">
+			<ul>
+				<li class="box-four-5a">
+					<a href="javascript:void(0)" onclick="GetCartAdd(1)">加入购物车</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" onclick="GetCartAdd(2)">去结算</a>
+				</li>
+			</ul>
+		</div>
+		<span class="box-four-6">商品详情 
+		</span>
+		<div class="box-four-7" id="pro_desc" ><div class="productll"><{$d.content}></div></div>
+		<input type="hidden" id="bh" value="<{$bh}>"><input type="hidden" id="kc" value="<{$d.sy}>">
+	</div>
+	<include file="Public:footer" />
+</div>
+<script>
+function GetCartAdd(add_type) {
+    var bh = $("#bh").val();
+	var kc=$('#kc').val();  //库存量
+	var buy_type = $('input[name="buy_type"]:checked').val();
+	if(bh==''){
+		alert('请先登陆');
+		window.location.href = "/l.html";
+	}
+	if(kc<1){
+		alert('该商品暂时无货，敬请期待');
+		return false;
+	}
+    $.ajax({
+        type: "post", url: "/ga.html",
+        data: {"bh": bh, "countStr": 1, "idStr": $(".product_size_choice .select").attr("data_psGuid"),pay_type:buy_type },
+        async: false, dataType: "json", success: function (data) {
+            if (data.code == 1) {
+                if(add_type==1){
+                    alert("加入成功！");
+                }else{
+                    alert("去购物车结算");
+                    if(buy_type==1){ //积分+现金 购物车
+                        window.location.href = "/gw.html";
+                    }else{
+                        window.location.href = "/gw1.html";
+                    }
+				}
+            } else {
+                alert(data.msg);
+            }
+        }
+    });
+
+}/*
+function GoCartAdd() {
+    var bh = $("#bh").val();
+	var kc=$('#kc').val();
+	if(bh==''){
+		alert('请先登陆');
+		window.location.href = "/l.html";
+	}
+	if(kc<1){
+		alert('该商品暂时无货，敬请期待');
+		return false;
+	}
+    $.ajax({
+        type: "post", url: "/ga.html",
+        data: {"bh": bh, "countStr": 1, "idStr": $(".product_size_choice .select").attr("data_psGuid") },
+        async: false, dataType: "json", success: function (data) {                         
+            if (data.code == 1) {
+                alert("去购物车结算");
+ 				if(data.xf_fl==1){
+                	window.location.href = "/gw1.html";
+                }else{
+                	window.location.href = "/gw.html";
+                }
+
+
+            } else { alert(data.msg); }
+        }
+    });
+
+}*/
+</script>
+</body>
+</html>

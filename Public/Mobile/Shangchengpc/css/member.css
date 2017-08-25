@@ -1,0 +1,35 @@
+/* 一下是积分转账样式 header-1 是公共应用 */
+
+.box-member{  background:#fff; width: 100%;  }
+.box-member-1{ width:100%;margin:0 auto; background:#fff;margin-top: 20px;}
+.box-member-1 {margin-bottom: 90px;width: 100%;}
+.box-member-1 ul li { float: left; width: 25%;text-align: center; height:45px; line-height: 45px;}
+.gridtable{ width: 100%;}
+
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 3px;
+	font-weight:bold;
+    border-color: #e1e1e1;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 3px;
+    padding: 5px; font-size:1.1rem;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #eeeeee;
+}
+table.gridtable td {
+    border-width: 3px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #eeeeee;
+    text-align: center;
+    color:#666;
+}
+.box-fourteen {margin-bottom:100px!important;
+}

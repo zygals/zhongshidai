@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-会员中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/member.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" /> 
+    
+    <div class="right">
+            <div class="main_right">
+                <div class="shouye_title"><span>会员提现</span></div>
+               
+                   <form action="<php> echo U('Drawal/tx');</php>" method="post">
+          <!--id-->
+                    <input type="hidden" value="<{$data['id']}>" name="uid">
+                    <input type="hidden" value="2" name="ss_type">
+                    <table class="table_hover" width="100%" style=" margin-top:30px; margin-left:50px;">
+          <tr class="">
+            <td height="40" style="font-size:16px;">
+              会员姓名：<{$data['user_name']}>
+                        </td>
+          </tr>
+          <tr class="">
+            <td height="40" style="font-size:16px;">
+              会员账户：<{$data['user_login_bh']}>
+            </td>
+          </tr>
+          <tr class="">
+            <td height="40" style="font-size:16px;">
+              提现金额：<input type="text" value="提现金额不能小于10元" name="txye" style="height:30px;line-height:30px; padding-left:8px; width:200px;border-radius:5px;border:1px solid #ccc;" id="remoney" onfocus="if(value=='提现金额不能小于10元') {value=''}"  onBlur="checkxianjin()"><span style="margin-left:10px;color:#f00">元</span>
+            </td>
+          </tr>
+          <tr class="" >
+            <td height="40" style="line-height:30px; font-size:16px;">
+                        提现账户：<select  name="sele" id="option"   style="height:30px; width:400px;line-height:30px;border-radius:5px;border:1px solid #ccc;" onBlur="checkyinhangka()">
+                      <option  value="请选择提现账户"> 请选择提现账户</option> 
+                      <foreach name="card" item="vo" >
+                                 <option  value="<{$vo['bank_kaohao']}>">
+                                 <{$vo['bank_kaohao']}>---<{$vo['kaihu_name']}>---开户行:<{$vo['bank_name']}></option>
+                        </foreach>
+                        </select>
+            </td>
+          </tr>
+          <tr class="">
+            <td  height="80">
+              <input type="submit" name="submit" id="btn_change1" class="btn btn_orange small" value="提现" style="float:left;font-size:18px;height:35px;line-height:35px;border-radius:5px; background-color:#8b0000; border:none; color:#FFF;padding:0;min-width:100px;"/>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        </form>
+        <style type="text/css">
+      .tit2{height: 30px;padding-top: 10px;font-size: 18px;text-indent: 0.5em;color: #004675;}
+      .tab2{width: 95%;text-align: center;}
+      .tab2 tr{border-bottom: 1px solid #eee;height: 30px;line-height: 30px; font-size: 16px;}
+      </style>
+      <h4 class="tit2" style="padding-left:.25rem;font-size:18px;font-weight:700">提现记录</h4>
+      <table class="tab2">
+        <tr style="background:#eee;font-weight:bold;">
+          <td width="150">提现时间</td>
+          <td width="150">提现金额</td>
+          <td width="150">真实姓名</td>
+          <td width="110">状态</td>
+        </tr>
+                <foreach name="tqxj" item="v" >
+                <tr>
+            <td width="150"><?php echo date('Y-m-d',$v['sq_date']); ?></td>
+          <td width="150"><{$v.txye}></td>
+          <td width="150"><{$v.kaihuren}></td>
+          <td width="110">
+                     <if condition="$v.status  eq 0"><span style=" color:red">审核中...</span></if>
+                     <if condition="$v.status  eq 1"><span  style=" color:green">审核成功,正在打款</span></if>
+                     <if condition="$v.status  eq 2"><span  style=" color:#ccc">审核失败</span></if>
+                     <if condition="$v.status  eq 3"><span  style=" color:#F0F">打款成功，请注意查收</span></if>
+                    </td>
+          </tr>
+                </foreach>        
+      </table>            
+            </div>
+        </div>
+    
+     </div>
+    
+    
+    
+    
+    
+<include file="Public:footer" />
+
+</body>
+</html>
+<script>
+function checkxianjin(){
+    var pattern = /^[1-9]*[0-9][0-9]*$/;
+    var remoney = $("#remoney").val();
+    if(remoney.trim() == ''){
+       alert('提现金额不能小于10元');
+    $("#remoney").val('提现金额不能小于10元');  
+        return false;
+    }
+    if(!pattern.test(remoney)){
+        alert('提现金额必须是数字');
+    $("#remoney").val('提现金额不能小于10元'); 
+        return false;
+    }
+  if(remoney<10)
+  {
+    alert('提现金额不能小于10元');
+    $("#remoney").val('提现金额不能小于10元');  
+        return false;
+    }
+}
+</script>
+<script>
+function checkyinhangka(){
+    var option = $("#option").val();
+    if(option=='请选择提现账户'){
+       alert('请您先绑定银行卡');
+        return false;
+    }
+}
+</script>

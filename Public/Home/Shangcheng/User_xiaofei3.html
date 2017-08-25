@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<title><{$config.config_webname}>-消费服务中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/service centre1.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<style>
+select{float: left;
+    display: block;
+    width: 44%;
+    background: #fff;
+    font-size: 1rem;
+    height: 33px;
+    line-height: 35px;
+    border: solid #dfdfdf 1px;
+    color: #999;
+    padding-left: 1%;}
+</style>
+<body>
+<div class="box-personal1">
+   <div class="header">
+		<div class="header-1"><a href="javascript:history.go(-1)"></a></div>
+		<div class="header-2">消费服务中心</div>
+   </div>
+   <div class="box-personal1-1"  style="margin-bottom:120px;">
+		<form>
+			<div class="a-1">
+				<span>输入报单金额：</span>
+				<input type="text" name="mobile" id="j_dou_money" value="<{$point}>"/>
+			</div>
+            
+               <div class="a-1">
+				<span>选择所用的积分：</span>
+				<select name="jifen" id="jifen">
+                   <option id="old" value="1">老系统可用积分</option>
+                   <option id="new" value="2">新系统可用积分</option>
+                </select>
+			</div>
+            
+            
+			<div class="a-1">
+				<span>输入可用积分：</span>
+				<input type="text" name="mobile" id="j_dou_ky"/>
+			</div>
+			<div class="a-1">
+				<span>输入充值积分：</span>
+				<input type="text" name="mobile" id="j_dou_cz"/>
+			</div>
+			<div class="a-1">
+				<span>输入二级密码：</span>
+				<input type="password" name="zfpassword" id="j_dou_code"     placeholder="输入二级密码" />
+			</div>
+			<div class="a-4">
+				<a href="javascript:void(0)"  id="dou_point_sure" onclick="Get_dou_point()"><button type="button">确认</button></a>
+				<input type="hidden" name="mobile" id="proid" value="<{$user.user_login_bh}>"/>
+			</div>
+		</form> 
+   </div>
+   <include file="Public:footer" />
+</div>
+<script>
+function Get_dou_point() {
+    var proid = $("#proid").val();
+	var money = $("#j_dou_money").val();
+	var k= $("#j_dou_ky").val();
+	var c= $("#j_dou_cz").val();
+	var pwd2 = $("#j_dou_code").val();
+	var jifen= $('#jifen').val();
+	
+	
+	var r= $('#riqi').val();
+    if (proid.length > 0) {
+		var n=parseInt(c)+parseInt(k);
+		if(parseInt(money)!=parseInt(n)){
+			alert('输入积分或报单金额有误');
+			return false;
+		}
+		if(money % 10 != 0){
+			alert('报单金额应为10的倍数');
+			return false;
+		}
+		if(c/money<0.3){
+			alert('充值积分不能小于报单金额30%');
+			return false;
+		}
+		if(confirm("确认报单吗")){
+			$.ajax({
+				type: "post", url: "/ux3.html",
+				data: { "t": "b", "proid": proid,'r':r, "money": money ,'k':k,'c':c, "pwd2": pwd2,"jifen":jifen},
+				async: true, dataType: "json", success: function (data) {
+					if (data.code == 1) {
+						alert(data.msg);
+						window.location.href = data.url;
+					} else { alert(data.msg); }
+				}
+			});
+		}
+    } else { window.location.href = "/ux.html"; }
+    return false;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><{$config.config_webname}>-商品页</title>
+		<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+		<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+		<script src="__PUBLIC__/js/jquery-1.11.3.min.js"></script>
+		<!-- 头部广告 -->
+		<script src="__PUBLIC__/js/style.js"></script>
+		<!--banner图-->
+		<script src="__PUBLIC__/js/jquery.flexslider-min.js"></script>
+		<script>
+		$(function(){
+			$('.flexslider').flexslider({
+				directionNav: true,
+				pauseOnAction: false
+			});
+		});
+		</script>
+		<script>
+			function setTab(name,cursel,n){
+			for(i=1;i<=n;i++){
+			var menu=document.getElementById(name+i);
+			var con=document.getElementById("con_"+name+"_"+i);
+			menu.className=i==cursel?"hover":"";
+			con.style.display=i==cursel?"block":"none";
+			}}
+		</script>
+		<!-- 弹出 -->
+		<script type="text/javascript" src="__PUBLIC__/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script src="__PUBLIC__/js/jq.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/function_class.js"></script>
+		<!-- 今日推荐 -->
+		<script type="text/javascript" src="__PUBLIC__/js/scroll.1.3.js"></script>
+		<!-- 切换 -->
+		<script src="__PUBLIC__/js/plugins.L.v1.2.js"></script>
+		<script src="__PUBLIC__/js/howToUse.js"></script>
+		<!-- 内页 -->
+		<script src="__PUBLIC__/js/js.js"></script>
+	<body>
+	<!--头部-->
+	<div class="header">
+
+<include file="Public:header" />
+
+	<div class="nav">
+		<div class="sc1200">
+			<div class="all_nav"><a class="span_all">民族特色大全</a></div>
+			<include file="Public:nav" />
+		</div>
+	</div>
+    
+    
+	<!-- main -->
+	<div class="w1200 fix">
+		<div class="main_fl">
+        
+        
+        
+			<!-- 位置 -->
+			<div class="location_fl">当前位置：<a href="<{:C("PATH_URL")}>">首页</a>  > <span><{$name.name}></span></div>
+			<!-- 信息中心 -->
+			<div class="xinxi_zx">
+				<div id="zSlidera">
+                  	<div id="picshowa">
+                      	<div id="picshow_imga">
+                             <ul>
+                             <li style=" display:block;"><a href=""><img src="<{:C("IMG_URL")}><{$d.pic}>"></a></li>
+								
+                             <php>$k=1;</php> 
+                               <foreach name="pics" item="pics" offset="3" >
+                                <li style="<php>if($k%5==1){ echo 'display:none;';}elseif($k%5==2){ echo 'display:none;';}</php>"><a href=""><img src="<{:C("IMG_URL")}><{$pics}>"></a></li>
+                             <php>$k++;</php>
+                            </foreach>  
+                        
+                            </if>
+                            
+                                    
+                            </ul>
+                      	</div>
+                  	</div>  
+                  	<div id="select_btna">
+                      	<ul class="clearfix">
+                        <li class="current"><img src="<{:C("IMG_URL")}><{$d.pic}>"></li>
+                             <php>$k=1;</php> 
+                            <foreach name="pic" item="pic">
+                                  <li <php>if($k%5==1){ echo 'class=""';}elseif($k%5==2){ echo 'class=""';}</php>><a href=""><img src="<{:C("IMG_URL")}><{$pic}>"></a></li>
+                             <php>$k++;</php>
+                            </foreach>   
+                      	</ul>
+                  	</div>
+        		</div>
+        		<!-- 右侧简介 -->
+        		<div class="zhongjiye_tp_r">
+                	<h3><a href="#"><{$d.name}></a></h3>
+                    <div class="zhongjiye_wz clearfix">
+                    	<div class="zhongjiye_jiege clearfix">
+                        	<span>需要现金</span><h4>¥ <{$d.xianjing}></h4>
+                        </div>
+                    </div>
+                    <div class="zhongjiye_wz clearfix">
+                    	<div class="zhongjiye_jiege clearfix">
+                        	<if condition="$d.xf_fl eq 1"><span>爱国消费积分</span>
+    <else /> <span>可用积分</span>
+</if><h4><{$d.jifen}> 积分</h4></li>
+                        </div>
+                    </div>
+             <!--      <if condition="$d.color == ''">
+                   <else /> 
+
+                    <div class="zhongjiye_cmd clearfix">
+                    	<div class="zhongjiye_cmzs clearfix">
+                        	<span class="zhongjiye_cm">颜色</span>
+                        	<ul>
+                            	
+                                <{$d.color}>
+                                
+                                <li class="curse" id="c_s_1" onclick="s2(1,10)"></li>
+                                <li id="c_s_2" onclick="s2(2,10)"></li>
+                                <li id="c_s_3" onclick="s2(3,10)"></li>
+                                <li id="c_s_4" onclick="s2(4,10)"></li>
+                                <li id="c_s_5" onclick="s2(5,10)"></li>
+                                <li id="c_s_6" onclick="s2(6,10)"></li>
+                                <li id="c_s_7" onclick="s2(7,10)"></li>
+                          
+                          
+                            </ul>
+                        </div>
+                    </div>
+                
+                 </if> --> 
+                   
+                   
+                    <div class="zhongjiye_sl clearfix">
+                    	<div class="zhongjiye_nums">数量</div>
+                        <div class="zhongjiye_n_r clearfix">
+                        	<table id="tab">
+                                <tbody><tr>
+                                        <td>
+                                            <div class="zhongjiye_qh clearfix">
+                                                <span class="zhongjiye_mouse">-</span>
+                                                    <input type="text" id="num" class="tzhongjiye_xts" value="1">
+                                                <span class="zhongjiye_plus">+</span>
+                                            </div>
+                            			</td>
+                                    </tr>
+                                </tbody></table>
+                            <div class="zhongjiye_kcjs">库存<span><{$d.kucun}></span>件</div>
+                        </div>
+                    </div>
+                    <div class="zhongjiye_gm">
+                    	<div class="zhongjiye_ljgm"><a href="javascript:void(0)" onclick="GetCartAdd()">立即购买</a></div>
+                        <div class="zhongjiye_jrgwc"><a href="javascript:void(0)" onclick="GoCartAdd()">加入购物车</a></div>
+                    </div>
+                </div>
+			</div>
+            
+            
+            
+            <input type="hidden" id="id" value="<{$d.id}>">
+            <input type="hidden" id="bh" value="<{$bh}>"><input type="hidden" id="kc" value="<{$d.sy}>">
+            
+ <script>
+function GetCartAdd() {
+    var bh = $("#bh").val();
+	
+	var kc=$('#kc').val();
+	
+	if(bh==''){
+		alert('请先登陆');
+		window.location.href = "<{:C('PATH_URL')}>/l.html";
+	}
+	if(kc<1){
+		alert('该商品暂时无货，敬请期待');
+		return false;
+	}
+    $.ajax({
+        type: "post", url: "/ga.html",
+        data: {"bh": bh, "countStr": $("#num").val(), "idStr": $("#id").val() },
+        async: false, dataType: "json", success: function (data) {
+            if (data.code == 1) {
+                alert("加入成功！");
+                if(data.xf_fl==1){
+                	window.location.href = "<{:C('PATH_URL')}>/gw1.html";
+                }else{
+                	window.location.href = "<{:C('PATH_URL')}>/gw.html";
+                }
+
+            } else { alert(data.msg); }
+        }
+    });
+
+}
+function GoCartAdd() {
+    var bh = $("#bh").val();
+	var kc=$('#kc').val();
+	if(bh==''){
+		alert('请先登陆');
+		window.location.href = "<{:C('PATH_URL')}>/l.html";
+	}
+	if(kc<1){
+		alert('该商品暂时无货，敬请期待');
+		return false;
+	}
+    $.ajax({
+        type: "post", url: "<{:C('PATH_URL')}>/ga.html",
+        data: {"bh": bh, "countStr": $("#num").val(), "idStr":  $("#id").val() },
+        async: false, dataType: "json", success: function (data) {                         
+            if (data.code == 1) {
+                alert("去购物车结算");
+ 				if(data.xf_fl==1){
+                	window.location.href = "<{:C('PATH_URL')}>/gw1.html";
+                }else{
+                	window.location.href = "<{:C('PATH_URL')}>/gw.html";
+                }
+
+
+            } else { alert(data.msg); }
+        }
+    });
+
+}
+</script>
+            
+            
+			<!-- 商品详情 -->
+            
+			<div class="spxq">
+		<!--	
+				<div class="spxq_con">
+					<table cellspacing="0" cellpadding="0" width="100%">
+						<tr>
+							<td>件数: 28件 4件 56件 60件 8件</td>
+							<td>颜色分类: 太阳岛28件配汤碗 太阳岛28</td>
+							<td>画芯材质: 宣纸</td>
+						</tr>
+						<tr>
+							<td>茶餐具工艺: 釉上彩</td>
+							<td>风格: 中式</td>
+							<td>颜色分类: 手绘真迹</td>
+						</tr>
+						<tr>
+							<td>适用人数: 10人及以上</td>
+							<td>材质: 45%以上骨粉骨瓷</td>
+							<td>图案: 风景</td>
+						</tr>
+						<tr>
+							<td>主图来源: 自主实拍图</td>
+							<td></td>
+							<td>货号: 20160607</td>
+						</tr>
+					</table>
+				</div>-->
+				<!-- 同套商品推荐 -->
+				<!--<div class="xfqzq fix">
+					<div class="ttsp_top">
+						<span><a href="#">同套商品推荐</a></span>
+						<div class="more"><a href="#">更多&gt;</a></div>
+					</div>
+					<div class="xfqzq_bot" id="ttsp_con">
+						<ul>
+						            <php>$k=1;</php> 
+                    
+               <foreach name="leilist" item="lei">
+                   
+                        <li <php>if($k%5==1){ echo 'class="xfqzq_fir"';}</php>>
+							<a href="/d/b/<{$lei.id}>.html" class="img_wrap"><img src="<{$lei.pic}>" width="222" height="222" border="0"></a>
+							<div class="text-area">
+								<p><a href="/d/b/<{$lei.id}>.html"><{$lei.name|msubstr=0,23}></a></p>
+								<div class="text_price">¥<{$lei.xianjing}><span class="p-num">+<{$lei.jifen}>积分</span></div>
+							</div>
+						</li>
+					<php>$k++;</php>
+					</foreach>
+					
+						</ul>
+					</div>
+				</div>-->
+				
+                
+                
+                <!-- 同类商品推荐 -->
+				<div class="xfqzq fix" style="border:1px solid #e8e8e8;">
+					<div class="ttsp_top" style="border-bottom:1px solid #e8e8e8; padding-left:10px;">
+						<span><a href="<{:C("PATH_URL")}>/p/m/<{$fid}>.html">同类商品推荐</a></span>
+						<div class="more" style="margin-right:15px;"><a href="<{:C("PATH_URL")}>/p/m/<{$fid}>.html">更多&gt;</a></div>
+					</div>
+					<div class="xfqzq_bot" id="tlsp_con" style="margin-left:5px;">
+						<ul>
+							
+                         <php>$k=1;</php> 
+                    
+               <foreach name="leilist" item="lei">
+                   
+                        <li <php>if($k%5==1){ echo 'class="xfqzq_fir"';}</php>>
+							<a href="<{:C("PATH_URL")}>/d/b/<{$lei.id}>.html" class="img_wrap"><img src="<{:C("IMG_URL")}><{$lei.pic}>" width="220" height="220" border="0"></a>
+							<div class="text-area">
+								<p><a href="<{:C("PATH_URL")}>/d/b/<{$lei.id}>.html"><{$lei.name|msubstr=0,23}></a></p>
+								<div class="text_price">¥<{$lei.xianjing}><span class="p-num">+<{$lei.jifen}>积分</span></div>
+							</div>
+						</li>
+					<php>$k++;</php>
+					</foreach>
+						
+                        
+                        
+                        </ul>
+					</div>
+				</div>
+				<!-- 详情页面 -->
+				<div style="border:1px solid #e8e8e8; margin-top:15px;">
+                <div class="spxq_top"><h3>商品详情</h3></div>
+                <div class="xiangqing" style="padding:30px; letter-spacing:3px; line-height:30px;"><{$d.content}></div>
+			
+                 </div>      
+            
+            </div>
+		</div>
+        
+        
+        
+        
+		<include file="Gwzxxx:right" />
+	</div>
+	<!-- footer -->
+    
+    
+<include file="Public:footer" />
+	</body>
+</html>

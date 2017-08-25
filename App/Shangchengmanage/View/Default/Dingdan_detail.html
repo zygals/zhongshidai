@@ -1,0 +1,123 @@
+<include file="Admin:header" />
+<style>
+.form dt {line-height: 8px;}
+.form  input { margin-left:12px;}
+</style>
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">添加分类</div></td>
+      </tr>
+    </table>
+<div class="main">
+<form method="post" name="zzjs_net">
+<input type="hidden" name="id" value="<{$data.id}>" />
+	<div class="form">
+		<dl>
+			<dt> 订单号：</dt>
+			<dd>
+				<{$data.dingdanhao}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 会员：</dt>
+			<dd>
+				<{$user.user_name}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 会员编号：</dt>
+			<dd>
+				<{$user.user_login_bh}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 商品：</dt>
+			<dd>
+				<foreach name="goods" item="v">
+				<div>
+					<div style="float:left;"><img src="<{$v.pic1}>" style="width:72px;height:72px;"></div>
+					<div style="float:left;margin-left:10px;line-height:35px;">
+						<div><{$v.name}>:<{$v.guige}></div>
+						<div><{$v.jifen}>*<{$v.num}></div>
+					</div>
+				</div>
+				</foreach>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 订单总额：</dt>
+			<dd>
+				<{$data.yingfukuan}>积分
+			</dd>
+		</dl>
+		<dl>
+			<dt> 奖励积分：</dt>
+			<dd>
+				<{$data.jianglijifen}>积分
+			</dd>
+		</dl>
+		<dl>
+			<dt> 收货人姓名：</dt>
+			<dd>
+				<{$dizhi.name}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 收货电话：</dt>
+			<dd>
+				<{$dizhi.mobile}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 收货人邮编：</dt>
+			<dd>
+				<{$dizhi.youbian}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 收货地址：</dt>
+			<dd>
+				<{$dizhi.sheng}> <{$dizhi.shi}> <{$dizhi.qu}> <{$dizhi.dizhi}> 
+			</dd>
+		</dl>
+		<dl>
+			<dt> 订单状态：</dt>
+			<dd>
+				<{$data.dtype}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 商品状态：</dt>
+			<dd>
+            <input type="radio" name="box[]"  value="0" <if condition="$data['good_type'] eq 0"> checked="checked" </if>/>待发货
+            <input type="radio" name="box[]"  value="1"<if condition="$data['good_type'] eq 1"> checked="checked" </if>/>待收货
+            <input type="radio" name="box[]"  value="2"<if condition="$data['good_type'] eq 2"> checked="checked" </if>/>已完成
+            <input type="radio" name="box[]"  value="3" <if condition="$data['good_type'] eq 3"> checked="checked" </if>/>退货
+			</dd>
+		</dl>
+        <dl>
+			<dt> 备注信息：</dt>
+			<dd>
+				<{$data.beizhu}>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 提交时间：</dt>
+			<dd>
+				<{$data.date|date='Y-m-d H:i:s',###}>
+			</dd>
+		</dl>
+		<div class="form_b">
+			<input type="submit" class="btn_blue"  value="发 货">
+		</div>
+	</div>
+    </form>
+</div>
+<include file="Pubilc:copyright" />
+<script>
+function fh(a){
+	window.location.href='__URL__/fahuo/id/'+a;
+}
+</script>
+</body>
+</html>

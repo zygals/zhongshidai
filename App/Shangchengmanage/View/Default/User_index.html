@@ -1,0 +1,117 @@
+<include file="Admin:header" />
+<script src="__PUBLIC__/js/common.js" type="text/javascript"></script>
+ <script type="text/javascript">
+  function clear_del()
+  {
+   if(confirm("确定要删除数据吗？"))
+   {
+	subform('__URL__/delall');
+   }
+  }
+ </script>
+        <style>
+            .green-black div { position: relative}
+            .input_page { margin-top: 15px;}
+            .input_page input { border: 1px solid #dcdcdc;    width: 50px;    height: 23px;   line-height: 24px; vertical-align: middle}
+
+            </style>
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">会员管理</div></td>
+      </tr>
+    </table>
+<div class="main">
+    <div class="operate">
+        <div class="left">
+            <input type="button" onclick="window.open('__URL__/add','main')" target="main" class="btn_blue" value="添加">
+        </div>
+       
+        <div class="left_pad">
+            <form method="get" action="__URL__/search">
+                <input type="text" name="keyword" title="关键字" class="inp_default" value="">
+                <input type="hidden" name="formhash" value="231cb4d8" />
+                <input type="submit" class="btn_blue" value="查  询">
+            </form>
+        </div>
+       
+    </div>
+    <div class="list">    
+    <form action="<{:U(GROUP_NAME.'/Member/delAll')}>" method="post" id="form_do" name="form_do">
+        <table width="100%">
+            <tr>
+                <th>编号</th>
+                <th>会员名字</th>
+               
+                <th>会员等级</th>
+                <th>上级会员</th>
+                <th>上二级会员</th>
+				<th>可用积分</th>
+				<th>待用积分</th>
+				<th>分享积分</th>
+				<th>充值积分</th>
+                <th>赠送积分</th>
+				<th>注册时间</th>
+              
+                <th>操作</th>
+            </tr>
+			<empty name="vlist">
+			<tr>
+			<td colspan="10"><div align="center">本区域暂无数据显示...</div></td>
+			</tr>
+			<else /> 
+			
+			<volist name='vlist' id='v'>
+            <tr>
+                <td><{$v.user_login_bh}></td>
+                <td><a href="/u/b/<{$v.user_login_bh}>.html" target="_blank"><{$v.user_name}></a></td>
+               
+                <td><{$v.dj}></td>
+                <td><if condition="$v['sj']"><{$v.sj}><else/>无</if></td>
+                <td><if condition="$v['sj2']"><{$v.sj2}><else/>无</if></td>
+				<td><{$v.user_keyongjf}></td>
+				<td><{$v.user_daiyongjf}></td>
+				<td><{$v.user_fenxiangjf}></td>
+				<td><{$v.user_baodanjifen}></td>
+                <td><{$v.user_zengsongjifen}></td>
+                
+				<td><{$v.user_regdate|date='Y-m-d H:i:s',###}></td>
+                
+                <td>
+                    <a href="__URL__/zengsong/id/<{$v.id}>">赠送</a>
+					<a href="__URL__/chongzhi/id/<{$v.id}>">充值</a>
+					<a href="__URL__/zhuanru/id/<{$v.id}>">转入</a>
+                    <a href="__URL__/baodan/id/<{$v.id}>">报单</a>
+                    
+                    <a href="__URL__/detail/id/<{$v.id}>">编辑</a>
+					<a href="__URL__/jifen/id/<{$v.id}>">积分</a>
+					<a href="__URL__/del/id/<{$v.id}>">删除</a>
+				</td>
+                
+               
+              
+              
+            </tr>
+              
+            </volist>
+			</empty> 
+			
+        </table>
+		 <div class="green-black"><{$page}><div class='input_page'>请输入页码<input size='6' type='text' id='z'  value="<?php echo $_GET['p']?>" ><a class='tiaozhuan' style="vertical-align:middle;" href="<?php echo $module_name;?>"/p/10 >跳转</a></div></div>
+    </form>
+    </div>
+</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>
+
+
+<script type="text/javascript">
+    module_name = "<?php echo $module_name;?>";
+    jQuery(function(){
+        $("#z").blur(function(){
+         page = $('#z').val();
+         m_name = module_name+"/p/"+page;
+            $(".tiaozhuan").attr("href",m_name);
+        });
+    })
+</script>

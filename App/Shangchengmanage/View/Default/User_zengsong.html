@@ -1,0 +1,41 @@
+<include file="Admin:header" />
+
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">赠送积分</div></td>
+      </tr>
+    </table>
+<style>
+.anniu{float:left;padding:5px 8px;background:#68CE4A;color:#fff;margin-right:15px;font-size:16px;}
+</style>
+<div class="main">
+	
+
+	<div class="form" style="">
+		<form method='post' id="form_do" name="form_do" action="__URL__/do_zengsong/p/<?php echo I("get.p"); ?>">
+          
+		<dl>
+			<dt>用户名：</dt>
+			<dd>
+				<span style="line-height: 30px; font-size: 15px;"><{$v.user_name}>&nbsp;(<{:getUserType($v[user_dengji])}>)</span>
+			</dd>
+		</dl>
+		
+		<dl>
+			<dt>赠送积分：</dt>
+			<dd>
+				<input type="text" name="user_zengsongjifen" id="user_zengsongjifen" class="inp_one" value=""/>
+			</dd>
+		</dl>
+		
+		<br/>
+		<div class="form_b">
+			<input type="hidden" name="id" value="<{$v.id}>" />			
+			<input type="submit" class="btn_blue" id="submit" value="提 交">
+		</div>
+	   </form>
+	</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>
+    

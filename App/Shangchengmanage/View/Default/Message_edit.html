@@ -1,0 +1,46 @@
+<include file="Admin:header" />
+
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">修改信息</div></td>
+      </tr>
+    </table>
+   <style>
+  .hyxx ul li{ float:left; margin-left:20px; line-height:25px; width:210px;}
+    </style>
+<div class="main">
+	<div class="form">
+    <volist name='xg' id='vo'>
+		<form method='post' id="form_do" name="form_do" action="__URL__/do_edit/<{$vo.id}>">
+		<dl>
+			<dt>信息标题：</dt>
+			<dd>
+				<input type="text" name="mess_title" class="inp_one" value="<{$vo.gb_title}>"/>
+			</dd>
+		</dl>
+		<dl>
+			<dt>信息内容：</dt>
+			<dd>
+                <textarea name="mess_cont" class="inp_one" style=" height:150px; width:300px;" ><{$vo.gb_content}></textarea>
+			</dd>
+		</dl> 
+        
+		<div class="form_b">
+			<input type="hidden" name="id" value="<{$vo.id}>" />
+			<input type="submit" class="btn_blue" id="submit" value="修  改">
+		</div>
+      </volist>
+      <div class="hyxx"style=" margin-top:20px; overflow: hidden;">
+              <ul>
+               <volist name='hy' id='vo'>
+                 <li><input type="checkbox"  name="seleid[]" value="<?php echo $vo['user_login_bh'];?>" /> <{$vo.user_login_bh}> （<{$vo.user_name}>）</li>
+              </volist>
+           </ul>
+           </div>
+	   </form>
+       </div>
+	</div>
+	
+<include file="Pubilc:copyright" />
+</body>
+</html>

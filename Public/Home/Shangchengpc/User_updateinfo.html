@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-会员中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/personal information.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/personal center.css">
+
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script>
+function updateUser() {
+
+  $('#form').submit();
+}
+</script>
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" /> 
+    
+    <div class="right">
+            <div class="main_right">
+                <div class="shouye_title"><span>修改个人信息</span></div>
+                <div class="box-nine-1">
+    <form method='post' id="form" action="./uu.html" onsubmit="return checktwo()" enctype ="multipart/form-data">
+        
+       <div class="a-1">
+        <span>用户名：</span>
+       <input type="text" name="bh" readonly id="txtUserName" value="<{$user.user_login_bh}>" style="border:none;"/>
+      </div>
+            
+        <div class="a-1">
+        <span>头像：</span>
+                <img src="<{:C("IMG_URL")}><{$user['user_logo']|default='__PUBLIC__/images/elever-1.gif'}>" style="float:left; width:93px; height:93px;">
+                </div>
+            <div class="a-1">
+        <span>上传头像：</span>
+        <input type="file" name="touxiang" style="border:none;"/>
+      </div>
+   
+      <div class="a-1">
+        <span>会员姓名：</span>
+        <input type="text" name="name" id="txtUserRealName" readonly value="<{$user.user_name}>" style="border:none;"/>
+      </div>
+            
+            <div class="a-1">
+        <span>身份证号码：</span>
+        <input type="text" name="user_idcard" readonly id="txtUserTel" value="<{$user.user_idcard}>" style="border:none; width:200px;"/>
+      </div>
+             <div class="a-1">
+        <span>年龄：</span>
+        <input type="text" name="user_nianling" readonly id="txtUserTel" value="<{:CalculateAge($user['user_idcard'])}>" style="border:none;"/>
+      </div>
+            
+            <div class="a-1">
+        <span>性别：</span>
+       <input type="text" name="sex" readonly id="txtUserName" value="<{:CalculatedSex($user['user_idcard'])}>" style="border:none;"/>
+      </div>
+            
+             <div class="a-1">
+        <span>出生日期：</span>
+        <input type="text" name="user_chusheng" readonly id="txtUserTel" value="<{:CalculateBirthday($user['user_idcard'])}>" style="border:none;"/>
+      </div>
+            
+             <div class="a-1">
+        <span>民族：</span>
+         <input type="text" name="user_minzu" id="txtminzu" value="<{$user.user_minzu}>" onblur="checkminzu()"/>
+      </div>
+            
+            
+      <div class="a-1">
+        <span>手机号码：</span>
+        <input type="text" name="user_phone" id="txtUserTel" readonly value="<{$user.user_phone}>"/>
+      </div>
+            <div class="a-1">
+        <span>E-mail：</span>
+        <input type="text" placeholder="E-mail" name="user_email" id="t_useremail" value="<{$user.user_email}>" onblur="checkemail()"/>
+      </div>
+            <div class="a-1">
+        <span>邮政编码：</span>
+      <input type="text" placeholder="邮政编码" name="user_postcode" id="t_postcode" value="<{$user.user_postcode}>" onblur="checkyzbm()"/>
+      </div>
+      <div class="a-1">
+        <span>详细地址：</span>
+        <input type="text" placeholder="地址" name="user_address" id="txtUserAddress" value="<{$user.user_address}>" onblur="checkaddress()"/>
+      </div>
+      
+    
+      <div class="a-4">
+        <button type="button"  onclick="updateUser()" >确认修改</button>
+      </div>
+    </form> 
+   </div>
+            </div>
+        </div>
+    
+     </div>
+<include file="Public:footer" />
+
+</body>
+</html>
+<script>
+function checkminzu(){
+    var mz=/^[\u4e00-\u9fa5]{0,16}$/gi;
+    var minzu = $("#txtminzu").val();
+   if(minzu.trim() == ''){
+     alert("民族不能为空");
+     return false;
+     }
+     else if(!mz.test(minzu)){
+       alert("民族只能为汉字");
+       return false;
+       }else
+         {
+       return true;
+       }
+}
+function checkemail(){
+    var emz=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var email=$("#t_useremail").val();
+   if(email.trim() == ''){
+     alert("E-mail不能为空");
+     return false;
+     }else if(!emz.test(email)){
+       alert("E-mail格式不正确");
+       return false;
+       }else
+         {
+       return true;
+       }
+}
+function checkyzbm(){
+   var yzbm=/^[1-9]\d{5}$/;;
+    var zcode = $("#t_postcode").val();
+  
+   if(zcode.trim() == ''){
+     alert("邮政编码不能为空");
+     return false;
+     }else if(!yzbm.test(zcode)){
+       alert("邮政编码为非0开头的6位数字");
+       return false;
+       }else
+         {
+         return true;
+         }
+}
+function checkaddress(){
+    var addss=/^[\u4e00-\u9fa5]{2,16}$/gi;
+    var address = $("#txtUserAddress").val();
+   if(address.trim() == ''){
+     alert("详细地址不能为空");
+     return false;
+     }else
+         {
+       return true;
+       }
+}
+function checktwo()
+{
+return checkminzu() && checkemail() && checkyzbm() && checkaddress();
+  
+  }
+
+</script>

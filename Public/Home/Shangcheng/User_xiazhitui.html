@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title id="mem_title"><{$zj}> 的直推会员</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/member.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<!--<script src="__PUBLIC__/js/jquery.params.js"></script>-->
+<script>
+$(function () {
+	/*var proid = $.query.get("proid");
+	$.ajax({
+		type: "post", url: "/app/get_wap_kjt.ashx",
+		data: { "por": 125, "proid": proid },
+		async: false, dataType: "json", success: function (data) {
+			if (data["state"] == "1") {
+				$("#mem_title,.header-2").html(data.name);
+				$("#tbody").html(data["data"]);
+			}
+		}
+	});*/
+});
+</script>
+</head>
+<body>
+<div class="box-member">
+	<div class="header">
+		<div class="header-1"><a href="javascript:history.go(-1)"></a></div>
+		<div class="header-2"><span style="color:#0C73AA;"><{$zj}></span> 的直推会员</div>
+	</div>
+	<div class="box-member-1">
+
+		<table class="gridtable" id="tbody"> 
+			<tr><th>会员序号</th><th>会员编号</th> <th>会员姓名</th><th>手机号码</th><th>直推会员</th></tr>
+			<foreach name="zt" item="v">
+			<tr>
+				<td><{$v.xh}></td>
+				<td><{$v.user_login_bh}></td>
+				<td><{$v.user_name}></td>
+				<td><{$v.user_phone}></td>
+				<td onclick="javascript:window.location.href='/uxz/bh/<{$v.user_login_bh}>.html'" style="color:#0C73AA;">直推会员</td></tr> 
+			</foreach>
+		</table>
+	 
+   </div>
+   <include file="Public:footer" />
+</div>
+</body>
+</html>

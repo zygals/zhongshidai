@@ -1,0 +1,41 @@
+<include file="Admin:header" />
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">发送信息</div></td>
+      </tr>
+    </table>
+    <style>
+    .hyxx ul li{ float:left; margin-left:20px; line-height:25px; width:210px;}
+    </style>
+<div class="main" style=" height: auto; ">
+	<div class="form">
+		<form method='post' id="form_do" name="form_do" action="__URL__/do_add" enctype="multipart/form-data">
+		<dl>
+			<dt>信息标题：</dt>
+			<dd>
+				<input type="text" name="mess_title" class="inp_one" />
+			</dd>
+		</dl>
+		<dl>
+			<dt>信息内容：</dt>
+			<dd>
+                <textarea name="mess_cont" class="inp_one" style=" height:150px; width:300px;" ></textarea>
+			</dd>
+		</dl>
+        <div class="form_b" style="padding: 10px 15px 0px 15px; margin-left:150px;">		
+			<input type="submit" class="btn_blue" id="submit" value="发  送" style=" border-radius:5px; ">
+		</div>
+		  <div style=" margin-top:20px; color:red; font-size:15px;">选择要发送的会员(若不选择指定会员，则默认为群发！)</div>
+           <div class="hyxx"style=" margin-top:20px; overflow: hidden;">
+              <ul>
+               <volist name='hy' id='vo'>
+                 <li><input type="checkbox"  name="seleid[]" value="<?php echo $vo['user_login_bh'];?>" /> <{$vo.user_login_bh}> （<{$vo.user_name}>）</li>
+              </volist>
+           </ul>
+           </div>
+	   </form>
+	</div>
+</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>

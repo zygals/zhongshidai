@@ -1,0 +1,39 @@
+
+/* 以下是购物中心样式表 */
+
+.box-two{background:#eeeeee; width: 100%;}
+.box-two-1{ display: block; height: 60px; background:#fff; line-height: 60px;padding:0% 2%;margin-top: 10px;overflow: hidden;} 
+.box-two-1 i{float: left; width: 22px; height: 60px; background:url(../images/two-2.gif)no-repeat  center; background-size: 100% ; } 
+ .box-two-1-2 i{float: left; width: 22px; height: 60px; background:url(../images/two-1.gif)no-repeat  center; background-size: 100% ; } 
+.box-two-1 h5{padding-left: 10px;float: left;} 
+
+.box-two-3{ width: 95.85%; margin:0 auto; ,margin-top: 10px; overflow: hidden;margin-top: 10px;}
+.box-two-3 ul li{ float: left; padding-left: 3%; padding-right: 3%; background:#dd2727; margin-right: 1%; height: 38px; line-height: 36px;
+ -moz-border-radius: 10px;      /* Gecko browsers */
+    -webkit-border-radius: 10px;   /* Webkit browsers */
+    border-radius:10px;            /* W3C syntax */
+      cursor:pointer;
+      font-size: 0.9rem;
+      color:#fff;
+      margin-bottom: 10px;}
+.box-two-3 i img{ vertical-align: middle;}
+.box-two-3 ul li a{ color:#fff;}
+
+
+.box-two-2{ overflow: hidden;}
+
+.box-two-5{width: 95.85%; margin:0 auto; ,margin-top: 10px;  margin-bottom: 20px;overflow: hidden;  padding-bottom: 50px;}
+.box-two-5 ul{ margin-top: 10px;}
+.box-two-5 ul li{ float: left; padding-left: 3%; padding-right: 3%; background:#dd2727; margin-right: 1%; height: 38px; line-height: 36px;
+ -moz-border-radius: 10px;      /* Gecko browsers */
+    -webkit-border-radius: 10px;   /* Webkit browsers */
+    border-radius:10px;            /* W3C syntax */
+      cursor:pointer;
+      font-size: 0.9rem;
+      color:#fff;
+      margin-bottom: 10px;}
+.box-two-5 i img{ vertical-align: middle;}
+.box-two-5 ul li a{ color:#fff;}
+.box-twoa{overflow: hidden; margin-bottom: 10px; clear:both;  height: auto;}
+
+/* .box-two-2 img{display: block; height:200px!important;} */

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>忘记密码</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/denglu.css" />
+	<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+	<script src="__PUBLIC__/js/rem.js"></script>
+    <script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script> 
+	<style>
+	body{ background: #f6f6f6 }
+	</style>
+</head>
+<body>
+<div class="zc_top">
+	<span><a href="#"><img src="__PUBLIC__/images/zc_top_back.png" alt=""></a></span>
+	<h2>忘记密码</h2>
+	<samp><a href="#"><img src="__PUBLIC__/images/zc_top_home.png" alt=""></a></samp>
+</div>
+<div class="wjmm_zz">
+	<form  method='post' id="form" action="<php> echo U('Index/changePass');</php>">
+		<div class="sjhm">
+        <div class="zuoce">
+        <span>请输入新密码：</span>
+        </div>
+        <input type="password" name="pass"  id="pass" placeholder="请输入密码"/>
+        </div>
+        
+		<div class="sjhm" id="wj_yzm">
+        <div class="zuoce">
+        <span>再次输入新密码：</span>
+        </div>
+        <input type="password" name="pass2"  id="pass2" placeholder="请输入确认密码"/>
+        </div>
+		<div class="xiayibu"><input type="button" value="确 认" onclick="get_pass()"></div>
+	</form>
+</div>
+
+<script type="text/javascript">
+
+function get_pass(){
+
+    var ckpassword =  /^[0-9A-Za-z]{6,20}$/;
+    var   pass=$("#pass").val();
+
+	if(pass.trim() == '')
+    {
+        alert('请输入密码');
+        
+        return false;
+    }else if(!ckpassword.test(pass))
+    {
+
+        alert('请输入6~20位数字加字母密码！');
+
+        return false;
+    }
+	
+	
+	
+	var  pass = $("#pass").val();
+	var  pass2 = $("#pass2").val();
+    if(pass2.trim() == '')
+    {
+        alert('请输入确认密码');
+       
+        return false;
+    }else if(pass != pass2)
+    {
+
+        alert('两次密码不一致！');
+        
+    
+        return false;
+    }
+	$('#form').submit();
+}
+</script>
+</body>
+</html>

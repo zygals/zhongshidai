@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><{$config.config_webname}>-登录</title>
+<link href="__PUBLIC__/css/default.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/mzts.css" rel="stylesheet" type="text/css" />
+ <script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script> 
+	<script src="__PUBLIC__/js/rem2.js"></script>
+</head>
+<body>
+<body >
+<div class="header">
+  <div class="contaner">
+    <ul class="hli"> 
+      <li><a href="<{:C("PATH_URL")}>/u.html">我的中心</a></li>
+      <li><a href="/" target="_blank">手机版</a></li>
+      <li><a href="<{:C("PATH_URL")}>/gw.html">积分购物车</a></li>
+       <li><a href="<{:C("PATH_URL")}>/gw1.html">爱国消费券购物车</a></li>
+      <li><a href="#" style="border:none;">联系客服</a></li>
+      <li class="load"> <a href="<{:C("PATH_URL")}>/l.html">[登录]</a> <a href="<{:C("PATH_URL")}>/r.html">[注册]</a></li>
+    </ul>
+    <span class="name">您好，欢迎来到中时代民族特色积分商城</span></div>
+</div>
+<div class="main">
+  <div class="contaner">
+    <div class="banner">
+        <p class="logo"><a href="#"><img src="__PUBLIC__/images/logo.png" /></a>
+        	<div class="clear"></div>
+        </p>
+        <p class="position" >您所在位置：<a href="#">中时代民族特色积分商城</a> > <a href="./l.html">登录</a></p>  
+        <div class="clear"></div>	
+    </div>
+  	<div class="hygg">
+    	<form name="form" method="post"  action="./l.html" >
+        	<div class="table">
+              <div class="first">会员登录</div>
+              <div>
+                <span><img src="__PUBLIC__/images/bd1.jpg"/></span>
+                <input type="text" name="bh" id="bh" class="bianhao" value="<{$bh}>"  placeholder="登录编号" />
+              </div>
+              <div>
+                <span><img src="__PUBLIC__/images/bd2.png"/></span>
+                <input type="password" name="pass"  id="pass" class="bianhao" value="" placeholder="请输入密码"/>
+              </div>
+              <div>
+              
+              
+            
+              
+              
+                <span><img src="__PUBLIC__/images/bd3.png"/></span>
+                <input class="one" name="verify" id="num" type="text" placeholder="请输验证码"/>
+                <span><a href="#"><img class="verifyimg reloadverify" src="/Shangchengmanage/Login/verify.html" alt="" width="86" height="36"></a></span>
+              </div>
+              <div class="last"><input id="submit" type="submit" value="登录" onclick="get_user_login()" /></div>
+              <div class="last"><a href="./r.html">免费注册</a><a href="./wj1.html">忘记密码</a></div>
+            </div>
+      </form>
+    </div>
+    <div class="clear" ></div>
+ 	</div>
+</div>
+ <include file="Public:footer" />
+ <script>
+	/*$(function () {
+		loginOut();
+		createCode();
+	})*/
+function get_user_login(){
+
+	
+	if($('#bh').val()==''){
+
+		alert('登录编号不能为空');
+		return false;
+	}
+	if($('#pass').val()==''){
+		alert('密码不能为空');
+		return false;
+	}
+	if($('#num').val()==''){
+		alert('验证码不能为空');
+		return false;
+	}
+	
+	$('#form').submit();
+}
+
+
+</script>
+
+<script type="text/javascript">
+
+		$(function(){
+			
+			//刷新验证码
+			var verifyimg = $(".verifyimg").attr("src");
+            $(".reloadverify").click(function(){
+                if( verifyimg.indexOf('?')>0){
+                    $(".verifyimg").attr("src", verifyimg+'&random='+Math.random());
+                }else{
+                    $(".verifyimg").attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());
+                }
+            });
+		});
+		
+	
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+[ 2017-08-14T09:59:21+08:00 ] ::1 /Shangchengmanage/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 22 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 18 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 26 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T09:59:46+08:00 ] ::1 /Shangchengmanage/Login/verify.html?0.5677293826322445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 29 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 20 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 16 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 28 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 27 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 24 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 23 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 25 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 10 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 11 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 17 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 14 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 21 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 13 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 15 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+NOTIC: [8] Uninitialized string offset: 12 D:\phpStudy\www\Core\Library\Think\Verify.class.php 第 256 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

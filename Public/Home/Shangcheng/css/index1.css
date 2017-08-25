@@ -1,0 +1,36 @@
+body {background: #fff none repeat scroll 0 0; font-family: "Microsoft Yahei"; margin: 0 auto;max-width: 960px;min-width: 320px;}
+.box{  background:#fff; width: 100%;  }
+/* .header{ width: 100%; height:60px; background:#1d75d9;}
+.header-1 a{ display: block; float: left; width: 6.6%;min-width: 20px; background:url(../img/01.gif) no-repeat center; margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1rem;}
+.header-2{ float: left; width: 86.4%;  margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1.66rem; color:#fff;} */
+.box-1{ width: 44.2%; min-width: 270px;height:235px;margin:0 auto; background:#fff;margin-top: 100px;margin-bottom: 203px;}
+.a-1{ overflow: hidden;margin-bottom: 30px;}
+.a-1  span{ color:#666666;float: left;  display:block; width: 20.2%; background:#fff; font-size: 1.2rem; text-align: left;height: 40px; line-height: 40px;}
+.a-1  input{border:0 ; float: left;  display:block; width: 76.8%; background:#fff; font-size: 1.26rem; height: 38px; line-height: 40px;border: solid #dfdfdf 1px; color:#666;padding-left: 2%;}
+
+.a-2 { overflow: hidden; margin-bottom: 30px; }
+.a-2  span{ color:#666666; float: left;  display:block; width: 20.2%; background:#fff; font-size: 1.2rem; text-align: left;height: 40px; line-height: 40px;}
+.a-2  input{border:0 ; float: left;  display:block; width: 76.8%; background:#fff; font-size: 1.2rem; height: 38px; line-height: 40px;border: solid #dfdfdf 1px; color:#666;padding-left: 2%; }
+
+.a-3 { overflow: hidden; height: 32px;text-align:  center; font-size: 1.1rem; color:#666;}
+.a-3 label{  margin-right: 32px; width: 50%; color:#333;cursor:pointer; }
+.a-3 label input{  cursor:pointer; }
+
+.a-4 { overflow: hidden; margin-bottom: 30px; }
+.a-4  button{border:0 ;display:block; width: 100%; background:none; font-size: 1.2rem; height: 48px; line-height: 48px; background:#dd2727;margin-top: 12px; color:#fff;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+      cursor:pointer;
+    } 
+
+.a-5 { overflow: hidden; height: 32px;text-align:  center; font-size: 1rem; color:#666;}
+.a-5 label{  margin-right: 32px; width: 50%; color:#ff5000;}
+.a-5 label a{ color:#ff5000;}
+
+.a-3 { width: 100%; height:45px;}
+.a-3 label{ width: 50%; display:block;  height:35px; float: left; line-height: 35px;  float: left; margin-right: 0px; color:#333;}
+.a-3 .bg{ background:#e1e1e1!important; color:#ff5000;}
+
+
+.bbb{ background:#ff5000!important; color:#fff!important; }

@@ -1,0 +1,88 @@
+	<script src="__PUBLIC__/js/jquery-1.11.3.min.js"></script>
+		<!-- 头部广告 -->
+		<script src="__PUBLIC__/js/style.js"></script>
+		<!--banner图-->
+		<script src="__PUBLIC__/js/jquery.flexslider-min.js"></script>
+		<script>
+		$(function(){
+			$('.flexslider').flexslider({
+				directionNav: true,
+				pauseOnAction: false
+			});
+		});
+		</script>
+		<!-- 弹出 -->
+		<script type="text/javascript" src="__PUBLIC__/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script src="__PUBLIC__/js/jq.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/function_class.js"></script>
+		<!-- 今日推荐 -->
+		<script type="text/javascript" src="__PUBLIC__/js/scroll.1.3.js"></script>
+		<!-- 切换 -->
+		<script src="__PUBLIC__/js/plugins.L.v1.2.js"></script>
+		<script src="__PUBLIC__/js/howToUse.js"></script>
+<script type=text/javascript src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+
+function exit() {
+	$.ajax({
+		type: "post", url: '<{:C("PATH_URL")}>/ulo.html',
+		data: { "por": 128 },
+		async: false, dataType: "text", success: function (data) {
+		   alert("退出成功");
+		   location.href = '<{:C("PATH_URL")}>/l.html';
+		}
+	});
+}
+</script>
+	<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?38d06b2fdb163e085dc218a46182de6a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+	</script>
+<div class="header">
+		<div class="header_adv"><div class="advice"><a href="./"><img src="__PUBLIC__/images/header_dav.jpg" alt=""></a><p></p></div></div>
+		<div class="header_top">
+			<div class="w1200">
+        
+            <if condition='$bh'>
+				<div class="head_top_left">
+					<h1><{$bh}>，欢迎来到中时代积分商城</h1>
+					<h2><a onClick="exit()" style="cursor:pointer;"">[退出]</a></h2>
+				</div>
+                <else/>
+                <div class="head_top_left">
+					<h1>您好，欢迎来到中时代商城</h1>
+					<h2>请 <a href="<{:C("PATH_URL")}>/l.html">[登录]</a> <a href="<{:C("PATH_URL")}>/r.html">[注册]</a></h2>
+				</div>
+                </if>
+                
+				<div class="head_top_rig">
+					<ul>
+						<li><a href="<{:C("PATH_URL")}>/gw.html">我的订单</a></li>
+						<li><a href="<{:C("PATH_URL")}>/u.html">我的中心</a></li>
+						<li class="sjb"><a href="/" target="_blank">手机版</a></li>
+						<li class="gwc"><a href="<{:C("PATH_URL")}>/gw.html">积分购物车</a></li>
+                        <li class="gwc"><a href="<{:C("PATH_URL")}>/gw1.html">爱国消费券购物车</a></li>
+						<li><a href="#">联系客服</a></li>
+						<li><a href="<{:C("PATH_URL")}>/gg.html">商城公告</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="scheng fix">
+			<div class="logo"><a href="./"><img src="__PUBLIC__/images/logo.png"></a></div>
+			<div class="soucuo">
+			 <form method="get" action="<{:C("PATH_URL")}><{:U('/P')}>">
+        <input name="keyword" type="text" value="" />
+        <input name="submit" type="submit" value="搜索" />
+        <p><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>40))}>">瓷器</a><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>32))}>">家电</a><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>17))}>">女装</a><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>39))}>">酒水</a><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>31))}>">数码</a><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>9))}>">保健</a><a href="<{:C("PATH_URL")}><{:U('/p',array('f'=>29))}>">食品</a></p>
+      </form>
+			</div>
+			<div class="header_gouwuche"><a href="<{:C("PATH_URL")}>/gw.html">我的购物车<span><{$_SESSION['bh']|TrolleyNum}></span></a></div>
+			<div class="saomiao"><img src="__PUBLIC__/images/saomiao.png" alt="" width="80" height="80"></div>
+		</div>
+	</div>

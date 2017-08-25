@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>中时代-积分商城-帮助中心</title>
+	<script type="text/javascript" src="__PUBLIC__/js/rem.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+</head>
+<body>
+	<div class="head">
+		<div class="head_back"   onclick="window.location.href='/index.html'"></div>
+		<h2>帮助中心</h2>
+	</div>
+	<div class="banner"><img src="__PUBLIC__/images/banner.jpg" alt=""></div>
+	<div class="grxx fix">
+		<div class="grxx_top">个人信息</div>
+		<div class="grxx_bot">
+			<ul>
+				<volist name="geren" id="v">
+				<li><a href="/bzc/b/<{$v.id}>.html"><img src="<php> echo strippoit($v['img']);</php>" ><h3><{$v.title}></h3></a></li>
+				</volist>
+
+			</ul>
+		</div>
+	</div>
+	<div class="grxx fix">
+		<div class="grxx_top">个人中心</div>
+		<div class="grxx_bot">
+			<ul>
+				<volist name="zhongxin" id="v">
+					<li><a href="/bzc/b/<{$v.id}>.html"><img src="<php> echo strippoit($v['img']);</php>" alt=""><h3><{$v.title}></h3></a></li>
+				</volist>
+
+			</ul>
+		</div>
+	</div>
+
+	<div class="grxx fix">
+		<div class="grxx_top">帮助</div>
+		<div class="grxx_bot">
+			<ul>
+				<volist name="bangzhu" id="v">
+					<li><a href="/bzc/b/<{$v.id}>.html"><img src="<php> echo strippoit($v['img']);</php>" alt=""><h3><{$v.title}></h3></a></li>
+				</volist>
+
+			</ul>
+		</div>
+	</div>
+	<div class="grxx fix">
+		<div class="grxx_top">购物</div>
+		<div class="grxx_bot">
+			<ul>
+				<volist name="gouwu" id="v">
+					<li><a href="/bzc/b/<{$v.id}>.html"><img src="<php> echo strippoit($v['img']);</php>" alt=""><h3><{$v.title}></h3></a></li>
+				</volist>
+
+			</ul>
+		</div>
+	</div>
+	<div class="grxx fix">
+		<div class="grxx_top">会员奖励</div>
+		<div class="grxx_bot">
+			<ul>
+				<volist name="jiangli" id="v">
+					<li><a href="/bzc/b/<{$v.id}>.html"><img src="<php> echo strippoit($v['img']);</php>" alt=""><h3><{$v.title}></h3></a></li>
+				</volist>
+			</ul>
+		</div>
+	</div>
+	<div style="height: 1.5rem"></div>
+	<!-- 底部导航 -->
+ <include file="Public:footer" />
+
+
+</body>
+</html>

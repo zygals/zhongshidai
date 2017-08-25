@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-复投中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/integral transfer.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/member.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<!--<script src="__PUBLIC__/js/jquery.params.js"></script>
+<script src="__PUBLIC__/js/j_dou.js"></script>-->
+</head>
+<body>
+<div class="box-ten">
+   <div class="header">
+		<div class="header-1"><a href="/u.html"></a></div>
+		<div class="header-2">复投中心</div>
+   </div>
+   <div class="box-ten-1">
+		<form>
+			<div class="a-1">
+					<span>您的会员编号</span>
+			</div>
+			 <div class="a-2">
+				  <input type="text" id="j_usernum" style="padding-left:5px;" value="<{$bh}>" placeholder="请输入会员编号" readonly>
+			</div>
+			<div class="a-4">
+					<button type="button" onclick="Get_isTra_user()">下一步</button>
+			</div>
+		</form>
+
+
+   </div>
+    <if condition="1">
+    <table class="gridtable" id="tbody">
+        <thead style="line-height: 35px;"><span style="font-weight: 900; font-size: 18px">已提交复投</span></thead>
+        <tbody><tr style="line-height: 35px; background: #ccc">
+
+            <th>积分数</th>
+            <th>返还日期</th>
+            <th>申请日期</th>
+            <th>期次</th>
+            <th>倍增数</th>
+            <th>审核者</th>
+            <th>状态</th>
+        </tr>
+
+
+        <volist  name="jfzs" id="data">
+        <tr style="line-height: 30px; background: #ccc">
+
+            <td><{$data.num}></td>
+            <td><{$data.fan_date}></td>
+            <td><?php echo date('Ymd',$data[tijiao_date]);?></td>
+            <td><{$data.qici}></td>
+            <td><{$data.beizeng}></td>
+            <td><if condition="$data['shenhe_bh'] eq 'A00001'">管理员<else/><{:getUserName($data['shenhe_bh'])}></if></td>
+            <td><if condition="$data[status] eq 0"><span style="color:red">未审核</span><else/><span style="color:green">已审核</span></if></a></td>
+        </tr>
+        </volist>
+        </tbody>
+    </table>
+     </if>
+   <include file="Public:footer" />
+</div>
+<script>
+
+function Get_isTra_user() {
+    var proid = $("#j_usernum").val();
+    if (proid.length > 0) {
+       window.location.href = "/ft/proid/"+proid+".html";
+    } else { alert("请输入会员编号"); }
+}
+
+</script>
+</body>
+</html>

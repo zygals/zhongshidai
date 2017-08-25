@@ -1,0 +1,187 @@
+/* 以下是首页样式书写 */
+
+#ownage_page_loader_text{ width: 1000px; height:35px;}
+#ownage_page_loader{ width: 1000px; height:35px;}
+body {background: #fff none repeat scroll 0 0; font-family: "Microsoft Yahei"; margin: 0 auto;max-width: 960px;min-width: 320px;}
+.box-one{background:#fff; width: 100%;  background:#fff; /* height:1200px; */ overflow: hidden;}
+/*.box-one-1{ width: 100%; background:#fff; overflow: hidden; background:red;margin-bottom: 10px;height:60px;}*/
+.box-one-1{ width: 100%; background:#434343; overflow: hidden;height:50px;}
+.header-one{width: 94%; margin:0 auto; height:50px;margin-top: 0px; line-height:50px; }
+
+
+
+.header-one ul li { float: left; /* height:68px; */}
+.header-one ul .logo {  height:60px; margin-top:10px;  background-size: 100% 100%; display: block; width:10%; min-width: 45px;}
+.header-one ul .logo  a{ display: block; float: left; width:100%;  /* height:70px; */}
+
+
+
+.header-one ul .shu-one{ width: 40%;border:0 none; background:#fff;  height:33px; line-height: 33px; border:solid 1px #a10508;  margin-left: 6%; height: 35px; margin-top: 15px;}
+ .shu-one input{ border:0 none;color:#f2918e; background:none; width: 70%; height:33px; line-height: 33px;float: left; padding-left: 5px;min-width: 60%;}
+ .shu-one a{ display: block; width: 20%; height:33px; line-height: 33px;float: right;background:url(../images/shuo.gif) no-repeat center; }
+.header-one .title{width: 40%;float: right;height:33px; line-height: 33px;  margin-top:10px; text-align: center;font-size: 0.7rem;margin-right: -0%;}
+
+.header-one .title span{ display:inline-block; width: 50%; float: left; vertical-align: middle;overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+.header-one .title span a{margin-left: 2%;font-size: 1rem; color:#fff; line-height: 30px;font-weight: 600;}
+
+.header-one .title span img{ margin-left: 1%;vertical-align: middle;}
+
+
+
+
+.box-one-search{ width: 100%; background:#a82020; overflow: hidden;height:50px;}
+
+.header-one-search{width: 94%; margin:0 auto; height:50px;margin-top: 0px; line-height:50px; }
+
+
+
+.header-one-search ul li { float: left; /* height:68px; */}
+.header-one-search ul .logo { width: 40px; height:30px; margin-top:3px;background-size: 100% 100%; display: block; min-width: 40px;}
+.header-one-search ul .logo  a{ display: block; float: left;margin-top:3px; width:100%;  /* height:70px; */}
+
+
+.index_gonggao{ font-size:1.0rem; text-align:left;}
+
+
+.header-one-search ul .shu-one-search{ width: 65%;border:0 none; background:#d29c9c;  height:30px; line-height: 30px; border:solid 1px #a10508;  margin-left: 6%; border-radius:5px; margin-top: 10px;color:#434343;}
+ .shu-one-search input{ border:0 none;color:#434343; font-weight:bold; background:none; width: 70%; height:30px; line-height: 33px;float: left; padding-left: 5px;min-width: 60%;}
+ .shu-one-search a{ display: block; width: 14%; height:30px; line-height: 30px;float: right;background:url(../images/shuo.png) no-repeat center; }
+.header-one-search .title-search{}
+
+.header-one-search .xiaoxi{background:url(../images/xiaoxi.png) no-repeat center; width:15%; float:right; margin-top:5px; color:#FFF;height:40px;}
+
+
+.header-one-search .title span{ display:inline-block; width: 50%; float: left; vertical-align: middle;overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+.header-one-search .title span a{margin-left: 2%;font-size: 1rem; color:#fff; line-height: 30px;font-weight: 600;}
+.header-one-search .title span img{ margin-left: 1%;vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+
+
+
+.box-one-2{ width: 100%; height:auto; margin:0 auto; overflow: hidden; height:400px\9;}
+.box-one-2 img{display: block; width: 100%\9;  height:400px\9;}
+.box-one-3{ height:auto; width: 100%; background:#fff;  margin-bottom: 10px;} 
+.box-one-3 ul{ margin:0 auto; width: 98% ; text-align: center;}
+.box-one-3 li {float: left; width: 20%; background:#fff; overflow: hidden;height: auto;}
+.box-one-3  ul li { width: 20%;  float: left; height: auto; text-align:  center;}
+.box-one-3  ul li  i{ display: block; width: 90%; /* float: left; */ height: 25px; text-align:  center; margin:0 auto; }
+.box-one-3  ul li  span{ display: block; width: 100%;  /* float: left; */ height: 25px; text-align:  center; margin:0 auto; margin-top: 19px;  font-size: 0.9rem; color:#333333;}
+.box-one-3 .box-one-31 a span{ color:#a10508;}
+
+
+
+
+.box-one-4{  position: relative; background:#f1f1f1;}
+.box-one-4 a{ position: absolute; right: 0px;top: 16px;}
+.box-one-41{/*  height:400px; */  overflow: hidden; background:#f1f1f1; width: 97%; margin:0 auto;}
+.box-one-41 ul{ width: 110%; background:red; /* height:500px; */ margin:0 auto; }
+.box-one-41 ul li{ width: 45%; float: left;  background:#f1f1f1; }
+.box-one-41 ul li:nth-child(2n){ margin-left: 1%;}
+.box-one-4>p{ margin-bottom: 20px;  background:url(../img/heder-1.gif) no-repeat  center; background-size: 100% 100%; width: 100%; height:35px; text-align: center; line-height: 35px; color:#fff; }
+
+.box-one-41 ul li span{ display: block; width: 100% ; background:#f1f1f1; height:50px;line-height:25px;}
+.box-one-41 ul li span p{ color:#e4393c;}
+
+
+
+.box-one-5{  position: relative; background:#e7e7e7;}
+.box-one-5>p{ margin-bottom: 5px;  background:url(../images/heder-1.png) no-repeat  center; background-size: 100% 100%; width: 100%; height:55px; text-align: center; line-height: 55px; color:#bb0000; font-size: 1.2rem;}
+
+ .box-one-4 .geng-11{ position: absolute;right: 2%;top: 16px;}
+.box-one-5  .geng-11{ position: absolute;right: 5%;top: 16px;}
+.box-one-5 a{ /*position: absolute;*/ }
+.box-one-51{/*  height:400px; */  overflow: hidden; background:#e7e7e7; width: 100%; margin:0 auto;}
+.box-one-51 ul{ width: 110%;  margin:0 auto; }
+.box-one-51 ul li{ width: 30%; float: left; height:auto;margin:0; padding:0px;  background:#ffffff; margin-bottom:2px;}
+.box-one-51 ul li h5{ text-align:center; margin:0px; padding:0px;margin:0; margin-top:3px; font-weight:100;text-overflow:ellipsis;white-space: nowrap;}
+.box-one-51 ul li p{ color:#bd0102; height:auto; font-size:0.7rem;  text-align:center;}
+.box-one-51 ul li:nth-child(1n){ margin-left: 0.2%; margin-right: 0.1%;}
+
+.box-one-51 ul li span{ text-align:center;}
+.box-onea{ background:#e7e7e7;}
+
+.box-one-6{display: block; width: 98%; height: 40px; font-size: 1.1rem; text-align: right;line-height: 40px; color:#333; margin-right: 2%;}
+.box-one-7{display: block; width: 100%; height: 60px; font-size: 1.2rem; text-align: center;line-height: 60px; background:#e7e7e7; color:#fff;}
+
+ 
+
+        #slider{width:100%;overflow: hidden; position: relative;}
+        #slider .swipe-wrap{position: relative; overflow: hidden;}
+        #slider .swipe-wrap .wrap{float: left; width: 100%;position: relative;}
+        #slider img{width: 100%; height: auto;max-width: 100%;}
+
+
+.box-one1-6{  position: relative; background:#e7e7e7; margin-top: 10px; }
+.box-one1-6>p{ margin-bottom: 5px;  background:url(../images/aiguojifen.jpg) no-repeat  center; background-size: 100% 100%; width: 100%; height:45px; text-align: center; line-height: 45px; color:#72afe8; font-size: 1.2rem;}
+
+.box-one1-6  .geng-11{ position: absolute;right: 5%;top: 16px;}
+.box-one1-6 a{ /*position: absolute;*/ }
+
+  
+  
+.box-one1-7{  position: relative; background:#e7e7e7; margin-top: 10px; }
+.box-one1-7>p{ margin-bottom: 5px;  background:url(../images/tuijianxiaofei.jpg) no-repeat  center; background-size: 100% 100%; width: 100%; height:45px; text-align: center; line-height: 45px; color:#37b00b; font-size: 1.2rem;}
+
+.box-one1-7  .geng-11{ position: absolute;right: 5%;top: 16px;}
+.box-one1-7 a{ /*position: absolute;*/ }  
+
+
+.box-one1-8{  position: relative; background:#e7e7e7; margin-top: 10px; }
+.box-one1-8>p{ margin-bottom: 5px;  background:url(../images/xingping.jpg) no-repeat  center; background-size: 100% 100%; width: 100%; height:45px; text-align: center; line-height: 45px; color:#b773e4; font-size: 1.2rem;}
+
+.box-one1-8  .geng-11{ position: absolute;right: 5%;top: 16px;}
+.box-one1-8 a{ /*position: absolute;*/ }   
+ 
+  
+.box-one-71{/*  height:400px; */  overflow: hidden; background:#e7e7e7; width: 100%; margin:0 auto;}
+.box-one-71 ul{ width: 110%;  margin:0 auto; }
+.box-one-71 ul li{ width: 45%; float: left; height:auto; padding:0px;   background:#ffffff; margin-bottom:3px;}
+.box-one-71 ul li h5{ text-align:center; margin-top:3px; padding:0px;font-weight:100;}
+.box-one-71 ul li p{ color:#bd0102;  height:auto; font-size:0.9rem; text-align:center;}
+.box-one-71 ul li:nth-child(1n){ margin-left: 0.2%; margin-right: 0.3%;}
+
+.box-one-71 ul li span{ text-align:center;}  
+ 
+
+   
+    
+
+/* toTop */
+.toTop{width:35px;height:35px;line-height: 35px; text-align: center; background:#213751;border:1px solid #999;padding:10px;cursor:pointer;position:fixed;right:8%;bottom:122px;
+font-size:0.9rem; color: #fff;
+    -moz-border-radius: 35px;      /* Gecko browsers */
+    -webkit-border-radius: 35px;   /* Webkit browsers */
+    border-radius:35px;            /* W3C syntax */
+      cursor:pointer;}
+.toTop:hover{background: #ff5000;}
+   .shu-one1{ display: none;} 
+
+@media screen and (max-width: 570px) {
+     .header-one .title{ width: 75%;}
+     .shu-one{ display: none;}
+     .shu-one1{ display: block; }
+
+     .shu-one1{ width: 90%;border:0 none; background:#fff;  height:33px; line-height: 33px; border:solid 1px #f1a9a9;  margin-left: 6%; height: 35px; margin-top: 15px; margin-bottom: 15px;}
+     .shu-one1 input{ border:0 none;color:#f2918e; background:none; width: 70%; height:33px; line-height: 33px;float: left; padding-left: 5px;min-width: 60%;}
+     .shu-one1 a{ display: block; width: 20%; height:33px; line-height: 33px;float: right;background:url(../img/shuo.gif) no-repeat center; }
+}
+
+.box-one-8 a{display: inline-block; width: 100%; height:45px;  line-height: 45px; cursor: pointer; text-align: center;}
+
+#ownage_page_loader_text{position:absolute;left:50%;top:80px;color:green;font-size:20px;z-index: 100;}
+#ownage_page_loader{position:absolute;top:100px;left:0;background:red;height:10px;}
+
+.box-one-3{overflow: hidden;margin-bottom: 0px; height:auto;}
+.rukou{margin-bottom: 8px;}

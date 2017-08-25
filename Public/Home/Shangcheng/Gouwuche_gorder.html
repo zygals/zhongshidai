@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title><{$config.config_webname}>-提交订单</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/place order.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<style>
+.goodsItem li {
+	padding: 10px;
+	background: #f0f0f0;
+	border-bottom: 1px solid #fff;
+	overflow: hidden;
+}
+</style>
+</head>
+<body>
+<div class="box-place">
+	<div class="header">
+		<div class="header-1"><a href="/gw.html"></a></div>
+		<div class="header-2">提交订单</div>
+	</div>
+	<div class="box-place-1">
+		<label style="display: none;" id="isAddress">0</label>
+		<div class="address">
+		<notempty name="dz">
+		<a href="/gad.html" id="addressInfo"><div class="name"><h5 style="margin-top:10px;"><{$dz.name}></h5><span class="fr"><{$dz.mobile}></span></div><div class="info"><{$dz.sheng}> <{$dz.shi}> <{$dz.qu}> <{$dz.dizhi}></div></a>
+		<input type="hidden" name="dz" id="dz" value='1'>
+		<else/>
+		<div class="step1_a" style="text-align:center;"> <a href="/gad.html">添加收件人信息</a><input type="hidden" name="dz" id="dz" value='0'></      div>
+		</notempty>
+		</div>
+	</div>
+	<div class="box-place-2">
+		<h5>商品列表</h5>
+		<ul class="goodsItem" id="order_cart">
+			<foreach name="gwc" item="gv">
+			<li>
+				<img src="<{$gv.pic}>" alt="">
+				<span class="box-place-2a">商品名称: <{$gv.gname}></span>
+				<span>需要钱数：<{$gv.xj}> 元</span>
+				<span>规格：<{$gv.guige}> </span>
+				<span>数量：<{$gv.num}></span>
+				<span>限购：<{$gv.xg}></span>
+				
+				<span>
+					<a href="/go.html" class="yanse-11"><{$gv.jifen}>积分</a>
+				</span>
+			</li>
+			</foreach>
+		</ul>
+	</div>
+	<div class="box-place-3">
+		<span><em>积分支付</em><a href="/go.html"><img src="__PUBLIC__/images/0three-1.png" height="17" width="17" alt=""></a></span>
+	</div>
+	<div class="box-place-4">
+		<span><em><if condition="$xf_fl eq 1">爱国消费积分<else/>可用积分</if></em><a href="javascript:void(0)" id="spKY">
+		<if condition="$xf_fl eq 1">
+			<if condition="$user['user_agxfq']"><{$user.user_agxfq}><else/>0</if> 积分
+			<else/>
+			<if condition="$user['user_keyongjf']"><{$user.user_keyongjf}><else/>0</if> 积分
+		</if>
+
+		</a></span>
+		<if condition="$xf_fl eq 2">
+			<span><em>奖励积分</em><a href="javascript:void(0)" id="spJL"><{$jiangli}> 积分</a></span>
+		</if>
+	</div>
+	<div class="box-place-3">
+		<span><em>现金支付</em><a href="/go.html"><img src="__PUBLIC__/images/0three-1.png" height="17" width="17" alt=""></a></span>
+	</div>
+	<div class="box-place-4">
+		<span><em>可用现金</em><a href="javascript:void(0)" id="spXJ"><if condition="$user['user_xianjin']"><{$user.user_xianjin}><else/>0</if> 元</a></span>
+	</div>
+	<div class="box-place-5" style="margin-bottom:135px;">
+		<span><em>
+			<h5>商品总积分</h5>
+		</em><a href="javascript:void(0)" id="order_pro_total"><{$zjf}> 积分</a></span>
+		<span><em>
+		<h5>商品总钱数</h5>
+		</em><a href="javascript:void(0)" id="order_pro_total"><{$zqs}> 元</a></span>
+		<span><em>
+			<h6>备注</h6>
+		</em></span>
+		<textarea name="a" style="width: 100%; height: 100px;" placeholder="请输入备注信息" id="order_remark_desc"></textarea>
+	</div>
+		<div class="box-place-6" style="bottom:52px;position: fixed;max-width: 960px;width: 100%;">
+			<span><em id="order_ture_total">实付积分<{$zjf}> + 实付现金<{$zqs}>元</em>
+				<if condition="$xf_fl eq 2">
+					<a href="javascript:void(0)" onclick="GetOrderReadyAdd()"><button>提交</button></a>
+				</if>
+				<if condition="$xf_fl eq 1">
+					<a href="javascript:void(0)" onclick="GetOrderReadyAdd1()"><button>提交</button></a>
+				</if>
+			</span>
+		</div>
+
+	<input type="hidden" id="spr_money" value="<{$zqs}>">
+	<input type="hidden" id="user_xianjin" value="<{$user.user_xianjin}>">
+	<input type="hidden" id="add_order_Total" value="<{$zjf}>">
+	<input type="hidden" id="jianglijifen" value="<{$zjf}>">
+	<input type="hidden" id="add_point_Total" value="<{$user.user_keyongjf}>">
+	<input type="hidden" id="add_point_Total1" value="<{$user.user_agxfq}>">
+	<input type="hidden" id="add_point_TotalGw" value="0.00">
+	<include file="Public:footer" />
+</div>
+<script>
+$(function () {
+	//GetReadyOrder();
+})
+function GetOrderReadyAdd() {
+	if($('#dz').val()==0){
+		window.location.href='/gad.html';
+	}
+    var r_total = parseFloat($("#add_order_Total").val());
+	var r_point = parseFloat($("#add_point_Total").val());
+	var jl=parseFloat($("#jianglijifen").val());
+	var u_xianjin= parseFloat($("#user_xianjin").val());
+	var pro_money= parseFloat($("#spr_money").val());
+    if (r_total > 0) {
+        if (r_point >= r_total) {
+        	//判断金额
+        	if(pro_money < u_xianjin){
+	            $.ajax({
+	                type: "post", url: "/gad2.html",
+	                data: { "t": "t","zz":1,'r_total':r_total,'jl':jl,'pro_money':pro_money, "descriptions": $("#order_remark_desc").val() },
+					async: false, dataType: "json", success: function (data) {
+	                    if (data.code == 1) {
+	                        window.location.href = data.url;
+	                    } else { alert(data.msg); }
+	                }
+	            });
+			}else{
+				alert("您当前账户现金不足！");
+			}
+        } else { alert("积分不足！"); }
+
+    } else { alert("消费金额不能为0"); }
+}
+
+
+
+function GetOrderReadyAdd1() {
+	
+	if($('#dz').val()==0){
+		window.location.href='/gad.html';
+	}
+    var r_total = parseFloat($("#add_order_Total").val());
+	var r_point = parseFloat($("#add_point_Total1").val());
+	var r_kypoint = parseFloat($("#add_point_Total").val());
+	var jl=parseFloat($("#jianglijifen").val());
+	var u_xianjin= parseFloat($("#user_xianjin").val());
+	var pro_money= parseFloat($("#spr_money").val());
+
+	if(r_point < r_total){
+		var msg1 = "您爱国积分不足，是否使用可用积分支付！"; 
+		if (confirm(msg1)==true){ 
+		    var zjf=r_kypoint+r_point;
+
+		    if(zjf < r_total){
+		    	alert("您当前账户总积分不足！");
+		    	return false;
+		    }
+		}else{ 
+		    return false; 
+		} 
+	}
+
+    if (r_total > 0) {
+    	//判断金额
+    	if(pro_money < u_xianjin){
+    		
+            $.ajax({
+                type: "post", url: "/gad2.html",
+                data: { "t": "t","zz":2,'r_total':r_total,'jl':jl,'pro_money':pro_money, "descriptions": $("#order_remark_desc").val() },
+				async: false, dataType: "json", success: function (data) {
+					console.log(data);
+                     if (data.code == 1) {
+                         window.location.href = data.url;
+                     }else{ alert(data.msg); }
+                }
+            });
+		}else{ alert("您当前账户现金不足！");}
+    }else{ alert("消费金额不能为0"); }
+
+
+
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-新闻详情</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/notice details.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="box-six">
+	<div class="box-sixa" style="margin-bottom:80px;">
+		<div class="header">
+			<div class="header-1"><a href="<php> echo U('Search/message');</php>"></a></div>
+			<div class="header-2">站内信息详情</div>
+		</div>
+		<span class="box-six-1" id="Title"><{$dt.gb_title}></span>
+			<div class="box-six-2" id="Remark"><{$dt.gb_content}></div>
+	</div>
+	<include file="Public:footer" />
+</div>
+</body>
+</html>

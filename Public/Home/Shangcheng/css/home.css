@@ -1,0 +1,23 @@
+
+.box-three{background:#eeeeee; width: 100%;}
+.box-threea{ overflow: hidden; background:#fff; width: 100%; margin-bottom: 100px;}
+.box-three-1{ width: 99.8%; border-top:solid 1px #e1e1e1; border-bottom:solid 1px #e1e1e1;  height: 48px;margin:0 auto;margin-top: 10px; background:#fff;border-right:solid #e1e1e1 1px;}
+.box-three-1 ul li{ width: 32%; float: left; border-left:solid #e1e1e1 1px;  text-align: center; height: 48px; line-height:48px;}
+.box-three-1 ul li a img{ vertical-align: middle; margin-left: 10px;}
+
+
+.box-three-2{/*  height:400px; */  overflow: hidden; background:#fff; width: 96%; margin:0 auto; margin-top:18px;}
+.box-three-2 ul{ width: 110%; background:red; /* height:500px; */ margin:0 auto; clear: both;}
+.box-three-2 ul li{ width: 44%; float: left; margin:0 auto; background:#fff;margin-bottom: 20px;overflow: hidden;}
+.box-three-2 ul li img{ border:solid 1px #e5e5e5; display: block; width: 100%;}
+.box-three-2 ul li:nth-child(2n){ margin-left: 1%;}
+.box-three-2>p{ margin-bottom: 20px;  background:url(../img/heder-1.png)no-repeat  center; background-size: 100% 100%; width: 100%; height:35px; text-align: center; line-height: 35px; color:#fff; }
+
+.box-three-2 ul li span{ display: block; width: 100% ; background:#fff; height:50px;line-height:25px; text-align: center; margin-bottom: 20px;}
+.box-three-2 ul li span p{ color:#ff5000; line-height: 15px;}
+.box-three-2 ul li span .dinggou a{ color:#999; line-height: 20px; text-decoration:line-through; }
+.box-three-2 ul li span p a{ color:#999; line-height: 15px;  }
+.box-three-2 ul li span h6{ font-size: 0.8rem;line-height: 20px;overflow: hidden; height: 20px; margin-top: 10px;}
+
+
+.yanse-1{ color:#dd2727;}

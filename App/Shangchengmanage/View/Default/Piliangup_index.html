@@ -1,0 +1,60 @@
+<include file="Admin:header" />
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+    <tr>
+        <td height="31"><div class="titlebt">批量修改密码</div></td>
+    </tr>
+</table>
+<div class="main">
+	<div class="form">
+		<form method='post' action="__URL__/update" enctype="multipart/form-data">
+		<dl>
+			<dt> 密码类型：</dt>
+			<dd>
+				<select  class="inp_w250" name="lx" id="lx">
+					<option value="0">请选择</option>
+					<option value="1">一级密码</option>
+					<option value="2">二级密码</option>
+				</select>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 开始至结束编号：</dt>
+			<dd>
+				修改从<input type="text" name="bhkaishi" id="ks" class="inp_w250" style="width:100px;"  placeholder="开始编号" />
+				至<input type="text" name="bhjieshu" id="js" class="inp_w250" style="width:100px;"  placeholder="结束编号" />
+			</dd>
+		</dl>
+		<dl>
+			<dt> 输入新密码：</dt>
+			<dd>
+				<input type="text" name="password" id="ps" class="inp_w250"  placeholder="请输入不小于6位新密码" value="" />
+			</dd>
+		</dl>
+		<div class="form_b">
+			<input type='hidden' name='user' value="<{$_SESSION['admin_name']}>" />
+			<input type="submit" class="btn_blue" onclick="return queren()" id="submit" value="提 交">
+		</div>
+	   </form>
+	</div>
+</div>
+<include file="Pubilc:copyright" />
+<script>
+function queren(){
+	var wz='';
+	if($('#lx').val()==1){
+		wz='一级密码';
+	}else if($('#lx').val()==2){
+		wz="二级密码";
+	}else{return false;}
+	if($('#ks').val().length<6||$('#js').val().length<6||$('#ps').val()<6){
+		return false;
+	}
+	if(confirm("确认修改编号从"+$('#ks').val()+"至"+$('#js').val()+"所有会员的"+wz+"为"+$('#ps').val()+"吗？")){
+		return true;
+	}
+	return false;
+}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-会员中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+
+<link href="__PUBLIC__/css/commstyle.css" rel="stylesheet">
+
+
+
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+<script>
+$(function () {
+  $.ajax({
+    type: "post", url: "/gad2.html",
+    data: { "t":'p' },
+    async: false, dataType: "json", success: function (data) {
+      if (data["state"] == "1") {
+        if (data["data"].length > 0) {
+          $("#selProvince").append(data["data"]);
+        }
+      }
+    }
+  });
+});
+function getArea(state,value){
+  var value ;
+  if (state == 1) {
+    value = jQuery("#selProvince  option:selected").attr("data_id");
+  } else {
+    value = jQuery("#selCity  option:selected").attr("data_id");
+  }
+  if (value != "0") {
+    $.ajax({
+      type: "post", url: "./gad2.html",
+      data: {"state": state, "idStr": value },
+      async: false, dataType: "json", success: function (data) {
+        if (state == 1) {
+          jQuery("#selCity option[value!=0]").remove();
+          $("#selCity").append(data["data"]);
+        } else {
+          jQuery("#selArea option[value!=0]").remove();
+          $("#selArea").append(data["data"]);
+        }
+      }
+    });
+  }
+}
+function addAddress(){
+  if($("#txtUserName").val().length >0 && $("#txtUserTel").val().length >0&& $("#txtAddress").val().length >0) {
+    if ((/^1[3|4|5|7|8]\d{9}$/.test($("#txtUserTel").val()))) {
+      $.ajax({
+        type: "post", url: "./gad2.html",
+        data: { "t": 'a', "userName": $("#txtUserName").val(), "userTel": $("#txtUserTel").val(), "userCode": $("#txtUserCode").val(), "userAddress": $("#txtAddress").val(), "proID": jQuery("#selProvince  option:selected").text(), "cityID": jQuery("#selCity  option:selected").text(), "areaID": jQuery("#selArea  option:selected").text(), "useKahao": $("#txt_kh").val(), "useKaihuhang": $("#txt_khh").val(), "useKaihuming": $("#txt_khm").val() },
+        async: false, dataType: "json", success: function (data) {
+          if (data["state"] == "1") {
+            alert("添加成功");
+            location.href = "./gad.html";
+          } else {
+            alert("登录失效，请先登录");
+            location.href = "./l.html";
+          }
+        }
+      });
+    } else {
+      alert("手机号格式有误");
+    }
+  } else {
+    alert("信息请输入完整");
+  }
+}
+</script>
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" /> 
+    
+    <div class="right">
+            <div class="main_right">
+                <div class="shouye_title"><span>新增地址</span></div>
+ <div class="addnew_addr fl">
+	<form>  
+
+
+    <span>收货人姓名：</span><input type="text"  class="addnew_addr_inp" id="txtUserName">
+<br/>
+<br/>
+
+		<span>收货人手机：</span><input type="text"  class="addnew_addr_inp" id="txtUserTel">
+<br/>
+<br/>
+		<span>收货人邮编：</span><input type="text"  class="addnew_addr_inp" id="txtUserCode">
+<br/>
+<br/>
+  <span>收货人地址：</span>
+	  <select name="" class="addnew_addr_select" id="selProvince" onchange="getArea(1,this)">
+		<option selected="" value="0">请选择省份</option>
+		</select>
+		<select name="" class="addnew_addr_select" id="selCity" onchange="getArea(2,this)">
+		<option selected="" value="0">请选择城市</option>
+		</select>
+		<select name="" class="addnew_addr_select" id="selArea">
+		<option selected="" value="0">请选择区县</option>
+		</select>
+<br/>
+<br/>
+ <span >详细地址：</span>
+		<textarea name="" cols="" rows="" class="addnew_addr_txt"  id="txtAddress"></textarea>
+
+	</form>
+</div>  
+   <div class="addnew_addr_btn" onclick="addAddress()">保存</div>      
+            </div>
+        </div>
+     </div>
+   
+<include file="Public:footer" />
+
+</body>
+</html>

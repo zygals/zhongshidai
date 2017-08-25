@@ -1,0 +1,129 @@
+<link type="text/css" href="__PUBLIC__/css/style_center.css" rel="stylesheet" />
+<script type="text/javascript">
+$(function(){
+$(".subNav").click(function(){
+            $(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
+            $(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+            // 修改数字控制速度， slideUp(500)控制卷起速度
+            $(this).next(".navContent").slideToggle(500).siblings(".navContent").slideUp(500);
+    })
+})
+</script>
+<script>
+
+function exit() {
+	$.ajax({
+		type: "post", url: '<{:C("PATH_URL")}>/ulo.html',
+		data: { "por": 128 },
+		async: false, dataType: "text", success: function (data) {
+		   alert("退出成功");
+		   location.href = '<{:C("PATH_URL")}>/l.html';
+		}
+	});
+}
+</script>
+<?php
+           $u =  strstr($_SERVER['PATH_INFO'],'.',true);
+           $arr1 = array("u","uk", "ud", "uf", "ub", "uk", "uf", "zs", "ub", "ujz", "upp", "ubp", "umc", "ubp");
+            $arr2 = array("kanyue", "gw", "gw1", "umd", "uu", "gad","gmd","ubdyhk", "ucz", "tx", "ubjz2");
+             $arr3 = array("ubjz", "ux");
+              $arr4 = array("f", "futoushenhe");
+               $arr5 = array("uz");
+                $arr6 = array("uup");
+        ?>
+
+<div class="left">
+    <div class="main_list">
+        <div class="subNavBox">
+            <div class="subNav <?php if(in_array($u,$arr1)){?> currentDd currentDt<?php };?>">查看积分</div>
+            <ul class="navContent" <?php if(in_array($u,$arr1)){?>style='display:block' <?php };?>>
+            <li><a href="<{:C("PATH_URL")}>/uk.html" <?php if($u == 'uk'){?> style='color:#fff;background-color:#da9336' <?php };?> >可用积分</a></li>
+            <li><a href="<{:C("PATH_URL")}>/ud.html" <?php if($u == 'ud'){?> style='color:#fff;background-color:#da9336' <?php };?> >待用积分</a></li>
+            <li><a href="<{:C("PATH_URL")}>/uf.html" <?php if($u == 'uf'){?> style='color:#fff;background-color:#da9336' <?php };?>>分享积分</a></li>
+            <li><a href="<{:C("PATH_URL")}>/zs.html" <?php if($u == 'zs'){?> style='color:#fff;background-color:#da9336' <?php };?>>赠送积分</a></li>
+            <if condition="$userleft['user_dengji'] neq 1">
+            <li><a href="<{:C("PATH_URL")}>/ub.html" <?php if($u == 'ub'){?> style='color:#fff;background-color:#da9336' <?php };?>>充值积分</a></li>
+             </if>
+              <if condition="($userleft['user_zs_keyongjf'] neq 0) OR ($userleft['user_zs_daiyongjf'] neq 0) OR ($userleft['user_zs_fenxiangjf'] neq 0) OR ($userleft['user_zs_baodanjifen'] neq 0) ">
+            <li><a>老会员可用积分<em style="float:right;color:#FFF;"><if condition="$userleft['user_zs_keyongjf']"><{$userleft.user_zs_keyongjf}>&nbsp;<else/>0&nbsp;</if></em></a></li>
+            <li><a>老会员待用积分<em style="float:right;color:#FFF;"><if condition="$userleft['user_zs_daiyongjf']"><{$userleft.user_zs_daiyongjf}>&nbsp;<else/>0&nbsp;</if></em></a></li>
+            <li><a>老会员分享积分<em style="float:right; color:#FFF;"><if condition="$userleft['user_zs_fenxiangjf']"><{$userleft.user_zs_fenxiangjf}>&nbsp;<else/>0&nbsp;</if></em></a></li>
+             </if>
+             
+              <if condition="($userleft['user_dengji'] neq 1) and ($userleft['user_zs_keyongjf'] neq 0) OR ($userleft['user_zs_daiyongjf'] neq 0) OR ($userleft['user_zs_fenxiangjf'] neq 0) OR ($userleft['user_zs_baodanjifen'] neq 0)">
+               <li><a>老会员充值积分<em style="float:right;color:#FFF;"><if condition="$userleft['user_zs_baodanjf']"><{$userleft.user_zs_baodanjf}>&nbsp;<else/>0&nbsp;</if></em></a></li>
+             </if>
+             
+             
+             
+            <if condition="$userleft['user_ok'] eq 0">             
+            <li><a <?php if($u == 'ujz'){?> style='color:#fff;background-color:#da9336' <?php };?>>可用积分互转</a></li>
+            <else/>
+             <li><a href="<{:C("PATH_URL")}>/ujz.html" <?php if($u == 'ujz'){?> style='color:#fff;background-color:#da9336' <?php };?>>可用积分互转</a></li>
+           </if>
+            
+            
+            <li><a href="<{:C("PATH_URL")}>/upp.html" <?php if($u == 'upp'){?> style='color:#fff;background-color:#da9336' <?php };?>>爱国消费券</a></li>
+            <li><a href="<{:C("PATH_URL")}>/ubp.html" <?php if($u == 'ubp'){?> style='color:#fff;background-color:#da9336' <?php };?>>爱心消费券</a></li>
+            <li><a href="<{:C("PATH_URL")}>/umc.html" <?php if($u == 'umc'){?> style='color:#fff;background-color:#da9336' <?php };?>>平台维护</a></li>
+            </ul>
+            <div class="subNav <?php if(in_array($u,$arr2)){?> currentDd currentDt<?php };?>">个人中心</div>
+            <ul class="navContent"  <?php if(in_array($u,$arr2)){?>style='display:block' <?php };?>>
+            <li><a href="<{:C("PATH_URL")}>/kanyue.html" <?php if($u == 'kanyue'){?> style='color:#fff;background-color:#da9336' <?php };?>>查看余额</a></li>
+            <li><a href="<{:C("PATH_URL")}>/gw.html" <?php if($u == 'gw'){?> style='color:#fff;background-color:#da9336' <?php };?>>我的购物车</a></li>
+            <li><a href="<{:C("PATH_URL")}>/gw1.html" <?php if($u == 'gw1'){?> style='color:#fff;background-color:#da9336' <?php };?>>爱国消费购物车</a></li>
+            <li><a href="<{:C("PATH_URL")}>/gmd.html" <?php if($u == 'gmd'){?> style='color:#fff;background-color:#da9336' <?php };?>>我的订单</a></li>
+            <li><a href="<{:C("PATH_URL")}>/uu.html" <?php if($u == 'uu'){?> style='color:#fff;background-color:#da9336' <?php };?>>修改个人信息</a></li>
+            <li><a href="<{:C("PATH_URL")}>/gad.html" <?php if($u == 'gad'){?> style='color:#fff;background-color:#da9336' <?php };?>>收货地址管理</a></li>
+            <li><a href="<{:C("PATH_URL")}>/ubdyhk.html" <?php if($u == 'ubdyhk'){?> style='color:#fff;background-color:#da9336' <?php };?>>添加（绑定）银行卡</a></li>
+            <li><a href="<{:C("PATH_URL")}>/ucz.html" <?php if($u == 'ucz'){?> style='color:#fff;background-color:#da9336' <?php };?>>充值</a></li>
+            <li><a href="<{:C("PATH_URL")}>/tx.html" <?php if($u == 'tx'){?> style='color:#fff;background-color:#da9336' <?php };?>>提现</a></li>
+            </ul>
+            
+      <if condition="$userleft['user_dengji'] neq 1">
+            <div class="subNav  <?php if(in_array($u,$arr3)){?> currentDd currentDt<?php };?>">报单</div>
+            <ul class="navContent"   <?php if(in_array($u,$arr3)){?>style='display:block' <?php };?>>
+            <if condition="$userleft['user_ok'] eq 0">   
+            <li><a <?php if($u == 'ubjz'){?> style='color:#fff;background-color:#da9336' <?php };?>>充值积分互转</a></li>
+            <li><a <?php if($u == 'ux'){?> style='color:#fff;background-color:#da9336' <?php };?>>消费服务中心</a></li>
+            <else/>
+             <li><a href="<{:C("PATH_URL")}>/ubjz.html" <?php if($u == 'ubjz'){?> style='color:#fff;background-color:#da9336' <?php };?>>充值积分互转</a></li>
+            <li><a  href="<{:C("PATH_URL")}>/ux.html" <?php if($u == 'ux'){?> style='color:#fff;background-color:#da9336' <?php };?>>消费服务中心</a></li>
+            </if>
+            </ul>
+      </if>
+            <div class="subNav   <?php if(in_array($u,$arr4)){?> currentDd currentDt<?php };?>">复投</div>
+            <ul class="navContent"  <?php if(in_array($u,$arr4)){?>style='display:block' <?php };?>>
+            <if condition="$userleft['user_ok'] eq 0"> 
+            <li><a <?php if($u == 'f'){?> style='color:#fff;background-color:#da9336' <?php };?>>复投中心</a></li>
+            <else/>
+			<li><a href="<{:C("PATH_URL")}>/f.html" <?php if($u == 'f'){?> style='color:#fff;background-color:#da9336' <?php };?>>复投中心</a></li>
+            </if>
+             <if condition="$userleft['user_dengji'] neq 1">
+             <if condition="$userleft['user_ok'] eq 0"> 
+            <li><a <?php if($u == 'futoushenhe'){?> style='color:#fff;background-color:#da9336' <?php };?>>复投审核</a></li>
+            <else/>
+            <li><a href="<{:C("PATH_URL")}>/futoushenhe.html" <?php if($u == 'futoushenhe'){?> style='color:#fff;background-color:#da9336' <?php };?>>复投审核</a></li>
+             </if>
+            <!-- <li><a href="<{:C("PATH_URL")}>/ug.html" target="win">我的站内工单</a></li>
+             <li><a href="<{:C("PATH_URL")}>/uag.html" target="win">站内工单添加</a></li>-->
+          </if>
+            </ul>
+            <div class="subNav  <?php if(in_array($u,$arr5)){?>  currentDd currentDt <?php };?>" >直推会员</div>
+            <ul class="navContent"  <?php if(in_array($u,$arr5)){?>style='display:block' <?php };?>>
+            <li><a href="<{:C("PATH_URL")}>/uz.html" <?php if($u == 'uz'){?> style='color:#fff;background-color:#da9336' <?php };?>>直推会员</a></li>
+
+            </ul>
+            <div class="subNav  <?php if(in_array($u,$arr6)){?>  currentDd currentDt <?php };?>">安全管理</div>
+            <ul class="navContent" <?php if(in_array($u,$arr6)){?>style='display:block' <?php };?>>
+            <li><a href="<{:C("PATH_URL")}>/uup.html" <?php if($u == 'uup'){?> style='color:#fff;background-color:#da9336' <?php };?>>修改密码</a></li>
+            <li><a onClick="exit()" style="cursor:pointer;">退出登录</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+

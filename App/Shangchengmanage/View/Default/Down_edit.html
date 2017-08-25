@@ -1,0 +1,68 @@
+<include file="Admin:header" />
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">编辑下载</div></td>
+      </tr>
+    </table>
+<div class="main">
+	<div class="form">
+		<form method='post' action="__URL__/do_edit" enctype="multipart/form-data">
+		<input type="hidden" name="id" value="<{$data.id}>">
+		<dl>
+			<dt> 下载分类：</dt>
+			<dd>
+				<select name="fid">
+					<volist name="fl" id="v">
+						<option value="<{$v.id}>" <if condition="$v.id eq $data.fid ">selected</if>><{$v.name}></option>
+					</volist>
+				</select>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 下载标题：</dt>
+			<dd>
+				<input type="text" name="title" class="inp_w250" value="<{$data.title}>" />
+			</dd>
+		</dl>
+
+			<dl>
+				<dt> 上传文件：</dt>
+				<dd>
+					<input type="file" name="loadurl" class="inp_w250" value="" />
+				</dd>
+			</dl>
+
+		<dl>
+			<dt> 是否显示：</dt>
+			<dd>
+				<input type="radio" name="is_show" value="1" <if condition="$data['is_show'] eq 1">checked="checked"</if> />是
+				&nbsp;&nbsp;
+				<input type="radio" name="is_show" value="2"<if condition="$data['is_show'] eq 2">checked="checked"</if> />否
+			</dd>
+		</dl>
+		<dl>
+			<dt> 排序：</dt>
+			<dd>
+				<input type="text" name="paixu" class="inp_w250" value="<{$data.paixu}>" />
+			</dd>
+		</dl>
+		<include file="Admin:editor" />
+		<dl>
+			<dt> 内容：</dt>
+			<dd>
+		<div>
+		<textarea id="intro" name="content" style="width:700px;height:400px;"/><{$data.content}></textarea>
+		</div>
+			</dd>
+		</dl>
+		<div class="form_b">
+			<input type='hidden' name='user' value="<{$_SESSION['admin_name']}>" />
+			<input type="hidden" name="id" value="<{$data.id}>" />	
+			<input type="submit" class="btn_blue" id="submit" value="提 交">
+		</div>
+	   </form>
+	</div>
+</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>

@@ -1,0 +1,12 @@
+[ 2017-04-21T21:42:27+08:00 ] 222.33.37.154 /index.php?m=member&c=index&a=register&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 无法加载模块:Member
+
+[ 2017-04-21T21:42:30+08:00 ] 245.229.139.170 /index.php?m=Goods&a=showcate&id=103%20and%20extractvalue(1,%20concat(0x7e,(SELECT%20distinct%20concat(0x23,adm_name,0x3a,adm_pwd,0x23)%20FROM%20fanwe_admin%20limit%200,1)))
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:Goods
+

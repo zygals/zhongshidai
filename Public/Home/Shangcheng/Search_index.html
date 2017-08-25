@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title><{$config.config_webname}>-产品搜索</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/product search.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="box-twelve">
+   <div class="header">
+		<div class="header-1"><a href="/"></a></div>
+		<div class="header-2">产品搜索</div>
+   </div>
+   <div class="box-twelve-1">
+		<form>
+			<div class="b-1">
+				<span>宝贝</span>
+				<img src="__PUBLIC__/images/elever-3.gif" height="14" width="22"  alt="" />
+			</div>
+			<div class="b-2"> 
+				<input type="text" placeholder="请输入产品名称" id="txtWord"  name="mobile">
+			</div>
+			<div class="b-4"  onclick="search()" >
+				<button type="button">搜索</button>
+			</div>
+	    </form>
+   </div>
+   <include file="Public:footer" />
+</div>
+<!--<script src="__PUBLIC__/jsjs/j_search.js"></script>-->
+<script>
+function search() {
+    var word = $("#txtWord").val();
+    if (word.trim().length > 0) {
+        location.href = "/p/w/"+word+'.html';
+    }
+}
+</script>
+</body>
+</html>

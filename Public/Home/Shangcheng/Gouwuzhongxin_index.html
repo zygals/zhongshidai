@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><{$config.config_webname}>-购物中心</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/herder.css">
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="box-two">
+	<div class="box-twoa" style="margin-bottom:80px;">
+		<div class="header">
+			<div class="header-1"><a href="/"></a></div>
+			<div class="header-2">购物中心</div>
+		</div>
+		<label id="lblPageIndex" style="display:none;">2</label>
+		<div id="divHtml">
+			<span class="box-two-1">
+				<i></i>
+				<h5>商品分类 </h5>
+			</span>
+			<div class="box-two-2">
+				<img src="__PUBLIC__/images/20160922130914.jpg" alt="" width="100%" height="auto">
+			</div>
+			<div class="box-two-3">
+				<ul>
+					<foreach name="fl" item="v">
+					<li><a href="/p/f/<{$v.id}>.html"><{$v.name}></a></li>
+					</foreach>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<include file="Public:footer" />
+</div>
+</body>
+</html>

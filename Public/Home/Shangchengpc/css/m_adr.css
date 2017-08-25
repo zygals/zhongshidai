@@ -1,0 +1,47 @@
+.all_head{
+   height:60px;line-height:60px;  background:#dd2727!important;
+}
+.all_head h4{
+   height:60px;line-height:60px;  
+}
+.address_addbtn a { background:#dd2727!important;  width:50%;
+}
+.address_addbtn {
+     max-width:960px; border:none;margin-bottom:10px;
+}
+.address_addbtn a {
+     max-width:960px;  line-height:45px; height:45px; margin-bottom:10px;font-size:1rem;
+}
+.address_addbtn a:hover {
+     color:#fff;
+}
+
+.address_delbtn {  width:90%;  height:45px; overflow:hidden;
+}
+.address_delbtn li{ float:left;   height:45px;   line-height:45px; width:35%;margin-right:14% }
+ .address_delbtn li a {
+        display: block;background:#e1e1e1; width:100%; padding-left:10%;padding-right:10%;
+    } 
+.address_delbtn li a:hover{ float:left;   background:#FF5000; color:#fff;}
+
+
+.addnew_addr_btn {
+    width: 130px;
+    max-width: 960px;
+    background: none;
+    background: #b63235;
+    margin-bottom:10px; overflow:hidden;  height:45px;line-height:45px;
+
+}
+.addnew_addr_btn a{  display:block; width:50%;  margin: 0 auto; background:#b63235!important; color:#fff;
+                     line-height: 45px;
+    font-size: 16px;
+    padding: 0 15px;
+    background: #0068e8;
+    color: #fff;
+    display: inline-block;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}

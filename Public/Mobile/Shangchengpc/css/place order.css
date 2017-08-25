@@ -1,0 +1,49 @@
+
+/* 一下是修改个人信息 header-1 是公共应用*/
+
+.box-place{  background:#eee; width: 100%;  }
+
+.box-place-1{ width:96%;margin:0 auto; background:#fff;margin-top: 20px;margin-bottom:0px;padding-left: 2%;padding-right: 2%;border-bottom: solid 1px #e1e1e1; border-top: solid #e1e1e1 1px;}
+.box-place-1 span{ display:inline-block; width:90%;margin:0 auto; background:#fff;height:35px; line-height: 35px;font-style:normal ;color:#333;font-size: 1.1rem;}
+.box-place-1 span a{ height:35px; line-height: 35px;font-style:normal ;color:#999;font-size: 1rem;}
+
+
+
+.box-place-2{ width:96%;margin:0 auto; background:#fff; padding-bottom: 15px;padding-top: 10px; padding-left: 2%;padding-right: 2%;overflow: hidden;}
+.box-place-2 img{float: left; display:block; max-width:30%;}
+.box-place-2 span { display:block; width: 68%; overflow: hidden;font-size: 0.9rem;padding-left: 2%;}
+.box-place-2 .box-place-2a{display:block; height:50px; overflow: hidden;line-height: 25px;}
+.box-place-2 h5{ display:block; margin:0 auto; background:#fff;height:35px;line-height: 35px;color:#333;}
+
+.box-place-3{ width:96%;margin:0 auto; background:#fff;margin-top: 10px; padding-left: 2%;padding-right: 2%;overflow: hidden;
+border-bottom: solid 1px #e1e1e1; border-top: solid #e1e1e1 1px;height:38px;line-height: 38px;}
+.box-place-3 em{float: left;font-style: normal;color:#222;font-size: 1.1rem;}
+.box-place-3 a{float: right;}
+
+.box-place-4{ width:100%;margin:0 auto; background:#fff;}
+.box-place-4 em{float: left;font-style: normal; color:#333;}
+.box-place-4 a{float: right;}
+.box-place-4 span{display:block; width: 96%;border-bottom: solid 1px #e1e1e1;padding-left: 2%;padding-right: 2%;overflow: hidden;
+line-height: 38px;margin:0 auto;}
+
+.box-place-5{ width:100%;margin:0 auto; background:#fff;margin-top: 10px;}
+.box-place-5 em{float: left;font-style: normal;}
+.box-place-5 a{float: right;}
+.box-place-5 span{display:inline-block; width: 96%;border-bottom: solid 1px #e1e1e1;padding-left: 2%;padding-right: 2%;overflow: hidden;
+line-height: 38px;margin:0 auto;}
+.box-place-5 button{padding-left: 20%; padding-right: 20%;border:0 none; }
+
+
+
+.box-place-6{ width:100%;margin:0 auto; background:#fff;margin-top: 10px; background:#333; color:#fff;}
+.box-place-6 em{float: left;font-style: normal;}
+.box-place-6 a{float: right;}
+.box-place-6 span{display:block; width: 100%;border-bottom: solid 1px #e1e1e1;/* padding-left: 2%; */overflow: hidden;
+line-height: 40px;margin:0 auto;}
+.box-place-6 button{ width:100%; border:0 none; background:#ff5000; height:45px;color:#fff; cursor: pointer;}
+.yanse-11{color:#ff5000!important;}
+.box-place-6 em{  width:75%; height:45px;line-height: 45px; text-align: center;}
+.box-place-6 a{  width:25%;  text-align: center; }
+
+
+ .box-place-2 i{font-style: normal!important;}

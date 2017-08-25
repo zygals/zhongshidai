@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>中时代商城-会员充值</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/shopping cart.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/member.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a href="./" class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+
+<div class="box-vehicle" style="background-color:#eeeeee;">
+    <include file="Public:left" /> 
+    
+    <div class="right">
+            <div class="main_right">
+                <div class="shouye_title"><span>会员充值</span></div>
+               
+                    <form action="<{:U('User/chongzhiwr')}>" method="post" enctype="multipart/form-data" onsubmit="return checkchongzhi()" >
+          <!--id-->
+                    <input type="hidden" value="<{$result[0]['id']}>" name="uid">
+                    <input type="hidden" value="1" name="ss_type">
+                    <table class="table_hover" width="100%" style="margin-top:25px;margin-left:50px;">
+          <tr class="">
+            <td height="40" style="font-size: 16px;">
+              股东姓名：<{$result[0]['user_name']}>
+                        </td>
+          </tr>
+          <tr class="">
+            <td height="40" style="font-size: 16px;" >
+              股东账户：<{$result[0]['user_login_bh']}>
+            </td>
+          </tr>
+          <tr class="">
+            <td height="40" style="font-size: 16px;">
+              充值金额：<input type="text" value="" name="txye" id="txye" style="height:30px;line-height:30px;border-radius:5px;border:1px solid #ccc;" id="remoney" ><span style="margin-left:10px;color:#f00">元</span>
+            </td>
+          </tr>
+
+          <tr class="">
+            <td  height="60">
+              <input type="submit" name="submit" id="btn_change1" class="btn btn_orange small" value="充值" style="float:left;font-size:18px;height:35px;line-height:35px;border-radius:5px; background-color:#8b0000; border:none; color:#FFF;padding:0;min-width:100px;"/>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        </form>
+<style type="text/css">
+      .tit2{height: 30px;padding-top: 10px;font-size: 16px;text-indent: 0.5em;color: #004675;}
+      .tab2{width: 95%;text-align: center;}
+      .tab2 tr{border-bottom: 1px solid #eee;height: 30px;line-height: 30px; font-size: 16px;}
+      </style>
+      <h4 class="tit2" style="padding-left:.25rem;font-size:18px;font-weight:700">充值记录</h4>
+      <table class="tab2">
+        <tr style="background:#eee;font-weight:bold;">
+          <td width="150">充值时间</td>
+          <td width="150">充值金额</td>
+          <td width="150">真实姓名</td>
+          <td width="110">状态</td>
+        </tr>
+                <foreach name="result2" item="vo" >
+                <tr>
+            <td width="150"><?php echo date('Y-m-d',$vo['sq_date']); ?></td>
+          <td width="150"><{$vo.txye}></td>
+          <td width="150"><{$vo.kaihuren}></td>
+          <td width="110"><?php switch($vo['status']){ case 0: ?>未审核<?php break; case 1: ?><span style="color:#F00;" >已审核</span><?php  break; } ?></td>
+          </tr>
+                </foreach>        
+      </table>
+             
+            </div>
+        </div>
+    
+     </div>
+<include file="Public:footer" />
+
+</body>
+</html>
+<script>
+  function checkchongzhi(){
+     
+    var r = /^\+?[1-9][0-9]*$/;　　//正整数 
+    var money = $("#txye").val();
+
+　　    if(money==""){
+    　alert("请输入充值金额！"); 
+　　　　　　return false; 
+    }else if(!r.test(money)) { 
+　　　　　　alert("金额只允许输入整数数字！"); 
+　　　　　　return false; 
+　　　 　 }else if(money < 100){
+      　alert("最低充值金额100元！"); 
+      　return false;
+      }else{
+      return true;
+    }   
+    }
+  function checknumber(String) { 
+  　　　　var Letters = "1234567890"; 
+  　　　　var i; 
+  　　　　var c; 
+  　　　　for( i = 0; i < Letters.length(); i ++ )   {   //Letters.length() ->>>>取字符长度
+  　　　　　　c = Letters.charAt( i ); 
+  　　　　　　if (Letters.indexOf( c ) ==-1)   { //在"Letters"中找不到"c"   见下面的此函数的返回值
+  　　　　　　　　return true; 
+  　　　   　　} 
+  　　　　} 
+  　　　　return false; 
+  　　} 
+
+</script>

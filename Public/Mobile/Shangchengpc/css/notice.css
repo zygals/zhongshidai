@@ -1,0 +1,17 @@
+/* 以下是公告 header-1 是公共应用 */
+.box-five{background:#fff; width: 100%;}
+.box-five-1{ overflow: hidden; background:#fff; width: 100%; margin-bottom: 100px;}
+.box-five-2{ width: 100%; margin:0 auto; margin-top: 10px; margin-bottom: 10px;height:50px;  border: solid 1px #e1e1e1; background:#fff;}
+.box-five-2 ul li{ width: 48%; float: left;  text-align: center ;  height:50px; line-height: 50px; color:#333; margin-right: 0.5%; cursor: pointer;}
+/* .box-five-2 ul li a{border: solid 1px #eee; border-bottom: 0 none; border-bottom: 0 none; width: 99.5%; float: left;  text-align: center ; color:#333;  height:50px; line-height: 50px;}*/
+.box-five-2 ul .box-four-5a { margin-right: 0px; border-left: solid 1px #e1e1e1;}
+
+.box-five-3{ width: 100%; }
+.box-five-3 ul{ width: 100%;  background:#fff; margin: 0 auto; overflow: hidden; margin-bottom: 30px;}
+.box-five-3 .box-five-3a li img { vertical-align: middle;height:40px; margin-right: 10px; margin-top: 15px;}
+.box-five-3 .box-five-3a li { height:40px; border-bottom: dashed #d2d2d2 1px;padding-left: 4%; overflow: hidden; font-size: 1rem;line-height:40px;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.box-five-3 .box-five-3a li p a{ height:40px; text-align: center;  display: block; width: 100%; color:#74a1e4; margin-bottom: 20px;line-height: 40px;}
+.current{ color:#dd2727!important;}
+
+.box-five-3 .box-five-3b li { height:45px; border-bottom: dashed #d2d2d2 1px;padding-left: 3%; overflow: hidden; font-size: 1rem;line-height:40px;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;line-height: 45px;}
+.box-five-3 .box-five-3b li p a{ height:45px; text-align: center;  display: block; width: 100%; color:#74a1e4; margin-bottom: 20px;line-height: 45px;}

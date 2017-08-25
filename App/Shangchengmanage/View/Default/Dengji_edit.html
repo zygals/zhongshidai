@@ -1,0 +1,142 @@
+<include file="Admin:header" />
+<style>
+.w50{
+	width:50px;
+}
+</style>
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">编辑等级</div></td>
+      </tr>
+    </table>
+<div class="main">
+	<div class="form">
+		<form method='post' action="__URL__/do_edit" enctype="multipart/form-data">
+		
+		<dl>
+			<dt> 等级名称：</dt>
+			<dd>
+				<input type="text" name="name" id="name" class="inp_w250" value="<{$data.name}>" onfocus="if(value=='请输入名称') {value=''}" />
+			</dd>
+		</dl>
+		<dl>
+			<dt> 提成：</dt>
+			<dd>
+				<input type="text" name="ticheng" id="ticheng" class="inp_w250" value="<{$data.ticheng}>" onfocus="if(value=='请输入提成') {value=''}"/>
+			</dd>
+		</dl>
+        <dl>
+			<dt> 任务量：</dt>
+			<dd>
+				<input type="text" name="renwuliang_min" id="renwuliang_min" class="inp_one w50" value="<{$data.renwuliang_min}>"/> -
+                <input type="text" name="renwuliang_max" id="renwuliang_max" class="inp_one w50" value="<{$data.renwuliang_max}>"/>
+			</dd>
+		</dl>
+        <dl>
+			<dt> 条件1：</dt>
+			<dd>
+             <input type="text" name="tiaojian1_min" id="tiaojian1_min" class="inp_one w50" value="<{$data.tiaojian1_min}>"/> -
+             <input type="text" name="tiaojian1_max" id="tiaojian1_max"  class="inp_one w50" value="<{$data.tiaojian1_max}>"/>
+			</dd>
+		</dl>
+        <dl>
+			<dt> 条件2：</dt>
+			<dd>
+             <input type="text" name="tiaojian2_min" id="tiaojian2_min" class="inp_one w50" value="<{$data.tiaojian2_min}>"/> -
+             <input type="text" name="tiaojian2_max" id="tiaojian2_max" class="inp_one w50" value="<{$data.tiaojian2_max}>"/>
+             
+			</dd>
+		</dl>
+		<dl>
+			<dt> 是否显示：</dt>
+			<dd>
+				<input type="radio" name="is_show" value="1" <if condition="$data['is_show'] eq 1">checked="checked"</if> />是
+				&nbsp;&nbsp;
+				<input type="radio" name="is_show" value="2"<if condition="$data['is_show'] eq 2">checked="checked"</if> />否
+			</dd>
+		</dl>
+		<div class="form_b">
+			<input type='hidden' name='user' value="<{$_SESSION['admin_name']}>" />
+			<input type="hidden" name="id" value="<{$data.id}>" />	
+			<input type="submit" class="btn_blue" id="submit" value="提 交">
+		</div>
+	   </form>
+	</div>
+</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>
+<script>
+$(document).ready(function() 
+{
+	$('#submit').click(function() {   
+//名称验证
+  var name=$('#name').val();
+      var mag=  /^[\u4e00-\u9fa5]{2,16}$/gi;	
+	if(name.trim() == ''){
+       alert('名称不能为空');
+	  $("#name").val('请输入名称');  
+        return false;
+    }
+    if(!mag.test(name)){
+        alert('名称必须是汉字');
+		$("#name").val('请输入名称'); 
+        return false;
+    }
+	if(name=="请输入名称")
+	{    
+		 alert('名称不正确，请重新输入');
+		 $("#trueName").val('请输入名称'); 
+        return false;
+		}
+//提成验证
+  var ticheng=$('#ticheng').val();
+      var tc=/^[-+]?\d+(\.\d+)?$/;	
+	if(ticheng.trim() == ''){
+       alert('提成不能为空');
+	  $("#ticheng").val('请输入提成');  
+        return false;
+    }
+    if(!tc.test(ticheng)){
+        alert('提成必须是数字');
+		$("#ticheng").val('请输入提成'); 
+        return false;
+	}
+//条件1最小验证
+	var tiaojian1_min=$('#tiaojian1_min').val();
+      var tj_min=/^\d+(\.\d+)?$/;	
+	if(tiaojian1_min.trim() == ''){
+       alert('条件1不能为空');
+        return false;
+    }
+    if(!tj_min.test(tiaojian1_min)){
+        alert('条件1必须是数字');
+        return false;
+    }
+//条件1最大验证
+	  var tiaojian1_max=$('#tiaojian1_max').val();
+      var tj_max=/^\d+(\.\d+)?$/;	
+	if(tiaojian1_max.trim() == ''){
+       alert('条件1不能为空');
+        return false;
+    }
+    if(!tj_max.test(tiaojian1_max)){
+        alert('条件1必须是数字');
+        return false;
+    }
+//条件2最小验证
+	var tiaojian2_min=$('#tiaojian2_min').val();
+      var tj2_min=/^[0-9]*$/;	
+	if(tiaojian2_min.trim() == ''){
+       alert('条件2不能为空');
+        return false;
+    }
+    if(!tj2_min.test(tiaojian2_min)){
+        alert('条件2必须是数字');
+        return false;
+    }
+
+});
+  
+});	
+</script>

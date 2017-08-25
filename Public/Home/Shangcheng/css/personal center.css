@@ -1,0 +1,46 @@
+/* 一下是个人中心header-1 是公共应用*/
+.box-eleven{  background:#fff; width: 100%;  }
+/* .header{ width: 100%; height:60px; background:#1d75d9;}
+.header-1 a{ display: block; float: left; width: 6.6%;min-width: 20px; background:url(../img/01.gif) no-repeat center; margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1rem;}
+.header-2{ float: left; width: 86.4%;  margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1.66rem; color:#fff;} */
+.box-eleven-1{ width:100%;margin:0 auto; background:url(../images/elever.gif) no-repeat center; height:267px;overflow: hidden;}
+
+.box-eleven-1 span{ display: block;height:20px;padding-top: 7px; width: 300px; text-align: center; margin:0 auto; vertical-align: middle;line-height:20px;color:#333;}
+.box-eleven-1  .box-eleven-1a { height:75px; margin-top: 20px;overflow: hidden;}
+.box-eleven-2 { width: 100%; margin: 0 auto;  height:50px; border-bottom: solid 10px #eee;}
+.box-eleven-2 ul li{ width: 33.3%; height:50px;line-height: 50px; float: left; text-align: center;color:#333;}
+.box-eleven-2 ul li a span{ color: #ff5000; font-weight:bold;}
+
+
+
+.box-eleven-3 ul li i{ vertical-align: middle; font-size:16px; font-weight:bold;}
+.box-eleven-3 ul li {height:50px; line-height: 50px;font-size:16px; border-bottom: solid 1px #959595; font-weight:bold;}
+
+
+.box-eleven-3 ul li span{display:inline-block;font-size:16px; width: 84%; margin-left: 3.5%;float: left; font-weight:bold;}
+.box-eleven-3 ul li i{display:inline-block;font-size:16px; width: 10px;margin-left: 3%;float: left; font-weight:bold;}
+
+.box-eleven-11{ width: 90%; height:40px; line-height: 40px;  margin:0 auto; margin-bottom: 108px; margin-top: 15px;}
+.box-eleven-11 button{display: block; border:0 none; width: 50%; height:40px; line-height: 40px; background:#dd2727; margin:0 auto;
+ -moz-border-radius: 10px;      /* Gecko browsers */
+    -webkit-border-radius: 10px;   /* Webkit browsers */
+    border-radius:10px;            /* W3C syntax */
+      cursor:pointer;color:#fff;font-size: 1.1rem; }
+	  
+	  
+.box-eleven-safty ul li a{ vertical-align: middle; color:#999;font-weight:bold; padding-left:50px;}
+.box-eleven-safty ul li a:hover{ vertical-align: middle; background-color:#fde8e7; display:block; color:#999;font-weight:bold; padding-left:50px;}
+.box-eleven-safty ul li a.hover{ vertical-align: middle; background-color:#fde8e7; display:block; color:#999;font-weight:bold; padding-left:50px;}
+
+.box-eleven-safty ul li {height:50px; line-height: 50px; border-bottom: solid 1px #959595; font-weight:bold;}
+
+
+.box-eleven-4 ul li i{ vertical-align: middle; font-size:16px; font-weight:bold;}
+.box-eleven-4 ul li {height:50px; line-height: 50px;font-size:16px; border-bottom: solid 1px #959595; font-weight:bold;}
+
+
+.box-eleven-4 ul li span{display:inline-block;font-size:18px; width: 84%; color:#525252; margin-left: 10px;float: left; font-weight:bold;}
+.box-eleven-4 ul li i{display:inline-block;font-size:16px; width: 10px;float: left; font-weight:bold;}
+
+	  
+

@@ -1,0 +1,130 @@
+<include file="Admin:header" />
+<table width="100%" height="31px" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">会员编辑</div></td>
+      </tr>
+    </table>
+<style>
+.anniu{float:left;padding:5px 8px;background:#68CE4A;color:#fff;margin-right:15px;font-size:16px;}
+</style>
+<div class="main">
+	<div class="form" style="">
+		<form method='post' id="form_do" name="form_do" action="__URL__/do_detail">
+
+
+			<dl>
+			<dt>用户名：</dt>
+			<dd>
+				<input type="text" name="user_login_bh" class="inp_one" value="<{$v.user_login_bh}>" readonly/>
+			</dd>
+		</dl>
+
+		<dl>
+			<dt>用户名：</dt>
+			<dd>
+				<input type="text" name="user_name" class="inp_one" value="<{$v.user_name}>"/>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 会员等级：</dt>
+			<dd>
+				<select name="user_dengji">
+					<foreach name="dj" item="dv">
+					<option value="<{$dv.id}>" <if condition="$v['user_dengji'] eq $dv['id']">selected="selected"</if>><{$dv.name}></option>
+					</foreach>
+				</select>
+			</dd>
+		</dl>
+		<dl>
+			<dt>登陆密码：</dt>
+			<dd>
+				<input type="text" name="user_pass" class="inp_one"  placeholder="留空默认不修改" value=""/>
+			</dd>
+		</dl>
+		<dl>
+			<dt>支付密码：</dt>
+			<dd>
+				<input type="text" name="user_zfpass" class="inp_one"  placeholder="留空默认不修改" value=""/>
+			</dd>
+		</dl>
+		<dl>
+			<dt>上级id：</dt>
+			<dd>
+				<input type="text" name="user_sjid1" class="inp_one" value='<{$v.user_sjid1}>'>
+			</dd>
+		</dl>
+        <dl>
+			<dt>身份证号：</dt>
+			<dd>
+				<input type="text" name="user_idcard" class="inp_one" value='<{$v.user_idcard}>'>
+				
+			</dd>
+		</dl>
+		<dl>
+			<dt>会员手机：</dt>
+			<dd>
+				<input type="text" name="user_phone" class="inp_one" value="<{$v.user_phone}>"/>
+			</dd>
+		</dl>
+		<dl>
+			<dt> 状态：</dt>
+			<dd>
+				<input type="radio" name="user_ok" class="user_ok" value="1" <if condition="$v['user_ok'] eq 1">checked="checked"</if> />激活
+				&nbsp;&nbsp;
+				<input type="radio" name="user_ok" class="user_ok"  value="0"<if condition="$v['user_ok'] eq 0">checked="checked"</if> />禁用
+			</dd>
+		</dl>
+		<dl>
+			<dt>可用积分：</dt>
+			<dd>
+				<input type="text" name="user_keyongjf" class="inp_one" value='<{$v.user_keyongjf}>'>
+			</dd>
+		</dl>
+		<dl>
+			<dt>待用积分：</dt>
+			<dd>
+				<input type="text" name="user_daiyongjf" class="inp_one" value='<{$v.user_daiyongjf}>'>
+			</dd>
+		</dl>
+		<dl>
+			<dt>分享积分：</dt>
+			<dd>
+				<input type="text" name="user_fenxiangjf" class="inp_one" value='<{$v.user_fenxiangjf}>'>
+			
+			</dd>
+		</dl>
+            <dl>
+                <dt>赠送积分：</dt>
+                <dd>
+                    <input type="text" name="user_zengsongjifen" class="inp_one" value='<{$v.user_zengsongjifen}>'>
+
+                </dd>
+            </dl>
+
+		<dl>
+			<dt>注册时间：</dt>
+			<dd>
+				<span style='position:relative;top:6px;'><{$v.user_regdate|date='Y-m-d H:i:s', ###}></span>
+			</dd>
+		</dl>
+		<br/>
+		<div class="form_b">
+            <input type="hidden" id="status_id" name="status_id" value="0" />
+            <input type="hidden" name="id" value="<{$v.id}>" />
+			<input type="submit" class="btn_blue" id="submit" value="提 交">
+		</div>
+	   </form>
+	</div>
+<include file="Pubilc:copyright" />
+</body>
+</html>
+<script>
+
+    $('.user_ok').change(function(){
+        status_value = $(this).val();
+        $('#status_id').val(status_value);
+
+    });
+
+
+</script>

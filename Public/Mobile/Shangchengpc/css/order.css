@@ -1,0 +1,33 @@
+
+/* 一下是我的订单header-1 是公共应用 */
+
+.box-fourteen{  background:#fff; width: 100%;  }
+/* .header{ width: 100%; height:60px; background:#1d75d9;}
+.header-1 a{ display: block; float: left; width: 6.6%;min-width: 20px; background:url(../img/01.gif) no-repeat center; margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1rem;}
+.header-2{ float: left; width: 86.4%;  margin:0 auto; height:60px;line-height: 60px; text-align: center;font-size: 1.66rem; color:#fff;} */
+.box-fourteen-1{ width:100%;margin:0 auto; height:220px;overflow: hidden; margin-top: 10px; height:48px; line-height: 48px; border: solid 1px #e5e5e5; background:#fff; border-left: 0 none; border-right: 0 none;}
+.box-fourteen-1 ul li a{ float: left; display: inline-block; width: 25%; text-align: center;}
+
+.box-thirteen-1a-1{ color:#dd2727;}
+.box-fourteen-2{ width:94%; margin:0 auto;}
+.box-fourteen-2 .box-fourteen-1a{ display: block; height: 60px; background:#fff; line-height: 60px;overflow: hidden;}  
+.box-fourteen-2 .box-fourteen-1a i{float: left; width: 22px; height: 60px; background:url(../images/thirteen-1.gif)no-repeat  center; background-size: 100% ; } 
+.box-fourteen-2 .box-fourteen-1a span{display: block;float: left;margin-left: 1%;} 
+.box-fourteen-2 .box-fourteen-1a a{display: block;float: right;font-size: 0.9rem; color:#ff5000;} 
+
+
+
+
+.box-fourteen-2 .box-fourteen-1b{ display: block; background:#fff; ;overflow: hidden;}  
+.box-fourteen-2 .box-fourteen-1b i{display: block; width: 20%; float: left;  height: 142px; background-size: 100% 100%; } 
+.box-fourteen-2 .box-fourteen-1b i img{float: left;width:100%;max-height: 120px;} 
+.box-fourteen-2 .box-fourteen-1b .box-fourteen-1ba{display: block;width: 48%; float: left;margin-left: 2%; color:#333; text-align:left; vertical-align: middle;} 
+.box-fourteen-2 .box-fourteen-1b .box-fourteen-1ba em{font-style:normal;font-size: 1rem;line-height: 35px;color: #999;} 
+.box-fourteen-2 .box-fourteen-1b .box-fourteen-1ba em a{color: #999;} 
+.box-fourteen-2 .box-fourteen-1b .box-fourteen-1bb{display: block;width: 20%;float: right;font-size: 0.9rem; color:#333; text-align: right;} 
+.box-fourteen-2 .box-fourteen-1b .box-fourteen-1bb s{color:#999;} 
+.box-fourteen-2  .box-fourteen-1c{ display: inline-block; width: 100%; text-align: right;}
+.box-fourteen-2  .box-fourteen-1c p{ display: inline-block; width: 100%; text-align: right;}
+.box-fourteen-2 .box-fourteen-1ca{ margin-top: 15px;}
+.box-fourteen-2 .box-fourteen-1ca button{width: 20%; float: right;  height:35px;margin-left: 5%;font-size: 0.9rem; line-height: 35px;border-radius: 20px;background: #a10508;color: #fff;}
+.box-fourteen-2a{overflow: hidden;border-bottom: solid 10px #eee; padding-bottom: 10px;}

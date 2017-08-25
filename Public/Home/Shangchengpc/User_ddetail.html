@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title><{$config.config_webname}>-订单详情</title>
+<meta name="keywords" content="<{$config.config_webkw}>"/>
+<meta name="description" content="<{$config.config_cp}>" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/default.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/order details.css">
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+ <include file="Public:header" />
+    <div class="nav">
+        <div class="sc1200">
+            <div class="all_nav"><a class="span_all">民族特色大全</a>
+            </div>
+            <include file="Public:nav" />
+        </div>
+    </div>
+<div class="box-placea">
+<include file="Public:left" />
+<div class="cent_right">
+	<div id="detail">
+		
+	</div>
+</div>
+</div>
+<include file="Public:footer" />
+<script>
+$(function () {
+	GetOrderPage();
+})
+String.prototype.GetValue = function (para) {
+	var reg = new RegExp("(^|&)" + para + "=([^&]*)(&|$)");
+	var r = this.substr(this.indexOf("\?") + 1).match(reg);
+	if (r != null) return unescape(r[2]); return null;
+};
+function GetOrderPage() {
+	var str = location.href;
+	var id = str.GetValue("id");
+    $.ajax({
+        type: "post", url: "/gad2.html",
+        data: { "t": "dt", "proid": id },
+		async: false, dataType: "json", success: function (data) {//alert(data);
+			if (data.code == 1) {
+				$("#detail").html(data.data);
+			} else { alert(data.msg); window.location.href = "/umd.html"; }
+		}
+        
+    });
+}
+function GetProIsStateChange(proStr, proid) {
+    if(confirm("确认收货吗")){
+		$.ajax({
+			type: "post", url: "/gad2.html",
+			data: { "t": "s", "proid": proid},
+			async: false, dataType: "json", success: function (data) {
+				if (data.code == 1) {
+					//$(proStr).html(GetIsStateName(data.isstate)).attr("onclick", "");
+					$(proStr).html('订单完成').attr("onclick", "");
+					alert("状态修改成功");
+				} else { alert(data.msg); }
+			}
+		});
+	}
+}
+</script>
+</body>
+</html>
